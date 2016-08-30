@@ -5,7 +5,7 @@ email: icam@gsa.gov
 author:
     name: FICAM
 description: Federation Guidance
-baseurl: '/federation'
+baseurl: '/ficam-federation'
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  lachellel
@@ -13,7 +13,7 @@ highlighter: rouge
 branch: master
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /federation/img/logo.png
+logourl: /ficam-federation/img/logo.png
 logoalt: Federal Identity Credential and Access Management
 
 ficam_playbooks_url: /ficam-guides/
@@ -23,7 +23,7 @@ ficam_playbooks_url: /ficam-guides/
 repos:
 - name: federation
   description: FICAM Playbook - Federation Guidance
-  url: https://github.com/gsa/federation
+  url: https://github.com/gsa/ficam-federation
 
 # Build settings
 markdown: kramdown
@@ -45,48 +45,54 @@ navigation:
   url: index.html
   internal: true
   coll: false
-- text: Overview of Federation
-  url: overview/index/
+- text: Step 1 - Establish Federation Governance
+  url: 1_step-1
   internal: true
-  coll: true
-  collname: overview
-- text: Plan Your Federation
-  url: plan/index
+  coll: false
+- text: Step 2 - Identify Business Considerations
+  url: 2_step-2
   internal: true
-  coll: true
-  collname: plan
-- text: Design Your Federation
-  url: design/index
+  coll: false
+- text: Step 3 - Understand the RP Environment
+  url: 3_step-3
   internal: true
-  coll: true
-  collname: design
-- text: Implement Your Federation
-  url: implement/index/
+  coll: false
+- text: Step 4 - Determine Applicability to Security and Privacy Controls
+  url: 4_step-4
   internal: true
-  coll: true
-  collname: implement
+  coll: false
+- text: Step 5 - Determine Acceptable Credentials
+  url: 5_step-5
+  internal: true
+  coll: false
+- text: Step 6 - Partner with an Identity Provider(s)
+  url: 6_step-6
+  internal: true
+  coll: false
+- text: Step 7 - Evaluate Existing Infrastructure 
+  url: 7_step-7
+  internal: true
+  coll: false
+- text: Step 8 - Evaluate Optimal Solution Architecture
+  url: 8_step-8
+  internal: true
+  coll: false
+- text: Step 9 - Integrate with CSP
+  url: 9_step-9
+  internal: true
+  coll: false
+- text: Step 10 - Create and Manage User Accounts
+  url: 10_step-10
+  internal: true
+  coll: false
+- text: Step 11 - Create and Manage User Accounts
+  url: 11_step-11
+  internal: true
+  coll: false
 - text: Contribute
   url: contribute
   internal: true
   coll: false
-  
-collections:
-  overview: 
-    label: "Overview"
-    permalink: /overview/:path/
-    output: true
-  plan:
-    label: "Plan"
-    permalink: /plan/:path/
-    output: true
-  design:
-    label: "Design"
-    permalink: /design/:path/
-    output: true
-  implement:
-    label: "Implement"
-    permalink: /implement/:path/
-    output: true
 include:
 - _stylesheets
 - _javascript

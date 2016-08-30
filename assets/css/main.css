@@ -230,7 +230,7 @@ Navigation
 .sidebar-nav li {
   list-style: none;
   border-bottom: 1px solid #babbbd;
-  font-size: 1.125em;
+  font-size: .90em;
   padding-left: 4px;
 }
 .sidebar-nav li:last-child {
@@ -278,7 +278,7 @@ Navigation
     margin: 8px;
     padding-bottom: 5px;
     position: relative;
-    width: 30px;
+    width: 10px;
     -webkit-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
@@ -538,12 +538,12 @@ Desktop Styles
     }
 
     aside {
-        width: 30%;
+        width: 23%;
         float: left;
     }
 
     .main-content {
-        width: 67%;
+        width: 74%;
         float: right;
         margin-bottom: 120px;
     }
@@ -662,7 +662,7 @@ table tr
 table tr th
 {
 	border-top:1px solid #ccc;
-	background-color:#666666;
+	background-color:#273772;
   color: #fff;
 	margin:0;
 	padding:0;
@@ -670,7 +670,7 @@ table tr th
 
 table tr:nth-child(2n)
 {
-	background-color:#f8f8f8;
+	background-color:#f1f7fd;
 }
 table tr th[align="center"], table tr td[align="center"] {
 	text-align:center;
