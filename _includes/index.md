@@ -1,56 +1,28 @@
 # Federation Programmatic Playbook
 ----------------------------------------------------------------
 
-Welcome to the Federation Programmatic Playbook, where you will find information to support general knowledge around the topic of federation, as well as guidance to support your planning and design efforts for identity and credential federation implementation. This playbook is intended for ICAM Program Managers and other business owners who may be looking to understand the topic of Federation better and various planning and design items they should consider before beginning solution design and implementation. This playbook also contains guidance for implementers and engineers who are looking for guidance around the technical implementation of federation at their agencies.
+### What is the Federation Programmatic Playbook? 
 
-The content in this guide heavily leverages and replaces guidance that existed in Chapter 8 of the FICAM Roadmap and Implementation Guide v2.0 and the Relying Party Guidance, developed by the ICAMSC in 2011 and the ICAMSC Federation Interoperability Working Group (FIWG) in 2013, respectively. 
- 
-<br>
- 
-**What is Federation?**
-<br>
+Identity federation, commonly referred to as federation, is a term used to describe the technology, standards, policies, and processes that allow an organization to trust digital identities, identity attributes, and credentials created and issued by another organization. Federation allows an agency to provide modernized logical access control services for users, by trusting and accepting credentials that those users already have. This can allow non-federal users to access an agency’s resources while minimizing and potentially eliminating the need to redundantly collect and manage identity information and credentials.
 
-The FICAM Architecture defines Federation as “the ability of one organization to accept another organization’s work”. [The FICAM Architecture](http://gsa.github.io/ficam-arch/services/federation/) defines four federation services in the Services Framework: Attribute Exchange, Credential Translation, Credential Bridging, and Policy Alignment. 
+This playbook is intended for ICAM Program Managers and other business owners who may be looking to understand the topic of Federation better and various planning and design items they should consider before beginning solution design and implementation. This playbook also contains guidance for implementers and engineers who are looking for guidance around the technical implementation of federation at their agencies.
 
-For additional context and a more educational description of Federation and ICAM, please visit the [Overview of Federation section](../federation/overview/index/) of this playbook. This overview includes information about implementation models, an explanation of the Federal Trust Framework, and information on federation governance. 
+### How is the playbook structured?
 
-<br>
+We developed this playbook into 10 individual steps, or activities. Within each step, you will find a checklist to help you perform that activity and additional guidance, like frequently asked questions (FAQs), implementation tips, or security and privacy considerations.
 
-**What should I consider when planning to federate?**
-<br>
+### How was the playbook developed?
 
-Planning for federation requires several actions, including identifying business considerations, understanding the Relying Party environment, determining applicability to security and privacy controls, determining acceptable credentials, and partnering with one or more Identity Providers. You will find more information on each of these topics in the [Plan Your Federation section.](../federation/plan/index/)
+This playbook was created using updated and migrated content that previously was found in the FICAM Roadmap and Implementation Guidance v2.0. We hope that the new format encourages you and your agency to contribute to additional content to support the access control management across the Federal government.
 
-<br>
+### Where can I find additional content?
 
-**What should I consider when designing my federation services?**
-<br>
-
-There are several considerations for designing federation services, including evaluating your existing infrastructure and services, developing a solution architecture, and selecting the optimal architecture solution to fit your needs. Information of these and other design considerations can be found in the [Design Your Federation section.](../federation/design/index/)
-
-<br>
-
-**Where would I find Federation use case examples?**)
-<br>
-
-The [FICAM Architecture](http:///gsa.github.io/ficam-arch/services/federation/) currently defines two graphical, high-level use cases for federation services:
-<br>
-
-* [Exchange attributes in a Federation](http://gsa.github.io/ficam-arch/usecases/41_federate_exchange_attributes/) 
-* [Accept Credentials in a Federation](http://gsa.github.io/ficam-arch/usecases/42_federate_accept/)
-
-<br>
-
-**How do I implement federation services?**
-<br>
-
-Some initial information about federation implementation can be found in the [Implement Your Federation section](../federation/implement/index/), including guidance on Credential Service Provider integration and account management. [The Credential Service Provider integration](../federation/implement/1_csp-integrate/) section includes information on selecting a Credential Service Provider, establishing trust in a federation, and user interface. The [Account Management](../federation/implement/2_acct-mgmt/) section includes information regarding account management scenarios and patterns, account linking, and account maintenance. 
-
-To learn more about other FICAM topics, visit the [Playbooks Homepage.](https://bnbuckler.github.io/ficam-guides/)
-
-This playbook will be periodically updated to provide additional information based on your feedback and to include any changes in policy related to government-wide federation.
+The FICAM Architecture provides a high-level overview of identity management and a description of the services that deliver access management capabilities. We recommend that you visit the <a href="http://gsa.github.io/ficam-arch/" target="_blank"> FICAM Architecture</a> site to gain a basic understanding of access management and its role in broader federal Identity, Credential, and Access Management (ICAM).
 
 
+### How can I contribute to this playbook?
+
+We look forward to your use and contribution to this playbook. Please visit our  <a href="http://bnbuckler.github.io/ficam-federation/contribute/" target =" _blank"> Contribute page </a> to learn how to post questions and contribute content.
 
 
 
