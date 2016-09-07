@@ -1,10 +1,3 @@
----
-layout: page_collection
-title: Contribute
-permalink: /contribute/
----
---------------------------------------------------------------
-
 This site is for the collaborative development of the Federal Identity, Credential and Access Management (FICAM) Program's Access Management Playbook
 
 We encourage you to read our [LICENSE](LICENSE.md) and our [README](README.md), which exist within this repository.
