@@ -1,20 +1,9 @@
 ---
-layout: page_collection
-title: Step 3 - Understand the RP Environment
-permalink: 3_step-3
+layout: default
+title: Understand the Relying Party Environment
+permalink: /3_step-3/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
 
-<script src="https://use.fontawesome.com/e20c671b68.js"></script>
-------------------------------------------------------------------
 
 Understanding the RP environment prior to enabling federation is another aspect for federation planning. It’s necessary for the RP to determine if there will be any impacts to assurance level or existing privacy considerations through externalizing identity proofing and credential lifecycle management. 
 

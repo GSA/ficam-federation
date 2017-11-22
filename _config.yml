@@ -5,28 +5,37 @@ email: icam@gsa.gov
 author:
     name: FICAM
 description: Federation Guidance
-baseurl: '/ficam-federation'
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  lachellel
 highlighter: rouge
-branch: master
+repo_url: https://github.com/GSA/ficam-federation
+baseurl: '/ficam-federation'
+branch: federalist-pages
+# Federalist overwrites the site.branch value when deploying
+# the site.branch was used in dynamic link generation for objects like Edit Page
+# we want the dynamic links to send users to the staging branch.  Adding new site variable to ensure federalist doesn't overwrite.
 
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /ficam-federation/img/logo.png
-logoalt: Federal Identity Credential and Access Management
+# Links
+# List links that you would like to appear on the top navigation bar here
+navbar:
+- title: IDmanagement.gov
+  description: Idmanagement.gov
+  url: https://www.idmanagement.gov
+- title: Federal ICAM Architecture
+  description: Federal ICAM Architecture
+  url: https://arch.idmanagement.gov
+- title: PIV Guides
+  description: PIV Guides
+  url: https://piv.idmanagement.gov
+- title: Federal PKI Guides
+  description: Federal PKI Guides
+  url: https://fpki.idmanagement.gov
 
-ficam_playbooks_url: /ficam-guides/
-
-# Repo list
-# List repos that you would like to appear on the homepage here
-repos:
-- name: federation
-  description: FICAM Playbook - Federation Guidance
-  url: https://github.com/gsa/ficam-federation
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude:
 - bin
@@ -41,51 +50,51 @@ exclude:
 - vendor
 
 navigation:
-- text: Home
-  url: index.html
+- text: Introduction
+  url: ''
   internal: true
   coll: false
-- text: Step 1 - Establish Federation Governance
+- text: Establish Federation Governance
   url: 1_step-1
   internal: true
   coll: false
-- text: Step 2 - Identify Business Considerations
+- text: Identify Business Considerations
   url: 2_step-2
   internal: true
   coll: false
-- text: Step 3 - Understand the RP Environment
+- text: Understand the RP Environment
   url: 3_step-3
   internal: true
   coll: false
-- text: Step 4 - Determine Applicability to Security and Privacy Controls
+- text: Determine Applicability to Security and Privacy Controls
   url: 4_step-4
   internal: true
   coll: false
-- text: Step 5 - Determine Acceptable Credentials
+- text: Determine Acceptable Credentials
   url: 5_step-5
   internal: true
   coll: false
-- text: Step 6 - Partner with an Identity Provider(s)
+- text: Partner with an Identity Provider(s)
   url: 6_step-6
   internal: true
   coll: false
-- text: Step 7 - Evaluate Existing Infrastructure 
+- text: Evaluate Existing Infrastructure 
   url: 7_step-7
   internal: true
   coll: false
-- text: Step 8 - Evaluate Optimal Solution Architecture
+- text: Evaluate Optimal Solution Architecture
   url: 8_step-8
   internal: true
   coll: false
-- text: Step 9 - Integrate with CSP
+- text: Integrate with CSP
   url: 9_step-9
   internal: true
   coll: false
-- text: Step 10 - Create and Manage User Accounts
+- text: Create and Manage User Accounts
   url: 10_step-10
   internal: true
   coll: false
-- text: Step 11 - Create and Manage User Accounts
+- text: Account Management
   url: 11_step-11
   internal: true
   coll: false
