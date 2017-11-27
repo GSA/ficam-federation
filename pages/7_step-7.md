@@ -1,20 +1,8 @@
 ---
-layout: page_collection
-title: Step 7 - Evaluate Existing Infrastructure  
-permalink: 7_step-7/
+layout: default
+title: Evaluate Existing Infrastructure  
+permalink: /7_step-7/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
-<script src="https://use.fontawesome.com/e20c671b68.js"></script>
---------------------------------------
 
 As each RP looks to accept third-party credentials, the requirements inherent to each application may vary, which in turn may affect the architecture that it chooses to use. An RP needs to look to its agency to determine if a complete or partial ICAM solution already exists. The ICAM team or Program Management Office (PMO) can provide the RP with guidance on the agency’s policies and methodology for ICAM.
 

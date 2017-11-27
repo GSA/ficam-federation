@@ -1,20 +1,8 @@
 ---
-layout: page_collection
-title: Step 1 - Establish Federation Governance
+layout: default
+title: Establish Federation Governance
 permalink: /1_step-1/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
-<script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------
 
 Agencies engaging in federation outside of the Federal Government should evaluate the need for added governance to solidify the foundational level of trust, provided by the Federal Trust Framework, and establish accountability and liability with the third parties involved.
 

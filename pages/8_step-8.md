@@ -1,20 +1,8 @@
 ---
-layout: page_collection
-title: Step 8 - Evaluate Optimal Solution Architecture 
-permalink: 8_step-8/
+layout: default
+title: Evaluate Optimal Solution Architecture 
+permalink: /8_step-8/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
-<script src="https://use.fontawesome.com/e20c671b68.js"></script>
----------------------------------------------------------
 
 To select a solution architecture, it’s important to understand which architecture is most applicable to your agency’s situation. It’s recommended that an agency use the information collected from the assessments during the agency’s planning period to determine its optimal solution architecture.
 

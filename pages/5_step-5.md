@@ -1,20 +1,9 @@
 ---
-layout: page_collection
-title: Step 5 - Determine Acceptable Credentials
-permalink: 5_step-5
+layout: default
+title: Determine Acceptable Credentials
+permalink: /5_step-5/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
 
-<script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
 
 One of the first steps that an agency should take to enable the use of trusted third-party credentials is determining what types of credentials are acceptable for access. This is a multi-step process that involves careful consideration of a number of factors associated with the application’s business, security, infrastructure requirements, and the target user population.
 

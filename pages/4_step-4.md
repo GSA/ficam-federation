@@ -1,20 +1,9 @@
 ---
-layout: page_collection
-title: Step 4 - Determine Applicability to Security and Privacy Controls
-permalink: 4_step-4
+layout: default
+title: Determine Applicability to Security and Privacy Controls
+permalink: /4_step-4/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
 
-<script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
 
 To mitigate risk, an RP implementing compensating controls as part of a layered security program should select and implement controls in accordance to the Risk Management Framework (RMF). Compensating controls are an additional set of controls selected out of the broader control families described in <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf" target="_blank">  NIST SP 800-53</a>. Once all compensating controls have been implemented, an agency should evaluate the controls to determine if there is any remaining residual risk and repeat the risk management steps as needed. 
 
