@@ -1,7 +1,7 @@
 This work is in early Alpha stage and is led by the GSA FICAM Program in coordination with the ICAM Subcommittee of the Federal CIO Council.
 
 # FICAM Guides
-This repository is for the collaborative development of the Federal Identity, Credential, and Access Management **Federation Playbook**. The content is supporting the creation and future versions of federation programmatic guidance, previously found in the <a href="https://www.idmanagement.gov/IDM/servlet/fileField?entityId=ka0t0000000TNNBAA4&field=File__Body__s" target="_blank"> FICAM Roadmap and Implementation Guidance v2.0, Section 12 </a>, and the <a href="https://www.idmanagement.gov/IDM/servlet/fileField?entityId=ka0t0000000TNK2AAO&field=File__Body__s" target="_blank"> Relying Party Guidance </a>.
+This repository is for the collaborative development of the Federal Identity, Credential, and Access Management **Federation Playbook**. The content is supporting the creation and future versions of federation programmatic guidance, previously found in the <a href="https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf" target="_blank"> FICAM Roadmap and Implementation Guidance v2.0, Section 12 </a>, and the FICAM Relying Party Guidance for Accepting Externally Issued Credentials.</a>.
 
 Additional repositories are under development for contributors to share ICAM implementation guides, code, reference implementations, and solutions.
 
@@ -13,21 +13,19 @@ This content is Vendor neutral. Marketing materials for Commercial Products shou
 Contributors should consider the audience when submitting content. Plain language benefits a broad audience. Review your proposed content for use of acronyms and specialized jargon before submitting.
 
 ## Roadmap 
-The expected roadmap for these guides:
+The expected roadmap for this guide:
 
 April 2016 - September 2016  
 1. Migration of FICAM Roadmap and Implementation Guides from PDFs to digital, reworking into more focused, user friendly plays 
 
-October 2016 - December 2016  
-1.  On-going contributions and collections  
-2.  Deploy to server with a proxy, migrate to *.idmanagement.gov domain  
-3.  Contributions and submissions continue and feed continuous deployments  
-4.  All code contributions and scripts stay in repository  
-
+November 2017 - March 2018  
+1.  Updates to Federation guide 
+2.  Alignment with 800-63-3
+3.  Alignment with mission use cases
 
 
 ## How to Contribute
-For information on how to contribute to the site, review [Contributing](CONTRIBUTING.md/). The source repository exists [here](https://github.com/GSA/piv-guides/). 
+For information on how to contribute to the site, review [Contributing](CONTRIBUTING.md/). The source repository exists [here](https://github.com/GSA/ficam-federation/). 
 
 Direct changes and line edits to the content may be submitted through a pull request by clicking 'Edit this page'. You do not need to install any software to submit content. You can use GitHub's in-browser editor to edit files and submit a pull request for your changes to be merged.
 
