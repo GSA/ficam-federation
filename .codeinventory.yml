@@ -1,0 +1,12 @@
+name: 'Federal ICAM Federation Guide'
+description: 'Federation guide for federal agencies; in progress; will replace and update Section 12 of the FICAM Roadmap'
+openSourceProject: 1
+governmentWideReuseProject: 1
+tags:
+    - ficam
+    - piv
+    - federation
+    - credentials
+    - authentication
+contact:
+    email: icam@gsa.gov
