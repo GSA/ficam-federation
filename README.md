@@ -1,7 +1,7 @@
 This work is in early Alpha stage and is led by the GSA FICAM Program in coordination with the ICAM Subcommittee of the Federal CIO Council.
 
 # FICAM Guides
-This repository is for the collaborative development of the Federal Identity, Credential, and Access Management **Federation Playbook**. The content is supporting the creation and future versions of federation programmatic guidance, previously found in the <a href="https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf" target="_blank"> FICAM Roadmap and Implementation Guidance v2.0, Section 12 </a>, and the FICAM Relying Party Guidance for Accepting Externally Issued Credentials.</a>.
+This repository is for the collaborative development of the Federal Identity, Credential, and Access Management **Federation Playbook**. The content is supporting the creation and future versions of federation programmatic guidance, previously found in the [FICAM Roadmap and Implementation Guidance v2.0, Section 12](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf), and the [FICAM Relying Party Guidance for Accepting Externally Issued Credentials](/docs/FICAM_TFS_Relying_Party_Guidance_v1.1.0_0.pdf).
 
 Additional repositories are under development for contributors to share ICAM implementation guides, code, reference implementations, and solutions.
 
