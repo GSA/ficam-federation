@@ -81,7 +81,7 @@ navigation:
   coll: true
   collname: maintain
 - text: Use Cases
-  url: user_cases
+  url: use_cases
   internal: true
   coll: false
 - text: Contribute
