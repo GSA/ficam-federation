@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Integrate with Credential Service Provider
+title: Integrate with Identity Provider
 permalink: implement/1_step-9/
 ---
 
-Integration with a Credential Service Provider (CSP) is critical to enabling an external user to access an agency with a third-party credential provided by the CSP. This integration enables a CSP to send an assertion to the Relying Party (RP), which describes a user and his/her attributes. To accomplish this, the agency should identify an acceptable CSP, determine what attributes are available from that CSP, establish a secure connection to the CSP, and modify its user interface to provide the ability for a user to authenticate with the CSP.
+Integration with a Identity Provider (IdP) is critical to enabling an external user to access an agency with a third-party credential provided by the IdP. This integration enables a IdP to send an assertion to the Relying Party (RP), which describes a user and his/her attributes. To accomplish this, the agency should identify an acceptable CSP, determine what attributes are available from that CSP, establish a secure connection to the CSP, and modify its user interface to provide the ability for a user to authenticate with the CSP.
 
 ## <span style="color: #0C5C89">**Checklist**</span>
 
