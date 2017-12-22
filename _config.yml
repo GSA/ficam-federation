@@ -52,52 +52,36 @@ exclude:
 - vendor
 
 navigation:
-- text: Introduction
+- text: What is Federation
   url: ''
   internal: true
   coll: false
-- text: Establish Federation Governance
-  url: 1_step-1
+- text: How Does Federation Work
+  url: how_does_federation_work
   internal: true
   coll: false
-- text: Identify Business Considerations
-  url: 2_step-2
+- text: How To Plan
+  url: federation_plan
   internal: true
-  coll: false
-- text: Understand the RP Environment
-  url: 3_step-3
+  coll: true
+  collname: plan
+- text: How to Architect
+  url: federation_architecture
   internal: true
-  coll: false
-- text: Determine Applicability to Security and Privacy Controls
-  url: 4_step-4
+  coll: true
+  collname: architect
+- text: How To Implement
+  url: federation_implementation
   internal: true
-  coll: false
-- text: Determine Acceptable Credentials
-  url: 5_step-5
+  coll: true
+  collname: implement
+- text: How To Maintain
+  url: federation_maintain
   internal: true
-  coll: false
-- text: Partner with an Identity Provider(s)
-  url: 6_step-6
-  internal: true
-  coll: false
-- text: Evaluate Existing Infrastructure 
-  url: 7_step-7
-  internal: true
-  coll: false
-- text: Evaluate Optimal Solution Architecture
-  url: 8_step-8
-  internal: true
-  coll: false
-- text: Integrate with CSP
-  url: 9_step-9
-  internal: true
-  coll: false
-- text: Create and Manage User Accounts
-  url: 10_step-10
-  internal: true
-  coll: false
-- text: Account Management
-  url: 11_step-11
+  coll: true
+  collname: maintain
+- text: Use Cases
+  url: user_cases
   internal: true
   coll: false
 - text: Contribute
@@ -108,7 +92,22 @@ include:
 - _stylesheets
 - _javascript
 
-
-
+collections:
+  plan:
+    label: "How to Plan"
+    permalink: /plan/:path/
+    output: true
+  architect:
+    label: "How to Architect"
+    permalink: /architect/:path/
+    output: true
+  implement:
+    label: "How to Implement"
+    permalink: /implement/:path/
+    output: true
+  maintain:
+    label: "How to Maintain"
+    permalink: /maintain/:path/
+    output: true
 # Custom site configuration
 lang: en
