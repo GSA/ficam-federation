@@ -61,22 +61,22 @@ navigation:
   internal: true
   coll: false
 - text: How To Plan
-  url: federation_plan
+  url: plan/
   internal: true
   coll: true
   collname: plan
 - text: How to Architect
-  url: federation_architecture
+  url: architecture/
   internal: true
   coll: true
   collname: architect
 - text: How To Implement
-  url: federation_implementation
+  url: implementation/
   internal: true
   coll: true
   collname: implement
 - text: How To Maintain
-  url: federation_maintain
+  url: maintain/
   internal: true
   coll: true
   collname: maintain

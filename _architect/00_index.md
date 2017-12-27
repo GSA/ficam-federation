@@ -1,8 +1,8 @@
 ---
 layout: default
-navtitle: Federation Topologies
-title: What are the Federation Topologies 
-permalink: architect/8_step-8/
+title: Federation Architecture  
+permalink: /architecture/
+collection: architect
 ---
 
 To select a solution architecture, it’s important to understand which architecture is most applicable to your agency’s situation. It’s recommended that an agency use the information collected from the assessments during the agency’s planning period to determine its optimal solution architecture.

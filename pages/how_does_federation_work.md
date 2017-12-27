@@ -4,9 +4,34 @@ title: How Does Federation Work
 permalink: /how_does_federation_work/
 ---
 
-Agencies engaging in federation outside of the Federal Government should evaluate the need for added governance to solidify the foundational level of trust, provided by the Federal Trust Framework, and establish accountability and liability with the third parties involved.
+Federation is made possible through the establishment and use of common exchange protocols
+and agreed-upon open standards/specifications that allow an agency to authenticate a user from
+another organization or trust an authentication conducted outside of the agency. The use of these
+common rules enables an agency to place a level of trust in the federated identity and credential
+to which that identity is bound. Given the nature of federated transactions and the electronic
+exchange of identity data across organizational boundaries, there is an increased focus on
+security and privacy to ensure users‘ sensitive identity data is appropriately safeguarded.
 
-In the context of federation, governance between Identity Providers and relying parties provides an extra layer of detail, needed to clearly define the roles and responsibilities and technical regulations, formally establish trust, ensure data quality, and establish guidelines for accountability. There are several governance mechanisms available to agencies that help achieve this, the most common being federation agreements. Federation agreements are enacted to help ensure that a relying party application receives the information necessary to make reliable access control decisions and that information is appropriately secured during transactions and at rest.
+In a federated environment, these transactions occur between trusted Identity Providers that have
+been approved through the Federal Trust Framework and relying parties. Identity Providers are
+service providers that create, maintain, and manage identity information and credentials for
+users, in accordance with one of the four levels of assurance.266 Relying parties are entities that
+receive and consume identity and credential data from Identity Providers and make access
+control decisions based on that data, in accordance with the Federal Trust Framework and
+established federation governance. Section 12.2 provides a more detailed overview of the Federal
+Trust Framework, which exists to provide a foundational level of trust between relying parties
+and approved Identity Providers. Additionally, Section 12.4.2 provides guidance to help agencies
+select Identity Providers and credentials that have been approved through the Federal Trust
+Framework.
+
+The information presented in this section is intended to assist agencies in providing answers to
+several common questions, including:
+1. Why should my agency trust identity data and credentials that we did not create and
+issue?
+2. What benefits can my agency expect to see from trusting and accepting another
+organization‘s credentials?
+3. How can my agency connect with our external business partners and are there common
+approaches that can be used?
 
 While federation agreements will vary based on agency requirements, laws, and policies, the Identity, Credential and Access Management Subcommittee (ICAMSC) has developed a Federation Agreement Checklist to serve as a starting point for agencies to use when developing federation agreements for information/attribute sharing. 
 

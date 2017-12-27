@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Create and Manage User Accounts
-permalink: implement/3_step-10/
+title: Manage User Accounts
+permalink: implement/account_management/
 ---
 
 

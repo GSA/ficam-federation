@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Evaluate Optimal Solution Architecture 
-permalink: architect/2_step-2/
+permalink: architect/solution_architecture/
 ---
 
 To select a solution architecture, it’s important to understand which architecture is most applicable to your agency’s situation. It’s recommended that an agency use the information collected from the assessments during the agency’s planning period to determine its optimal solution architecture.
