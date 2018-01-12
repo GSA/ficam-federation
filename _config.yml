@@ -60,22 +60,22 @@ navigation:
   url: how_does_federation_work
   internal: true
   coll: false
-- text: How To Plan
+- text: Plan
   url: plan/
   internal: true
   coll: true
   collname: plan
-- text: How to Architect
-  url: architecture/
+- text: Design
+  url: design/
   internal: true
   coll: true
-  collname: architect
-- text: How To Implement
+  collname: design
+- text: Implement
   url: implementation/
   internal: true
   coll: true
   collname: implement
-- text: How To Maintain
+- text: Maintain
   url: maintain/
   internal: true
   coll: true
@@ -94,19 +94,19 @@ include:
 
 collections:
   plan:
-    label: "How to Plan"
+    label: "Plan"
     permalink: /plan/:path/
     output: true
-  architect:
-    label: "How to Architect"
-    permalink: /architect/:path/
+  design:
+    label: "Design"
+    permalink: /design/:path/
     output: true
   implement:
-    label: "How to Implement"
+    label: "Implement"
     permalink: /implement/:path/
     output: true
   maintain:
-    label: "How to Maintain"
+    label: "Maintain"
     permalink: /maintain/:path/
     output: true
 # Custom site configuration

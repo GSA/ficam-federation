@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Federation Architecture  
-permalink: /architecture/
-collection: architect
+title: Evaluate Optimal Solution Architecture 
+permalink: design/solution_architecture/
 ---
 
 To select a solution architecture, it’s important to understand which architecture is most applicable to your agency’s situation. It’s recommended that an agency use the information collected from the assessments during the agency’s planning period to determine its optimal solution architecture.

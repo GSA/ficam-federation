@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How To Plan
+title: Plan A Federation Project
 permalink: /plan/
 collection: plan
 ---

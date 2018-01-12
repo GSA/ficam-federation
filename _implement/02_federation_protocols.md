@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Determine Acceptable Credentials
-permalink: implement/acceptable_credentials/
+title: Federation Protocols
+permalink: implement/federation_protocols/
 ---
 
+Explain what are the protocols for federation - SAML, OIDC, iGov etc. Provide some basic examples and differences between them.
 
 One of the first steps that an agency should take to enable the use of trusted third-party credentials is determining what types of credentials are acceptable for access. This is a multi-step process that involves careful consideration of a number of factors associated with the application’s business, security, infrastructure requirements, and the target user population.
 
