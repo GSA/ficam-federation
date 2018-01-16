@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Consider Account Management Scenarios and Patterns 
+title: Use Cases
 permalink: /use_cases/
 ---
 

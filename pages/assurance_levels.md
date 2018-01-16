@@ -17,12 +17,20 @@ as well as the PKI certificate policies and maps them to the corresponding level
 each. This is not intended to be comprehensive; an agency should refer to
 idmanagement.gov for additional information and an up-to-date list of adopted schemes.
 
-|Identity Scheme|Level of Assurance (LOA)|
-||1| 2| 3| 4|
-|Security Assertion Markup Language (SAML) 2.0 Web Browser SSO| Yes | Yes | Yes| |
-|ICAM OpenID 2.0 ||||
-|ICAM Identity Metasystem Interoperability (IMI) 1.0||||
-|Public Key Infrastructure (PKI) ||||
+|Identity Scheme|LOA 1|LOA 2|LOA 3|LOA 4|
+|Security Assertion Markup Language (SAML) 2.0 Web Browser SSO| <i class="fa fa-check-square-o"> | <i class="fa fa-check-square-o"> | <i class="fa fa-check-square-o">| |
+|ICAM OpenID 2.0 |<i class="fa fa-check-square-o">|||
+|ICAM Identity Metasystem Interoperability (IMI) 1.0|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">||
+|PIV-Interoperable|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|
+|COMMON PIV Authentication Certificate|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|
+|COMMON Software Certificate|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">||
+|COMMON Hardware Certificate|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|
+|COMMON High|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|
+|Citizen and Commerce Class|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|||
+|Basic|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">||
+|Medium|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">||
+|Medium Hardware|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|
+|High|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|<i class="fa fa-check-square-o">|
 
 This table presents different requirements for each FAL. Each successive level subsumes and fulfills all requirements of lower levels. Federations presented through a proxy SHALL be represented by the lowest level used during the proxied transaction.
 
