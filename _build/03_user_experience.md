@@ -10,44 +10,21 @@ From the usability perspective, one of the major potential benefits of federated
 
 The overall user experience with federated identity systems should be as smooth and easy as possible. This can be accomplished by following usability standards (such as the ISO 25060 series of standards) and established best practices for user interaction design.
 
-## <span style="color: #0C5C89">**Federated identity systems should:**</span>
+Federated identity systems should:
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Select a Credential Service Provider.** A key component in determining a suitable CSP is understanding the user population for a given RP application. The user population and CSP characteristics will have an impact on the CSP that is best for the RP to use. These characteristics include: 
-
->> * **FICAM-approved CSPs.** An RP must select a FICAM-approved CSP. The use of a FICAM-approved CSP enables trust between the RP and CSP. If it’s determined that a non-approved CSP meets the requirements of the RP, then the RP can recommend the CSP work with a TFP to become FICAM-approved. The RP should not use the CSP until the CSP has been successfully approved by a TFP. 
-
->> * **Availability of existing credentials.** The RP should aim to select CSPs that already serve some or all of its user population. For example, if the RP’s target user population is the education community, it might seek to use a CSP under the InCommon federation, which is prevalent within the education community. This may increase user acceptance because it decreases the credentialing burden on the user. 
-
->> * **CSP attribute availability.** If the RP requires attributes about a user, the RP can select a CSP that has the required attributes about the user. It’s likely that a CSP may have only a partial set of attributes that an RP requires. In this case, the RP should determine if it can obtain the additional attributes it needs from another source or collect additional information from the user.
- 
->>> * The RP should only collect the attributes that it needs to process the transaction; this concept is known as minimalism. 
-
->>> * The RP needs to gain consent from the user for any attributes it collects, including the intended use of those attributes, and the authority under which the RP is collecting the attributes. 
-
->> * **Level of assurance provided by the CSP.** The level of assurance at which a CSP has been approved should be equal to or greater than the level of assurance that the RP requires.
-
-> An RP can integrate with multiple CSPs, which enables a broader set of users to access the RP application and could increase user traffic. If the RP decides to integrate with multiple CSPs, the enterprise or federation broker architectures may be beneficial. These solution architectures enable the reuse of configurations and federal profiles for integrating with CSPs, thereby reducing the cost of integration with new CSPs.
-
-> <i class="fa fa-check-square-o"></i> &nbsp;**Establish Trust between Federation Partners.** Trust between an RP and CSP is a mechanism to enable trusted communication between both parties. It consists of mutual authentication and the exchange of shared information (e.g., Uniform Resource Locator [URL] endpoints, allowed bindings, certificates). Mutual Authentication is the process of validating that the other party is who it claims to be and is approved to participate in the transaction in order to lessen the probability of an attack like “man in the middle” or “spoofing.”
-
-> <i class="fa fa-check-square-o"></i> &nbsp;**Update User Interface.** In order to enable the acceptance of third-party credentials, an agency will need to modify the RP application login or CSP discovery page to present the user with links to acceptable CSPs. The updates to the user interface can occur at the application, federation server, or federation broker depending on the federation architecture selected. When clicked, these links should redirect the user to the desired CSP with the correct parameters to assure he/she will be redirected back to the RP after authentication has taken place.
-
-> The parameters that must be sent to the CSP vary depending on the protocol that is used. When updating the user interface, the RP should ensure that it continues to meet user accessibility requirements.
-
-> In accordance with the TFPAP, the CSP’s user interface must be modified to capture user consent for collection of attributes about the user. Obtaining the user’s consent can be accomplished by posting an adequate notice, which includes: 
-
->> * A general description of the authentication event; 
-
->> * The intended use of the attributes; 
-
->> * The authority under which the attributes are collected; and 
-
->> * A description of any disclosure or transmission of PII. 
-
-> The adequate notice should be clearly displayed to the user and it should be made clear that the user is leaving the government site to authenticate at an external CSP. An adequate notice should not be a link on a page that leads to a complex privacy policy or general terms and conditions. Once user consent has been obtained, the RP can collect the requested attributes about the user. The RP should work with the CSP to identify what attributes the RP needs, per its Systems of Record Notice (SORN), and how it intends to use and manage the attributes. This will inform the consent notice presented to the user.
-
-> An agency should focus on elements that will make the access process easier and better for non-federal users, such as selecting credentials that users already have or can easily be obtained, provided security requirements are met. The design and implementation of a user interface should be targeted at achieving a high level of user satisfaction, which will provide a high adoption rate.
-
+- Minimize user burden (e.g., frustration, learning curve)
+- Minimize the number of user actions required.
+- Allow users to quickly and easily select among multiple accounts with a single IdP. For example, approaches such as Account Chooser allow users to select from a list of accounts they have accessed in the recent past, rather than start the federation process by selecting their IdP from a list of potential IdPs.
+- Balance minimizing user burden with the need to provide sufficient information to enable users to make informed decisions.
+- Minimize the use of unfamiliar technical jargon and details (e.g., users do not need to know the terms IdP and RP if the basic concepts are clearly explained).
+- Strive for a consistent and integrated user experience across the IdP and RP.
+- Help users establish an understanding of identity by providing resources to users such as graphics, illustrations, FAQs, tutorials and examples. Resources should explain how users’ information is treated and how transacting parties (e.g., RPs, IdPs, and brokers) relate to each other.
+- Provide clear, honest, and meaningful communications to users (i.e., communications should be explicit and easy to understand).
+- Provide users online services independent of location and device.
+- Make trust relationships explicit to users to facilitate informed trust decisions. Trust relationships are often dynamic and context dependent. Users may be more likely to trust some IdPs and RPs with certain attributes or transactions more than others. For example, users may be more hesitant to use federated identity systems on websites that contain valuable personal information (such as financial or health). Depending on the perceived sensitivity of users’ personal data, users may be less comfortable with social network providers as IdPs since people are often concerned with the broadcasting nature of social networking implementations.
+- Follow the usability considerations specified in SP 800-63A, Section 9 for any user-facing information.
+- Clearly communicate how and where to acquire technical assistance. For example, provide users with information such as a link to an online self-service feature, chat sessions or a phone number for help desk support. Avoid redirecting users back and forth among transacting parties (e.g., RPs, IdPs, and brokers) to receive technical assistance.
+- Perform integrative and continuous usability evaluations with representative users and realistic tasks in an appropriate context to ensure success of federated identity systems from the users’ perspectives.
 
 
 
