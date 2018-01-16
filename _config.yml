@@ -60,6 +60,14 @@ navigation:
   url: how_does_federation_work
   internal: true
   coll: false
+- text: Federation Protocols
+  url: federation_protocols
+  internal: true
+  coll: false
+- text: Federation Assurance Levels
+  url: assurance_levels
+  internal: true
+  coll: false
 - text: Plan
   url: plan/
   internal: true
@@ -70,11 +78,11 @@ navigation:
   internal: true
   coll: true
   collname: design
-- text: Implement
-  url: implementation/
+- text: Build
+  url: build/
   internal: true
   coll: true
-  collname: implement
+  collname: build
 - text: Maintain
   url: maintain/
   internal: true
@@ -101,9 +109,9 @@ collections:
     label: "Design"
     permalink: /design/:path/
     output: true
-  implement:
-    label: "Implement"
-    permalink: /implement/:path/
+  build:
+    label: "Build"
+    permalink: /build/:path/
     output: true
   maintain:
     label: "Maintain"

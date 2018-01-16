@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Security and Privacy Controls
-permalink: implement/security-privacy-controls/
+permalink: build/security-privacy-controls/
 ---
 
 

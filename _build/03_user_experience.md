@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Federation Implementation
-permalink: /implementation/
-collection: implement
+title: User Experience
+permalink: build/user_experience/
 ---
 
-Integration with a Credential Service Provider (CSP) is critical to enabling an external user to access an agency with a third-party credential provided by the CSP. This integration enables a CSP to send an assertion to the Relying Party (RP), which describes a user and his/her attributes. To accomplish this, the agency should identify an acceptable CSP, determine what attributes are available from that CSP, establish a secure connection to the CSP, and modify its user interface to provide the ability for a user to authenticate with the CSP.
+-- Section 10 Usability Considerations of NIST SP 800-63C --
 
-## <span style="color: #0C5C89">**Checklist**</span>
+From the usability perspective, one of the major potential benefits of federated identity systems is to address the problem of user fatigue associated with managing multiple authenticators. While this has historically been a problem with usernames and passwords, the increasing need for users to manage many authenticators — whether physical or digital — presents a usability challenge.
+
+The overall user experience with federated identity systems should be as smooth and easy as possible. This can be accomplished by following usability standards (such as the ISO 25060 series of standards) and established best practices for user interaction design.
+
+## <span style="color: #0C5C89">**Federated identity systems should:**</span>
 
 > <i class="fa fa-check-square-o"></i> &nbsp;**Select a Credential Service Provider.** A key component in determining a suitable CSP is understanding the user population for a given RP application. The user population and CSP characteristics will have an impact on the CSP that is best for the RP to use. These characteristics include: 
 

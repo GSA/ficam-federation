@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manage User Accounts
-permalink: implement/account_management/
+permalink: build/account_management/
 ---
 
 

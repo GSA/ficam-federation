@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Enterprise Federation Architecture
+title: Enterprise Federation
 permalink: design/enterprise_federation/
 ---
 

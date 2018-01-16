@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Integrate with Identity Provider
-permalink: implement/integrate_with_idp/
+permalink: build/integrate_with_idp/
 ---
 
 Integration with a Identity Provider (IdP) is critical to enabling an external user to access an agency with a third-party credential provided by the IdP. This integration enables a IdP to send an assertion to the Relying Party (RP), which describes a user and his/her attributes. To accomplish this, the agency should identify an acceptable CSP, determine what attributes are available from that CSP, establish a secure connection to the CSP, and modify its user interface to provide the ability for a user to authenticate with the CSP.

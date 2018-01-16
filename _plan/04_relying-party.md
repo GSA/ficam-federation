@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Understand the Service Provider
-permalink: plan/3_service-provider/
+title: Evaluate Relying Party
+permalink: plan/relying-party/
 ---
 
 
-Understanding the Service Provider (SP) environment prior to enabling federation is another aspect for federation planning. It’s necessary for the SP to determine if there will be any impacts to assurance level or existing privacy considerations through externalizing identity proofing and credential lifecycle management. 
+Understanding the Relying Party (RP) environment prior to enabling federation is another aspect for federation planning. It’s necessary for the SP to determine if there will be any impacts to assurance level or existing privacy considerations through externalizing identity proofing and credential lifecycle management. 
 
 ## <span style="color: #0C5C89">**Checklist**</span>
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Federation Broker Architecture
+title: Federation Broker
 permalink: design/federation_broker/
 ---
 
