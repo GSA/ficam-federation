@@ -60,6 +60,10 @@ navigation:
   url: how_does_federation_work
   internal: true
   coll: false
+- text: Federation Assertion
+  url: federation_assertion
+  internal: true
+  coll: false
 - text: Federation Protocols
   url: federation_protocols
   internal: true
