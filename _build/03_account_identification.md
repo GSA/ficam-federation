@@ -1,9 +1,13 @@
 ---
 layout: default
-navtitle: Account Maintenance
-title: Consider Account Management Scenarios and Patterns 
-permalink: maintain/2_step-11/
+navtitle: Account Identification 
+title: Account Identification 
+permalink: build/account_identification/
 ---
+
+- Audience: Engineer/Architect
+- Define all the aspects of account identification and linking.
+- Relying Party Section 7.2 - Account Management.
 
 Account management will vary depending on the relationship between the user and the RP. This relationship will define the extent to which the RP will have predetermined information about the user. Five provisioning scenarios that describe these relationships include: 
 

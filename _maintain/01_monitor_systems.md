@@ -3,6 +3,8 @@ layout: default
 title: Monitor Systems
 permalink: maintain/monitor_systems/
 ---
+- Audience: Engineer/Architect
+- Define all the aspects of monitoring federation applications.
 
 Agencies engaging in federation outside of the Federal Government should evaluate the need for added governance to solidify the foundational level of trust, provided by the Federal Trust Framework, and establish accountability and liability with the third parties involved.
 
