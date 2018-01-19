@@ -5,6 +5,9 @@ permalink: /maintain/
 collection: maintain
 ---
 
+- Audience: Program Manager
+- What are the high level steps to maintain the federation environment.
+
 <i class="fa fa-check-square-o"></i> **Periodically review your selected Identity Providers**. As previously mentioned,
 Identity Providers must consistently meet the requirements for specific credential types in
 order to maintain their certification. An agency should periodically review the list of

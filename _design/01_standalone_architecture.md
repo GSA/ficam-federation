@@ -5,6 +5,8 @@ title: Stand-Alone Application
 permalink: design/standalone_federation/
 ---
 
+- Audience: Engineer/Architect
+
 The stand-alone application architecture directly enables the application to receive identity assertions from a CSP. In this architecture, applications require integration effort on an individual basis. That is, if two applications require third-party credentials from the same CSP, the applications will need to integrate with that CSP separately. This architecture is illustrated in the figure below.
 
 <br>

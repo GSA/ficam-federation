@@ -4,6 +4,10 @@ title: Federation Governance
 permalink: plan/federation-governance/
 ---
 
+- Audience: Program Managers
+- Introduce federation governance as an overall program planning item.
+- FICAM Roadmap section 12.4.3 has information.
+
 In the context of federation, governance between Identity Providers and relying parties provides
 an additional layer of detail, necessary to clearly define the roles and responsibilities and
 technical regulations, formally establish trust, ensure data quality, and establish guidelines for

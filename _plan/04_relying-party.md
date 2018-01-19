@@ -4,6 +4,9 @@ title: Evaluate Relying Party
 permalink: plan/relying-party/
 ---
 
+- Audience: Program Managers
+- This section will provide details about what steps are involved in understanding the RP.
+- Relying Party doc section 5.2 - Undertanding the RP Environment.
 
 Understanding the Relying Party (RP) environment prior to enabling federation is another aspect for federation planning. It’s necessary for the SP to determine if there will be any impacts to assurance level or existing privacy considerations through externalizing identity proofing and credential lifecycle management. 
 

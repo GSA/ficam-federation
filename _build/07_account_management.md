@@ -2,8 +2,16 @@
 layout: default
 title: Manage User Accounts
 permalink: build/account_management/
+collection: build
 ---
 
+- Audience: Engineer/Architect
+- Define all the aspects of account management and linking.
+- Relying Party Section 7.2 - Account Management.
+- Can break this down into multiple playbook items
+>- Account Identification
+>- Account Linking Patterns
+>- Resolving Account Linking Issues.
 
 Account management is the process of creating and managing accounts for both internal and external users. These accounts may exist within an application or, preferably, in an agency-wide identity management solution. Implementing a federation solution requires account management for external users (i.e., non-federal users that use third-party credentials).
 

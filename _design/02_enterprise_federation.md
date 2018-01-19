@@ -4,6 +4,8 @@ title: Enterprise Federation
 permalink: design/enterprise_federation/
 ---
 
+- Audience: Engineer/Architect
+
 The enterprise federation architecture employs a centralized federation server for the agency. In this architecture, the centralized federation server establishes a connection with various CSPs. This integration enables applications within the agency to accept third-party credentials from those CSPs. The CSP integration is a one-time activity per CSP, as opposed to the stand-alone application architecture, where each application has to separately integrate with each CSP. This architecture is shown in the figure below.
 
 <br>

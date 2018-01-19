@@ -60,18 +60,6 @@ navigation:
   url: how_does_federation_work
   internal: true
   coll: false
-- text: Federation Assertion
-  url: federation_assertion
-  internal: true
-  coll: false
-- text: Federation Protocols
-  url: federation_protocols
-  internal: true
-  coll: false
-- text: Federation Assurance Levels
-  url: assurance_levels
-  internal: true
-  coll: false
 - text: Plan
   url: plan/
   internal: true

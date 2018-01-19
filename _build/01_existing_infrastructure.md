@@ -2,7 +2,12 @@
 layout: default
 title: Evaluate Existing Infrastructure  
 permalink: build/existing_infrastructure/
+collection: build
 ---
+
+- Audience: Engineer/Architect
+- Discuss the need to evaluate the current infrastructure.
+- Relying Party Section 6.1 Page 31.
 
 As each RP looks to accept third-party credentials, the requirements inherent to each application may vary, which in turn may affect the architecture that it chooses to use. An RP needs to look to its agency to determine if a complete or partial ICAM solution already exists. The ICAM team or Program Management Office (PMO) can provide the RP with guidance on the agency’s policies and methodology for ICAM.
 

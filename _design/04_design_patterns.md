@@ -4,6 +4,8 @@ title: Federation Design Patterns
 permalink: design/design_patterns/
 ---
 
+- Audience: Engineer/Architect
+
 In order to accommodate the wide range of mission and business reasons behind federation, there
 are a number of different information exchange approaches that an agency might choose. These
 approaches, referred to as topologies, differ based on the type of relationship that exists with the

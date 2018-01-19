@@ -5,6 +5,9 @@ permalink: /build/
 collection: build
 ---
 
+- Audience: Program Managers
+- FICAM Roadmap section 12.4.4. Federated Access Implementation Considerations.
+
 Enabling an agency‘s externally facing applications to trust external identity information and
 third-party credentials is an undertaking that requires planning, support, and coordination from
 various groups within an agency and with the agency‘s external partners. Specific planning and

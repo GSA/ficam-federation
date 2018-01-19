@@ -2,9 +2,12 @@
 layout: default
 title: User Experience
 permalink: build/user_experience/
+collection: build
 ---
 
--- Section 10 Usability Considerations of NIST SP 800-63C --
+- Audience: Engineer/Architect
+- What are the considerations for user interface design/implementation.
+- Section 10 Usability Considerations of NIST SP 800-63C
 
 From the usability perspective, one of the major potential benefits of federated identity systems is to address the problem of user fatigue associated with managing multiple authenticators. While this has historically been a problem with usernames and passwords, the increasing need for users to manage many authenticators — whether physical or digital — presents a usability challenge.
 

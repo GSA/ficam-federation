@@ -2,27 +2,16 @@
 layout: default
 title: Integrate with Identity Provider
 permalink: build/integrate_with_idp/
+collection: build
 ---
+
+- Audience: Engineer/Architect
+- Discuss the integration process with CSP.
+
 
 Integration with a Identity Provider (IdP) is critical to enabling an external user to access an agency with a third-party credential provided by the IdP. This integration enables a IdP to send an assertion to the Relying Party (RP), which describes a user and his/her attributes. To accomplish this, the agency should identify an acceptable CSP, determine what attributes are available from that CSP, establish a secure connection to the CSP, and modify its user interface to provide the ability for a user to authenticate with the CSP.
 
-## <span style="color: #0C5C89">**Checklist**</span>
-
-> <i class="fa fa-check-square-o"></i> &nbsp;**Select a Credential Service Provider.** A key component in determining a suitable CSP is understanding the user population for a given RP application. The user population and CSP characteristics will have an impact on the CSP that is best for the RP to use. These characteristics include: 
-
->> * **FICAM-approved CSPs.** An RP must select a FICAM-approved CSP. The use of a FICAM-approved CSP enables trust between the RP and CSP. If it’s determined that a non-approved CSP meets the requirements of the RP, then the RP can recommend the CSP work with a TFP to become FICAM-approved. The RP should not use the CSP until the CSP has been successfully approved by a TFP. 
-
->> * **Availability of existing credentials.** The RP should aim to select CSPs that already serve some or all of its user population. For example, if the RP’s target user population is the education community, it might seek to use a CSP under the InCommon federation, which is prevalent within the education community. This may increase user acceptance because it decreases the credentialing burden on the user. 
-
->> * **CSP attribute availability.** If the RP requires attributes about a user, the RP can select a CSP that has the required attributes about the user. It’s likely that a CSP may have only a partial set of attributes that an RP requires. In this case, the RP should determine if it can obtain the additional attributes it needs from another source or collect additional information from the user.
- 
->>> * The RP should only collect the attributes that it needs to process the transaction; this concept is known as minimalism. 
-
->>> * The RP needs to gain consent from the user for any attributes it collects, including the intended use of those attributes, and the authority under which the RP is collecting the attributes. 
-
->> * **Level of assurance provided by the CSP.** The level of assurance at which a CSP has been approved should be equal to or greater than the level of assurance that the RP requires.
-
-> An RP can integrate with multiple CSPs, which enables a broader set of users to access the RP application and could increase user traffic. If the RP decides to integrate with multiple CSPs, the enterprise or federation broker architectures may be beneficial. These solution architectures enable the reuse of configurations and federal profiles for integrating with CSPs, thereby reducing the cost of integration with new CSPs.
+An RP can integrate with multiple CSPs, which enables a broader set of users to access the RP application and could increase user traffic. If the RP decides to integrate with multiple CSPs, the enterprise or federation broker architectures may be beneficial. These solution architectures enable the reuse of configurations and federal profiles for integrating with CSPs, thereby reducing the cost of integration with new CSPs.
 
 > <i class="fa fa-check-square-o"></i> &nbsp;**Establish Trust between Federation Partners.** Trust between an RP and CSP is a mechanism to enable trusted communication between both parties. It consists of mutual authentication and the exchange of shared information (e.g., Uniform Resource Locator [URL] endpoints, allowed bindings, certificates). Mutual Authentication is the process of validating that the other party is who it claims to be and is approved to participate in the transaction in order to lessen the probability of an attack like “man in the middle” or “spoofing.”
 

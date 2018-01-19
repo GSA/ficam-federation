@@ -4,6 +4,10 @@ title: Select Identity Provider
 permalink: plan/4_identity_provider/
 ---
 
+- Audience: Program Managers
+- What are the steps involved in selecting the CSP.
+- Relying Party doc section 7.1.1 - Selecting the CSP.
+
 Agencies engaging in federation outside of the Federal Government should evaluate the need for added governance to solidify the foundational level of trust, provided by the Federal Trust Framework, and establish accountability and liability with the third parties involved.
 
 In the context of federation, governance between Identity Providers and relying parties provides an extra layer of detail, needed to clearly define the roles and responsibilities and technical regulations, formally establish trust, ensure data quality, and establish guidelines for accountability. There are several governance mechanisms available to agencies that help achieve this, the most common being federation agreements. Federation agreements are enacted to help ensure that a relying party application receives the information necessary to make reliable access control decisions and that information is appropriately secured during transactions and at rest.
@@ -12,22 +16,19 @@ While federation agreements will vary based on agency requirements, laws, and po
 
 ## <span style="color: #0C5C89">**Checklist**</span>
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Establish member responsibilities.** Federation governance should detail the procedural process participants must follow in order to become and remain members in the federation. Some examples of what should be covered in regards to membership responsibilities include the application and approval process, how suspensions and revocations are handled, the fees and costs for being a federation member, how disputes will be resolved, and proactively taking steps to raise risks as they appear. 
+> <i class="fa fa-check-square-o"></i> &nbsp;**Select a Credential Service Provider.** A key component in determining a suitable CSP is understanding the user population for a given RP application. The user population and CSP characteristics will have an impact on the CSP that is best for the RP to use. These characteristics include: 
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Create a governance board.** Federation governance should define the membership and roles and responsibilities of the Governance Board. This is the executive-level body with representation from primary stakeholders that guides the federation and is the final body to make decisions for the federation. This group is typically responsible for approval of any modifications and/or recommendations to guidelines, standards, or documents of the federation, as well as management and resolution of risks. 
+>> * **FICAM-approved CSPs.** An RP must select a FICAM-approved CSP. The use of a FICAM-approved CSP enables trust between the RP and CSP. If it’s determined that a non-approved CSP meets the requirements of the RP, then the RP can recommend the CSP work with a TFP to become FICAM-approved. The RP should not use the CSP until the CSP has been successfully approved by a TFP. 
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Define the responsibilities of Federation Management.** Federation governance should define the membership and roles and responsibilities of the Federation Management. This body manages the day-to-day operations of the federation. Some responsibilities may include developing policies and guidelines, implementing approval processes, reviewing membership conformance, ensuring validity of federation documents (e.g., legal agreements/contracts), facilitating the roles, relationships and mutual obligations of all parties operating in the federation, and providing administrative support for the Governance Board. 
+>> * **Availability of existing credentials.** The RP should aim to select CSPs that already serve some or all of its user population. For example, if the RP’s target user population is the education community, it might seek to use a CSP under the InCommon federation, which is prevalent within the education community. This may increase user acceptance because it decreases the credentialing burden on the user. 
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Define the responsibilities of Identity Providers.** Federation governance should define the membership and roles and responsibilities of the Identity Providers. Identity Providers create, maintain, and manage accurate, reliable and current identity information for end users in accordance with their published procedures. Some responsibilities may include performing end user authentication and supplying the authenticated user information to relying parties, maintaining a direct relationship with end users, and communicating and implementing relevant federation rules into their agreements with end users. 
+>> * **CSP attribute availability.** If the RP requires attributes about a user, the RP can select a CSP that has the required attributes about the user. It’s likely that a CSP may have only a partial set of attributes that an RP requires. In this case, the RP should determine if it can obtain the additional attributes it needs from another source or collect additional information from the user.
+ 
+>>> * The RP should only collect the attributes that it needs to process the transaction; this concept is known as minimalism. 
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Define the responsibilities of Relying Parties.** Federation governance should define the membership and roles and responsibilities of the relying parties. Relying parties supply electronic information services to users registered with an Identity Provider.
+>>> * The RP needs to gain consent from the user for any attributes it collects, including the intended use of those attributes, and the authority under which the RP is collecting the attributes. 
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Define server requirements.** Federation governance should describe the technical requirements related to how the servers are configured, on-boarded, audited, and checked for quality. 
-
-> <i class="fa fa-check-square-o"></i> &nbsp;**Establish Security and Privacy requirements.** Federation governance should describe the technical requirements for how security will be maintained within the federation. Some examples include the protections for personally identifiable data collected and maintained by the federation, personnel security processes for federation administrative staff, physical security for sites hosting federation services, and processes and tools used to detect failures and intrusion attempts and to mediate and recover from intrusions. 
-
-> <i class="fa fa-check-square-o"></i> &nbsp;**Define Integration and Testing requirements.** Federation governance should describe the requirements for integrating and testing the technology that impacts the federation, such as identity management provisioning systems, authentication servers, user log-on client software, commercial products, schemes or protocols, applications that consume credentials, and auditing, alerting and logging infrastructure.
-
+>> * **Level of assurance provided by the CSP.** The level of assurance at which a CSP has been approved should be equal to or greater than the level of assurance that the RP requires.
 
 
 

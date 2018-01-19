@@ -4,6 +4,8 @@ title: Federation Broker
 permalink: design/federation_broker/
 ---
 
+- Audience: Engineer/Architect
+
 The federation broker architecture provides infrastructure that is external to the agency and acts as a proxy between the RP and a CSP. The federation broker is a shared service model, an approach encouraged by the Federal IT Shared Services Strategy. This infrastructure handles the integration with individual CSPs and the translation of the protocols that the CSP uses to one standardized format for the RP. The federation broker architecture is shown in the figure below.
 
 <br>

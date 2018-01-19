@@ -3,6 +3,11 @@ layout: default
 title: Know Your Users
 permalink: plan/know-your-users/
 ---
+
+- Audience: Program Managers
+- This topic should detail the different types of users involved - Govt - Govt, Govt - Commerical, Govt - Citizen.
+- What are the items to consider when user analysis is performed. Roadmap doc Section 12.4.1 - Page 392 has some items to include.
+
 When conducting a user population analysis, an agency should consider the
 following:
 

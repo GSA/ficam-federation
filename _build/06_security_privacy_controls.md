@@ -2,8 +2,13 @@
 layout: default
 title: Security and Privacy Controls
 permalink: build/security-privacy-controls/
+collection: build
 ---
 
+- Audience: Engineer/Architect
+- What are the security and privacy controls.
+- Relying Party Section 5.1 - Page 28
+- NIST 800-63C Sections 8 and 9.
 
 To mitigate risk, an SP implementing compensating controls as part of a layered security program should select and implement controls in accordance to the Risk Management Framework (RMF). Compensating controls are an additional set of controls selected out of the broader control families described in <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf" target="_blank">  NIST SP 800-53</a>. Once all compensating controls have been implemented, an agency should evaluate the controls to determine if there is any remaining residual risk and repeat the risk management steps as needed. 
 
