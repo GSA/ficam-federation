@@ -2,6 +2,7 @@
 layout: default
 title: Federation Broker
 permalink: design/federation_broker/
+collection: design
 ---
 
 - Audience: Engineer/Architect

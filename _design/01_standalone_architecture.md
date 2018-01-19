@@ -3,6 +3,7 @@ layout: default
 navtitle: Stand-Alone Application
 title: Stand-Alone Application
 permalink: design/standalone_federation/
+collection: design
 ---
 
 - Audience: Engineer/Architect
