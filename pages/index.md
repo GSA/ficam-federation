@@ -5,6 +5,13 @@ title: What is Federation?
 permalink: /
 ---
 
+- Audience: Program Managers
+- Describe in a very high level what federation of identities means in a Federal space.
+- Inform user what information is in this playbook.
+- Provide guidance on why federation is needed.
+- Who needs Federation?
+
+
 Identity federation, commonly referred to as federation, is a term used to describe the technology, standards, policies, and processes that allow an organization to trust digital identities, identity attributes, and credentials created and issued by another organization. Federation allows an agency to provide modernized logical access control services for users, by trusting and accepting credentials that those users already have. This can allow non-federal users to access an agency’s resources while minimizing and potentially eliminating the need to redundantly collect and manage identity information and credentials.
 
 This playbook is intended for ICAM Program Managers and other business owners who may be looking to understand the topic of Federation better and various planning and design items they should consider before beginning solution design and implementation. This playbook also contains guidance for implementers and engineers who are looking for guidance around the technical implementation of federation at their agencies.
