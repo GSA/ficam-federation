@@ -3,7 +3,6 @@ layout: default
 title: Evaluate Relying Party
 permalink: plan/relyingparty/
 collection: plan
-publish: true
 pubDate:
 ---
 

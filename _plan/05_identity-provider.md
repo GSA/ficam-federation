@@ -3,7 +3,6 @@ layout: default
 title: Select Identity Provider
 permalink: plan/identityprovider/
 collection: plan
-publish: true
 pubDate:
 ---
 

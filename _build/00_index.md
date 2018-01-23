@@ -3,7 +3,6 @@ layout: default
 title: Federation Implementation
 permalink: /build/
 collection: build
-publish: true
 pubDate: 
 ---
 

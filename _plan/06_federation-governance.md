@@ -1,11 +1,10 @@
----
+#---
 layout: default
 title: Federation Governance
 permalink: plan/federationgovernance/
 collection: plan
-publish: false
 pubDate: 
----
+#---
 
 - Audience: Program Managers
 - Introduce federation governance as an overall program planning item.

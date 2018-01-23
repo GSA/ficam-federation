@@ -3,7 +3,6 @@ layout: default
 title: Federation Overview
 permalink: plan/federationoverview/
 collection: plan
-publish: true
 pubDate: 
 ---
 - Audience: Engineer/Architect

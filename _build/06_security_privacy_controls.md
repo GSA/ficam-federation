@@ -1,11 +1,10 @@
----
+#---
 layout: default
 title: Security and Privacy Controls
 permalink: build/securityprivacycontrols/
 collection: build
-publish: false
 pubDate: 
----
+#---
 
 - Audience: Engineer/Architect
 - What are the security and privacy controls.

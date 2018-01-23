@@ -3,7 +3,6 @@ layout: default
 title: User Experience
 permalink: build/userexperience/
 collection: build
-publish: true
 pubDate: 
 ---
 

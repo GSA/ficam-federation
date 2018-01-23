@@ -3,7 +3,6 @@ layout: default
 title: Federation Design Patterns  
 permalink: /design/
 collection: design
-publish: true
 pubDate: 
 ---
 

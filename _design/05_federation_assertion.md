@@ -1,11 +1,10 @@
----
+#---
 layout: default
 title: Federation Assertion
 permalink: design/federation_assertion/
 collection: design
-publish: false
 pubDate: 
----
+#---
 
 - Audience: Engineers/Architects
 - Introduce what assertions are and why they are important in sharing data during federation.

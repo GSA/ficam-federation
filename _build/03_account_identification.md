@@ -1,11 +1,10 @@
----
+#---
 layout: default
 navtitle: Account Identification 
 title: Account Identification 
 permalink: build/accountidentification/
-publish: false
 pubDate: 
----
+#---
 
 - Audience: Engineer/Architect
 - Define all the aspects of account identification and linking.

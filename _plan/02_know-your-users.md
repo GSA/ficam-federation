@@ -3,7 +3,6 @@ layout: default
 title: Know Your Users
 permalink: plan/knowyourusers/
 collection: plan
-publish: true
 pubDate:
 ---
 

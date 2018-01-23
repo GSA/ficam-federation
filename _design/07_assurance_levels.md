@@ -1,11 +1,10 @@
----
+#---
 layout: default
 title: Federation Assurance Levels
 permalink: design/assurance_levels/
 collection: design
-publish: false
 pubDate: 
----
+#---
 
 - Audience: Engineers/Architects
 - Introduce the assurance levels and why this is important in Federal context.

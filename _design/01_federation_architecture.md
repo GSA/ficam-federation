@@ -3,7 +3,6 @@ layout: default
 title: Federation Architecture  
 permalink: /design/federationarch
 collection: design
-publish: true
 pubDate: 
 ---
 

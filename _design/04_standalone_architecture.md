@@ -1,12 +1,11 @@
----
+#---
 layout: default
 navtitle: Stand-Alone Application
 title: Stand-Alone Application
 permalink: design/standalonefederation/
 collection: design
-publish: false
 pubDate: 
----
+#---
 
 - Audience: Engineer/Architect
 

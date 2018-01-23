@@ -19,18 +19,16 @@
 			  {%  assign slash = '/' %}
 			  {% assign temp = slash | append: link.url %}
 
-			  {% for child in site.[collectionName] %}
-			  	{% if child.publish == true %}
-				  {% assign navtext = child.title %}
-				  {% if child.navtitle != null %}
-					{% assign navtext = child.navtitle %}
-				  {% endif %}
-				  {% if child.url != temp %}
-				   <li class="group {% if page.title == child.title %}usa-current{% endif %}">
-					<a href="{{ site.baseurl }}{{ child.url }}" title="{% if page.title == child.title %}Current Page {% else %}{{ child.title }}{% endif %}">{{ navtext }}</a>
-				   </li>
-				  {% endif %}
-				{% endif %}
+			  {% for child in site.[collectionName] %}			  	
+                  {% assign navtext = child.title %}
+                  {% if child.navtitle != null %}
+                    {% assign navtext = child.navtitle %}
+                  {% endif %}
+                  {% if child.url != temp %}
+                   <li class="group {% if page.title == child.title %}usa-current{% endif %}">
+                    <a href="{{ site.baseurl }}{{ child.url }}" title="{% if page.title == child.title %}Current Page {% else %}{{ child.title }}{% endif %}">{{ navtext }}</a>
+                   </li>
+                  {% endif %}				
 			  {% endfor %}
 			  </ul>
           {% endif %}
