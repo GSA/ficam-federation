@@ -3,6 +3,8 @@ layout: default
 title: Evaluate Existing Infrastructure  
 permalink: build/existing_infrastructure/
 collection: build
+publish: true
+pubDate: 
 ---
 
 - Audience: Engineer/Architect

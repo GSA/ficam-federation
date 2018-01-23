@@ -1,8 +1,10 @@
 ---
 layout: default
 title: User Experience
-permalink: build/user_experience/
+permalink: build/userexperience/
 collection: build
+publish: true
+pubDate: 
 ---
 
 - Audience: Engineer/Architect

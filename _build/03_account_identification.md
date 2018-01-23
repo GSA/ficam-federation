@@ -2,7 +2,9 @@
 layout: default
 navtitle: Account Identification 
 title: Account Identification 
-permalink: build/account_identification/
+permalink: build/accountidentification/
+publish: false
+pubDate: 
 ---
 
 - Audience: Engineer/Architect

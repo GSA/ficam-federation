@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Evaluate Relying Party
-permalink: plan/relying-party/
+permalink: plan/relyingparty/
+collection: plan
+publish: true
+pubDate:
 ---
 
 - Audience: Program Managers

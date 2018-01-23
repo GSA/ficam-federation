@@ -11,6 +11,7 @@ permalink: /
 - Provide guidance on why federation is needed.
 - Who needs Federation?
 
+-- FICAM Roadmap Section 12.1 - Federation Overview Page 365 --
 
 Identity federation, commonly referred to as federation, is a term used to describe the technology, standards, policies, and processes that allow an organization to trust digital identities, identity attributes, and credentials created and issued by another organization. Federation allows an agency to provide modernized logical access control services for users, by trusting and accepting credentials that those users already have. This can allow non-federal users to access an agency’s resources while minimizing and potentially eliminating the need to redundantly collect and manage identity information and credentials.
 
@@ -33,6 +34,8 @@ The FICAM Architecture provides a high-level overview of identity management and
 We look forward to your use and contribution to this playbook. Please visit our <a href="/ficam-federation/contribute/" target =" _blank"> Contribute page </a> to learn how to post questions and contribute content.
 
 # Why Federate?
+
+-- FICAM Roadmap Section 12.1.1 - Why Federate --
 
 The Federal Government has established a number of resources to provide a common basis for
 trust and interoperability and enable agencies to streamline the manner in which access is
@@ -77,7 +80,10 @@ application when it is no longer required.
 agency must manage and maintain, which could become the target for a potential
 attacker. When properly implemented, this can reduce instances of inappropriate access.
 
+
 # Who Needs Federation?
+
+-- FICAM Roadmap Section 12.1 - Federation Overview Page 366 --
 
 Within the Federal Government, the business need to federate with a non-federal partner is
 driven primarily by each agency‘s mission. The largest consumers of federated identity data will

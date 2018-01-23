@@ -3,6 +3,8 @@ layout: default
 title: Federation Protocols
 permalink: design/federation_protocols/
 collection: design
+publish: true
+pubDate: 
 ---
 
 - Audience: Engineers/Architects

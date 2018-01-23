@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Select Identity Provider
-permalink: plan/4_identity_provider/
+permalink: plan/identityprovider/
+collection: plan
+publish: true
+pubDate:
 ---
 
 - Audience: Program Managers

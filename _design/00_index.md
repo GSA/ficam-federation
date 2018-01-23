@@ -1,47 +1,61 @@
 ---
 layout: default
-title: Federation Architecture  
+title: Federation Design Patterns  
 permalink: /design/
 collection: design
+publish: true
+pubDate: 
 ---
 
 - Audience: Engineer/Architect
-- Define the criteria for selecting design pattern.
-- Specify the different design patterns.
 
-To select a solution architecture, it’s important to understand which architecture is most applicable to your agency’s situation. It’s recommended that an agency use the information collected from the assessments during the agency’s planning period to determine its optimal solution architecture.
+In order to accommodate the wide range of mission and business reasons behind federation, there
+are a number of different information exchange approaches that an agency might choose. These
+approaches, referred to as topologies, differ based on the type of relationship that exists with the
+external parties involved and the level of trust required for the transaction and are driven by the
+organization‘s business model. Three common federation trust topologies are:
 
-## <span style="color: #0C5C89">**Checklist**</span>
+- **Point-to-Point**. Refers to a model in which an organization establishes a bi-lateral trust
+agreement with another organization directly and uses federation protocols to exchange
+data. An example of the Point-to-Point topology within the Federal Government is the
+Defense Support of Civil Authorities pilot program between DHS and DoD, which
+involved the exchange of data between the two agencies for the purpose of enabling DoD
+personnel to access DHS resources. Because the Defense Support of Civil Authorities
+pilot program involved only two organizations, the point-to-point model was deemed the
+most appropriate.
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Review business requirements.** To choose which federal architecture to use, you will need to review your agency’s business requirements. During the review, should consider the following:
+- **Hub-and-Spoke**. Refers to a model in which a single entity acts as a central point of
+communication and exchange for a number of relying parties. In this model, the relying
+parties do not communicate with each other; all communication and information
+exchange occurs through the central hub. An example of a Hub-and-Spoke topology is
+OMB‘s Max.gov knowledge sharing and collaboration portal. Max.gov acts as a central
+broker that each agency connects to in order to communicate and share data with other
+agencies. The hub-and-spoke model was selected due to the number of parties involved
+and the desire to consolidate data in a single location that could enforce strict access
+restrictions.
 
->> * Size of user population
+- **Networked**. Refers to a peer-to-peer model in which all entities are interconnected and
+can communicate and exchange data with all others. Entities in this model may be
+leveraging one or more approved Identity Providers. An example of a Networked
+topology is InCommon Federation, which provides a common framework for trustworthy
+shared management of access to online resources in support of education and research.
+InCommon uses the networked model because it provides a common trust and technology
+fabric that enables relying parties to quickly establish peer-to-peer connections as the
+need arises.
 
->> * Number of applications using third-party credentials
-
->> * Ability to modify existing infrastructure to accept third-party credentials
-
->> * Privacy requirements
-
-> <i class="fa fa-check-square-o"></i> &nbsp;**Select federation architecture.** Based on the review of your agency’s business requirements, select the federation architecture that best meets the agency’s needs.
-
-The table below provides guidance to the applicability of each architectural solution. Within the table, the enterprise and federation broker architecture solutions share certain situations where either one may be appropriate. These approaches both support streamlined integration of multiple applications but differ in the amount of control the agency keeps in implementing and managing the federation solution. An agency should consider each of its requirements to determine the best architectural approach.
-
-<br>
-
-| <center> Recommended Approach </center> | <center> Situations </center> | 
-|:---------------------------------------:|-------------------------------|
-| **Stand-Alone** | • An agency has a small number of applications that require the acceptance of third-party credentials. <br><br> • An agency wishes to pilot the acceptance of third-party credentials on a small scale before deploying it for the entire agency. |
-| **Enterprise** | • An agency wishes to maintain control of which Credential Service Providers (CSPs) are integrated and the connection to those CSPs. <br><br> • An agency has many applications that are required to accept third-party credentials. <br><br> • An agency has existing agency-wide infrastructure that can be modified/augmented to accept third-party credentials. |
-| **Federation Broker** | • An agency has many applications that are required to accept third-party credentials. <br><br> • An agency has existing agency-wide infrastructure that can be modified/augmented to accept third-party credentials. <br><br> • An agency wishes to accept third-party credentials from a large user base that spans many CSPs. <br><br> • An agency with privacy requirements to accept externally-issued credentials without knowing to which CSP a user authenticated. |
-
-<br>
-
-Within this section, each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model.
-
-
-
-
+When establishing a new federation, it is likely that an agency will be able select a trust model to
+suit the specific needs of the involved parties. This decision is often affected by existing
+infrastructure availability, business requirements, privacy considerations, and granular attribute
+release needs. An agency‘s existing ICAM investments, such as modernized logical access
+control systems (LACS), may also provide additional capabilities that could impact the
+federation topology that best meets the agency‘s needs. These additional factors may drive an
+agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a
+model that closely represents the agency‘s needs. Regardless of the federation trust topology
+selected, there are a number of resources that have been established within the Federal
+Government to provide agencies with a foundational level of trust. When entering into an
+established federation; however, it is likely that the existing federation members have already
+chosen a trust topology. Therefore it is important than an agency examine the factors previously
+discussed to select a federation that most closely meets its needs.
 
 
 

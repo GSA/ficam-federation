@@ -1,7 +1,10 @@
 ---
 layout: default
-title: How Does Federation Work
-permalink: /howfederationwork/
+title: Federation Overview
+permalink: plan/federationoverview/
+collection: plan
+publish: true
+pubDate: 
 ---
 - Audience: Engineer/Architect
 - Introduce Federation technology. Link to other pages (assertions, assurances and protocols) for more information.

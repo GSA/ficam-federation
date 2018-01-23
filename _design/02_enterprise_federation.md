@@ -3,6 +3,8 @@ layout: default
 title: Enterprise Federation
 permalink: design/enterprise_federation/
 collection: design
+publish: false
+pubDate: 
 ---
 
 - Audience: Engineer/Architect

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Use Cases
-permalink: /use_cases/
+title: Case Studies
+permalink: /casestudies/
 ---
 
 Account management will vary depending on the relationship between the user and the RP. This relationship will define the extent to which the RP will have predetermined information about the user. Five provisioning scenarios that describe these relationships include: 

@@ -57,7 +57,7 @@ navigation:
   internal: true
   coll: false
 - text: How Does Federation Work
-  url: how_does_federation_work
+  url: howfederationwork
   internal: true
   coll: false
 - text: Plan
@@ -75,13 +75,13 @@ navigation:
   internal: true
   coll: true
   collname: build
-- text: Maintain
-  url: maintain/
-  internal: true
-  coll: true
-  collname: maintain
-- text: Use Cases
-  url: use_cases
+#- text: Maintain
+#  url: maintain/
+#  internal: true
+#  coll: true
+#  collname: maintain
+- text: Case Studies
+  url: casestudies
   internal: true
   coll: false
 - text: Contribute

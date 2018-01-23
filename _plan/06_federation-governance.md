@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Federation Governance
-permalink: plan/federation-governance/
+permalink: plan/federationgovernance/
+collection: plan
+publish: false
+pubDate: 
 ---
 
 - Audience: Program Managers

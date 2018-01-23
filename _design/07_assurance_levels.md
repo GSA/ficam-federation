@@ -3,6 +3,8 @@ layout: default
 title: Federation Assurance Levels
 permalink: design/assurance_levels/
 collection: design
+publish: false
+pubDate: 
 ---
 
 - Audience: Engineers/Architects

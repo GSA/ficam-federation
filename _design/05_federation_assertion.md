@@ -3,6 +3,8 @@ layout: default
 title: Federation Assertion
 permalink: design/federation_assertion/
 collection: design
+publish: false
+pubDate: 
 ---
 
 - Audience: Engineers/Architects

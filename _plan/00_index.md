@@ -3,6 +3,8 @@ layout: default
 title: Plan A Federation Project
 permalink: /plan/
 collection: plan
+publish: true
+pubDate: 
 ---
 
 - Audience: Program Managers

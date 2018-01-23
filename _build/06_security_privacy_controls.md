@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Security and Privacy Controls
-permalink: build/security-privacy-controls/
+permalink: build/securityprivacycontrols/
 collection: build
+publish: false
+pubDate: 
 ---
 
 - Audience: Engineer/Architect
