@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Federation Architecture  
-permalink: /design/federationarch
+permalink: /design/federationarch/
 collection: design
 pubDate: 
 ---
