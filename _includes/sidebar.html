@@ -13,24 +13,24 @@
                   aria-expanded="{% if page.collection == link.collname %}true{% else %}false{% endif %}"
                   aria-controls="nav-collapsible-{{ forloop.index }}">+</button>
 
-			  {% assign collectionName = link.collname %}
-			  <ul class="nav-children usa-current-section" id="nav-collapsible-{{ forloop.index }}" aria-hidden="{% if page.collection == link.collname %}false{% else %}true{% endif %}">
+           {% assign collectionName = link.collname %}
+           <ul class="nav-children usa-current-section" id="nav-collapsible-{{ forloop.index }}" aria-hidden="{% if page.collection == link.collname %}false{% else %}true{% endif %}">
 
-			  {%  assign slash = '/' %}
-			  {% assign temp = slash | append: link.url %}
+           {%  assign slash = '/' %} 
+           {% assign temp = slash | append: link.url %}
 
-			  {% for child in site.[collectionName] %}			  	
-                  {% assign navtext = child.title %}
-                  {% if child.navtitle != null %}
-                    {% assign navtext = child.navtitle %}
-                  {% endif %}
-                  {% if child.url != temp %}
-                   <li class="group {% if page.title == child.title %}usa-current{% endif %}">
-                    <a href="{{ site.baseurl }}{{ child.url }}" title="{% if page.title == child.title %}Current Page {% else %}{{ child.title }}{% endif %}">{{ navtext }}</a>
-                   </li>
-                  {% endif %}				
-			  {% endfor %}
-			  </ul>
+           {% for child in site.[collectionName] %}            
+            {% assign navtext = child.title %}
+            {% if child.navtitle != null %}
+              {% assign navtext = child.navtitle %}
+            {% endif %}
+            {% if child.url != temp %}
+             <li class="group {% if page.title == child.title %}usa-current{% endif %}">
+              <a href="{{ site.baseurl }}{{ child.url }}" title="{% if page.title == child.title %}Current Page {% else %}{{ child.title }}{% endif %}">{{ navtext }}</a>
+             </li>
+            {% endif %}          
+           {% endfor %}
+           </ul>
           {% endif %}
           </li>
        {% endfor %}
