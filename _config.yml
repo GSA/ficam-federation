@@ -80,8 +80,8 @@ navigation:
 #  internal: true
 #  coll: true
 #  collname: maintain
-- text: Case Studies
-  url: casestudies
+- text: Case Study
+  url: casestudy
   internal: true
   coll: false
 - text: Contribute
