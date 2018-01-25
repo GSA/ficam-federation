@@ -11,7 +11,7 @@ pubDate:
 - Intro to the Plan section - review, modify and apply plain language principles including less words / more actionable items; focus on steps for a program manager to plan for a single sign on or federated sign on model for a federal enterprise or a federal mission application
 - Relying Party Doc Section 5.1 (Page 21) has some materials for this planning.
 
-A successful federation implementation is one that takes an agency’s mission and business needs into consideration and supports an agency’s processes for interfacing with its customers. When there are many externally facing applications, the cost savings are amplified, thereby increasing the benefits of accepting of third-party credentials. The RP can use this information to strengthen its business case and gain leadership approval. To build the business case, the RP will need to document the costs and benefits of accepting third-party credentials. This can be accomplished by taking the following steps:
+A successful federation implementation is one that takes an agency’s mission and business needs into consideration and supports an agency’s processes for interfacing with its customers. When there are many externally facing applications, the cost savings are amplified, thereby increasing the benefits of accepting of third-party credentials. The agency, also known as the Relying Party (RP), can use this information to strengthen its business case and gain leadership approval. To build the business case, the RP will need to document the costs and benefits of accepting third-party credentials. This can be accomplished by taking the following steps:
 
 ## <span style="color: #0C5C89">**Checklist**</span>
 
