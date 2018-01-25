@@ -52,52 +52,36 @@ exclude:
 - vendor
 
 navigation:
-- text: Introduction
+- text: What is Federation
   url: ''
   internal: true
   coll: false
-- text: Establish Federation Governance
-  url: 1_step-1
+- text: How Does Federation Work
+  url: howfederationwork
   internal: true
   coll: false
-- text: Identify Business Considerations
-  url: 2_step-2
+- text: Plan
+  url: plan/
   internal: true
-  coll: false
-- text: Understand the RP Environment
-  url: 3_step-3
+  coll: true
+  collname: plan
+- text: Design
+  url: design/
   internal: true
-  coll: false
-- text: Determine Applicability to Security and Privacy Controls
-  url: 4_step-4
+  coll: true
+  collname: design
+- text: Build
+  url: build/
   internal: true
-  coll: false
-- text: Determine Acceptable Credentials
-  url: 5_step-5
-  internal: true
-  coll: false
-- text: Partner with an Identity Provider(s)
-  url: 6_step-6
-  internal: true
-  coll: false
-- text: Evaluate Existing Infrastructure 
-  url: 7_step-7
-  internal: true
-  coll: false
-- text: Evaluate Optimal Solution Architecture
-  url: 8_step-8
-  internal: true
-  coll: false
-- text: Integrate with CSP
-  url: 9_step-9
-  internal: true
-  coll: false
-- text: Create and Manage User Accounts
-  url: 10_step-10
-  internal: true
-  coll: false
-- text: Account Management
-  url: 11_step-11
+  coll: true
+  collname: build
+#- text: Maintain
+#  url: maintain/
+#  internal: true
+#  coll: true
+#  collname: maintain
+- text: Case Study
+  url: casestudy
   internal: true
   coll: false
 - text: Contribute
@@ -108,7 +92,22 @@ include:
 - _stylesheets
 - _javascript
 
-
-
+collections:
+  plan:
+    label: "Plan"
+    permalink: /plan/:path/
+    output: true
+  design:
+    label: "Design"
+    permalink: /design/:path/
+    output: true
+  build:
+    label: "Build"
+    permalink: /build/:path/
+    output: true
+  maintain:
+    label: "Maintain"
+    permalink: /maintain/:path/
+    output: true
 # Custom site configuration
 lang: en
