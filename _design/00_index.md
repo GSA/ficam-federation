@@ -7,12 +7,16 @@ pubDate:
 ---
 
 - Audience: Engineer/Architect
+- Detail the different design patterns for federation.
+- FICAM Roadmap section 12.1.2 Federation Trust Topologies
 
 In order to accommodate the wide range of mission and business reasons behind federation, there
 are a number of different information exchange approaches that an agency might choose. These
 approaches, referred to as topologies, differ based on the type of relationship that exists with the
 external parties involved and the level of trust required for the transaction and are driven by the
-organization‘s business model. Three common federation trust topologies are:
+organization‘s business model. 
+
+Three common federation trust topologies are:
 
 - **Point-to-Point**. Refers to a model in which an organization establishes a bi-lateral trust
 agreement with another organization directly and uses federation protocols to exchange
