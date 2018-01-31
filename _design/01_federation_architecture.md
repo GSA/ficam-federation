@@ -7,8 +7,8 @@ pubDate:
 ---
 
 - Audience: Engineer/Architect
-- Define the criteria for selecting design pattern.
-- Specify the different design patterns.
+- Define the criteria for selecting architecture. Detail the different types of architecture - stand-alone, enterprise and broker.
+- Relying Party document section 6.2 - Developing the Solution Architecture.
 
 To select a solution architecture, it’s important to understand which architecture is most applicable to your agency’s situation. It’s recommended that an agency use the information collected from the assessments during the agency’s planning period to determine its optimal solution architecture.
 
