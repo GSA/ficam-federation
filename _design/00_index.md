@@ -10,55 +10,66 @@ pubDate:
 - Detail the different design patterns for federation.
 - FICAM Roadmap section 12.1.2 Federation Trust Topologies
 
-In order to accommodate the wide range of mission and business reasons behind federation, there
-are a number of different information exchange approaches that an agency might choose. These
-approaches, referred to as topologies, differ based on the type of relationship that exists with the
-external parties involved and the level of trust required for the transaction and are driven by the
+If you want to design a federation architecture, you should consider the mission and business reasons behind federation. 
+There are a number of different information sharing approaches that your agency might choose. These
+approaches, referred to as design patterns, will differ based on the type of relationship that exists with the
+external parties involved and the level of trust required for the transaction and are driven by your
 organization‘s business model. 
 
-Three common federation trust topologies are:
+The three common federation design patterns are:
 
-- **Point-to-Point**. Refers to a model in which an organization establishes a bi-lateral trust
-agreement with another organization directly and uses federation protocols to exchange
-data. An example of the Point-to-Point topology within the Federal Government is the
-Defense Support of Civil Authorities pilot program between DHS and DoD, which
-involved the exchange of data between the two agencies for the purpose of enabling DoD
+- **Point-to-Point** - This pattern establishes a bi-lateral trust
+agreement between two parties to exchange data directly. This approach will provide you with
+the flexibility in defining the data sharing model that only relates to the involved parties.
+The downside of this model is that it may be customized to data exchange agreements between the two entities 
+and may not be flexible to expand the federation beyond the two entities in the future.
+
+> An example of this pattern is the Defense Support of Civil Authorities pilot program between DHS and DoD. 
+It involved the exchange of data between the two agencies for the purpose of enabling DoD
 personnel to access DHS resources. Because the Defense Support of Civil Authorities
 pilot program involved only two organizations, the point-to-point model was deemed the
 most appropriate.
 
-- **Hub-and-Spoke**. Refers to a model in which a single entity acts as a central point of
-communication and exchange for a number of relying parties. In this model, the relying
-parties do not communicate with each other; all communication and information
-exchange occurs through the central hub. An example of a Hub-and-Spoke topology is
-OMB‘s Max.gov knowledge sharing and collaboration portal. Max.gov acts as a central
-broker that each agency connects to in order to communicate and share data with other
-agencies. The hub-and-spoke model was selected due to the number of parties involved
-and the desire to consolidate data in a single location that could enforce strict access
-restrictions.
+- **Hub-and-Spoke** - This pattern is a typical federation scenario where a single entity acts 
+as the identity provider for a number of service providers. The service providers do not communicate 
+with each other; all communication and information exchange occurs through the identity provider. 
+The benefits are simplification of the federation process for all SP since one IdP dictates the data
+exchange. The drawback of this approach is that the federation process is limited to the capability
+of the IdP to provide the data requirement for all.
 
-- **Networked**. Refers to a peer-to-peer model in which all entities are interconnected and
-can communicate and exchange data with all others. Entities in this model may be
-leveraging one or more approved Identity Providers. An example of a Networked
-topology is InCommon Federation, which provides a common framework for trustworthy
-shared management of access to online resources in support of education and research.
-InCommon uses the networked model because it provides a common trust and technology
-fabric that enables relying parties to quickly establish peer-to-peer connections as the
-need arises.
+> An example is OMB‘s **Max.gov**. It acts as a central identity provider that each agency can connect
+to in order to communicate and share data with other agencies. The hub-and-spoke model was 
+appropriate to consolidate data in a single location that could enforce strict access restrictions.
 
-When establishing a new federation, it is likely that an agency will be able select a trust model to
+- **Networked** - In this scenario, all entities are interconnected and
+can communicate and exchange data with all others. Entities in this model may choose 
+one or more approved Identity Providers. The ability to connect to multiple entities allows for 
+interoperability and de-centralized data sharing. However, the complexity of maintaining the federation
+agreement over time increases as changes to one entity starts to affect other entities. Therefore, a 
+networked approach will require oversight and co-ordination between the entities involved.
+
+> An example is the **InCommon** Federation. Though InCommon does not provide
+any of the services itself, it uses the networked model to manage a common trust and technology framework 
+that enables Service Providers to quickly establish peer-to-peer connections to any of the Identity 
+Providers in research and higher education.
+
+When establishing a new federation, it is likely that your agency will be able select a trust model to
 suit the specific needs of the involved parties. This decision is often affected by existing
 infrastructure availability, business requirements, privacy considerations, and granular attribute
-release needs. An agency‘s existing ICAM investments, such as modernized logical access
+release needs. 
+
+Your agency‘s existing ICAM investments, such as modernized logical access
 control systems (LACS), may also provide additional capabilities that could impact the
 federation topology that best meets the agency‘s needs. These additional factors may drive an
 agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a
-model that closely represents the agency‘s needs. Regardless of the federation trust topology
-selected, there are a number of resources that have been established within the Federal
-Government to provide agencies with a foundational level of trust. When entering into an
-established federation; however, it is likely that the existing federation members have already
-chosen a trust topology. Therefore it is important than an agency examine the factors previously
-discussed to select a federation that most closely meets its needs.
+model that closely represents the agency‘s needs. 
+
+Regardless of the federation trust topology selected, there are a number of resources that have 
+been established within the Federal Government to provide agencies with a foundational level of 
+trust. When entering into an established federation; however, it is likely that the existing 
+federation members have already chosen a trust topology. Therefore it is important than an 
+agency examine the factors previously discussed to select a federation that most closely meets 
+its needs.
 
 
 
