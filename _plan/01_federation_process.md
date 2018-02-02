@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Federation Overview
-permalink: plan/federationoverview/
+title: Federation Process
+permalink: plan/federationprocess/
 collection: plan
 pubDate: 
 ---
