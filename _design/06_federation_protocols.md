@@ -11,7 +11,7 @@ pubDate:
 - Refer to Section 11 Examples of NIST SP 800-63C for SAML OIDC and Kerberos.
 - Introduce FPKI and provide links to the FPKI Guides for more information.
 
-The federation protocols are used to transfer data from the CSP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discussed the following protocols that relate to the Federal Government:
+The federation protocols are used to transfer data from the CSP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to the Federal Government:
 
 - [SAML](#security-assertion-markup-language-saml)
 - [OpenID Connect iGov](#openid-connect-igov-oidc-igov)
@@ -33,7 +33,6 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 - _Attribute statements_ contain specific additional characteristics related to the subscriber. For example, subject “John” is associated with attribute “Role” with value “Manager”.
 - _Authorization statements_ identify the resources the subscriber has permission to access. These resources may include specific devices, files, and information on specific web servers. For example, subject “John” for action “Read” on “Webserver1002” given evidence “Role”.
 
-
 ## OpenID Connect iGov (OIDC iGov)
 
 OpenID Connect (OIDC) builds on top of the OAuth 2.0 (OAUTH) authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
@@ -54,12 +53,42 @@ An additional scope, offline_access, is used to govern the issuance of refresh t
 
 Kerberos supports authentication of a subscriber over an untrusted, shared local network using one or more IdPs. The Kerberos Network Authentication Service [RFC 4120] was designed to provide strong authentication for client/server applications using symmetric-key cryptography on a local, shared network. Extensions to Kerberos can support the use of public key cryptography for selected steps of the protocol. Kerberos also supports confidentiality and integrity protection of session data between the subscriber and the RP. Even though Kerberos uses assertions, it was designed for use on shared networks and, therefore, is not truly a federation protocol.
 
+Kerberos supports authentication of a subscriber over an untrusted, shared local network using one or more IdPs. The subscriber implicitly authenticates to the IdP by demonstrating the ability to decrypt a random session key encrypted for the subscriber by the IdP. (Some Kerberos variants also require the subscriber to explicitly authenticate to the IdP, but this is not universal.) In addition to the encrypted session key, the IdP also generates another encrypted object called a Kerberos ticket. The ticket contains the same session key, the identity of the subscriber to whom the session key was issued, and an expiration time after which the session key is no longer valid. The ticket is confidentiality and integrity protected by a pre-established key that is shared between the IdP and the RP during an explicit setup phase.
+
+To authenticate using the session key, the subscriber sends the ticket to the RP along with encrypted data that proves that the subscriber possesses the session key embedded within the Kerberos ticket. Session keys are either used to generate new tickets or to encrypt and authenticate communications between the subscriber and the RP.
+
 ## Federal PKI (FPKI)
 
 A core component of the Federal Trust Framework, FPKI provides a common, government-wide
 infrastructure (e.g., policies, processes, server platforms, software, and workstations) for the
 purpose of administering digital certificates and public-private key pairs, including the ability to
-issue, maintain, and revoke public key certificates.
+issue, maintain, and revoke public key certificates. 
+
+Federal PKI Policy Authority (FPKIPA) and the Federal PKI Management Authority (FPKIMA) are the 
+Federal Trust Framework governance bodies for PKI credentials. The policies of the FPKIPA and 
+services of the FPKIMA help to create an environment in which different organizations can 
+trust each other‘s PKI credentials. The creation and issuance of PKI credentials that can be trusted
+across the Federal Government is governed by two Federal PKI components:
+
+- Federal Bridge Certification Authority (FBCA)
+> The FBCA maintains peerto-peer cross-certified relationships with Enterprise PKI implementations, including
+federal agency legacy PKIs and commercially-operated PKIs. The FBCA and the entities/agencies it interacts 
+with can maintain, issue and revoke public key certificates.
+
+- Federal Common Policy Framework Certification Authority (FCPCA)
+> The FCPCA is the Federal PKI Trust Root, which acts as the top of a hierarchy. The FCPCA also includes a
+set of shared service providers from whom federal agencies can acquire PKI services that
+comply with policy requirements outlined in Federal PKI Common Policy Framework282
+(COMMON) and FBCA Certificate Policy.
+
+By leveraging the FPKI certificates, an agency is provided with several benefits.
+- Streamlined compliance with federal requirements.
+- Enhanced ability to trust and leverage external PKI credentials.
+- Increased ability to leverage stronger forms of authentication.
+
+For more information on FPKI, visit the [FPKI Guide](https://fpki.idmanagement.gov).
+
+
 
 
 
