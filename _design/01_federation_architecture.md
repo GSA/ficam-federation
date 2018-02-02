@@ -11,7 +11,7 @@ pubDate:
 - Relying Party document section 6.2 - Developing the Solution Architecture.
 
 
-You will come accross three commonly used federation architectures. Each of these architectures has a common set of functionalities - the ability to integrate with a CSP, parse an assertion, and link RP accounts. However, there are variations to how those requirements are implemented. Each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model. 
+You will find three commonly used federation architectures. Each of these architectures has a common set of functionalities - the ability to integrate with a CSP, parse an assertion, and link accounts. However, you will see variations to how those requirements are implemented. Each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model. 
 
 - [Stand-Alone Application](#stand-alone-application)
 - [Enterprise Federation](#enterprise-federation)
