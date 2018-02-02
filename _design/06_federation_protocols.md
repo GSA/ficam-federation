@@ -14,7 +14,7 @@ pubDate:
 The federation protocols are used to transfer data from the CSP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to the Federal Government:
 
 - [SAML](#security-assertion-markup-language-saml)
-- [OpenID Connect iGov](#openid-connect-igov-oidc-igov)
+- [iGov](#international-assurance-government-profile-igov)
 - [Kerberos](#kerberos-tickets)
 - [Federal PKI](#federal-pki-fpki)
 
@@ -33,9 +33,9 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 - _Attribute statements_ contain specific additional characteristics related to the subscriber. For example, subject “John” is associated with attribute “Role” with value “Manager”.
 - _Authorization statements_ identify the resources the subscriber has permission to access. These resources may include specific devices, files, and information on specific web servers. For example, subject “John” for action “Read” on “Webserver1002” given evidence “Role”.
 
-## OpenID Connect iGov (OIDC iGov)
+## International Assurance Government Profile (iGov)
 
-OpenID Connect (OIDC) builds on top of the OAuth 2.0 (OAUTH) authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
+The iGov specifications are used to define the OpenID Connect (OIDC) profile for securing federated access in the government context.  OIDC builds on top of the OAuth 2.0 (OAUTH) authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. 
 
 In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
 
