@@ -11,28 +11,32 @@ pubDate:
 - Refer to Section 11 Examples of NIST SP 800-63C for SAML OIDC and Kerberos.
 - Introduce FPKI and provide links to the FPKI Guides for more information.
 
-Three types of assertion technologies are discussed below: SAML assertions, OpenID Connect tokens, and Kerberos tickets. This list is not inclusive of all possible assertion technologies, but does represent those commonly used in federated identity systems.
+The federation protocols are used to transfer data from the CSP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discussed the following protocols that relate to the Federal Government:
+
+- [SAML](#security-assertion-markup-language-saml)
+- [OpenID Connect iGov](#openid-connect-igov-oidc-igov)
+- [Kerberos](#kerberos-tickets)
+- [Federal PKI](#federal-pki-fpki)
 
 ## Security Assertion Markup Language (SAML)
 
-SAML is an XML-based framework for creating and exchanging authentication and attribute information between trusted entities over the internet. As of this writing, the latest specification for SAML is SAML v2.0, issued 15 March 2005.
-The building blocks of SAML include:
+SAML is an XML-based framework for creating and exchanging authentication and attribute information between trusted entities over the internet. The building blocks of SAML include:
 
 - The Assertions XML schema, which defines the structure of the assertion.
-- The SAML Protocols, which are used to request assertions and artifacts (the assertion references used in the indirect model described in Section 7.1).
+- The SAML Protocols, which are used to request assertions and artifacts.
 - The Bindings, which define the underlying communication protocols (such as HTTP or SOAP), and can be used to transport the SAML assertions.
 
 The three components above define a SAML profile that corresponds to a particular use case such as “Web Browser SSO”.
 SAML Assertions are encoded in an XML schema and can carry up to three types of statements:
 
-- Authentication statements include information about the assertion issuer, the authenticated subscriber, validity period, and other authentication information. For example, an Authentication Assertion would state the subscriber “John” was authenticated using a password at 10:32pm on 06-06-2004.
-- Attribute statements contain specific additional characteristics related to the subscriber. For example, subject “John” is associated with attribute “Role” with value “Manager”.
-- Authorization statements identify the resources the subscriber has permission to access. These resources may include specific devices, files, and information on specific web servers. For example, subject “John” for action “Read” on “Webserver1002” given evidence “Role”.
+- _Authentication statements_ include information about the assertion issuer, the authenticated subscriber, validity period, and other authentication information. For example, an Authentication Assertion would state the subscriber “John” was authenticated using a password at 10:32pm on 06-06-2004.
+- _Attribute statements_ contain specific additional characteristics related to the subscriber. For example, subject “John” is associated with attribute “Role” with value “Manager”.
+- _Authorization statements_ identify the resources the subscriber has permission to access. These resources may include specific devices, files, and information on specific web servers. For example, subject “John” for action “Read” on “Webserver1002” given evidence “Role”.
 
 
-## OpenID Connect (OIDC)
+## OpenID Connect iGov (OIDC iGov)
 
-OpenID Connect builds on top of the OAuth 2.0 authorization protocol to enable the subscriber to authorize the RP to access the subscriber’s identity and authentication information. The RP in both OpenID Connect and OAuth 2.0 is known as the client.
+OpenID Connect (OIDC) builds on top of the OAuth 2.0 (OAUTH) authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
 
 In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
 
@@ -50,10 +54,12 @@ An additional scope, offline_access, is used to govern the issuance of refresh t
 
 Kerberos supports authentication of a subscriber over an untrusted, shared local network using one or more IdPs. The Kerberos Network Authentication Service [RFC 4120] was designed to provide strong authentication for client/server applications using symmetric-key cryptography on a local, shared network. Extensions to Kerberos can support the use of public key cryptography for selected steps of the protocol. Kerberos also supports confidentiality and integrity protection of session data between the subscriber and the RP. Even though Kerberos uses assertions, it was designed for use on shared networks and, therefore, is not truly a federation protocol.
 
+## Federal PKI (FPKI)
 
-
-
-
+A core component of the Federal Trust Framework, FPKI provides a common, government-wide
+infrastructure (e.g., policies, processes, server platforms, software, and workstations) for the
+purpose of administering digital certificates and public-private key pairs, including the ability to
+issue, maintain, and revoke public key certificates.
 
 
 
