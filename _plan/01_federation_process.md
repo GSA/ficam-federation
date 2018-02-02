@@ -31,7 +31,7 @@ During a Federation process, you will find these common steps:
 - **Validation** - Once the SP verifies the assertion from the CSP, it may allow access to the user to its application. The SP may request additional identity information about the user from the CSP or AP.
 - **Session** - Once the SP verifies the assertion, it will create a session for the user. The session will last for a period of time until the SP requires the user to authenticate with the CSP again.
 
-The above example scenario is also known as SP initiated federation. In case of an IdP initiated federation, the user requests access to the SP application by accessing the CSP application first instead of being redirected from the SP.
+The above example scenario is also known as _SP initiated federation_. In case of an _IdP initiated federation_, the user requests access to the SP application by accessing the CSP application first instead of being redirected from the SP.
 
 This data sharing between the CSP and SP is made possible through the sharing of user's authentication information via common exchange protocols and agreed-upon open standards/specifications. This will enable your agency to allow a user from another organization or trust an authentication conducted outside of your agency. 
 
