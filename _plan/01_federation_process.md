@@ -10,7 +10,11 @@ pubDate:
 - Layout the different actors in federation - CSP, AP, RP, end user. Relying Party doc Section 3.1 Federation Process.
 - Include diagrams which may help in visualizing the flow of data between the actors. Example Relying Party Doc Fig 2 (Page 7).
 
-Federation requires at least three parties, one party that has an application which it wishes to allow access to (i.e., the RP), another party that has issued credentials to the target users of the application (i.e., the CSP), and the user who needs access to the RP application. A fourth party, the attribute provider, may be involved in a federation where additional information about a user is required. The attribute provider acts as an independent entity that maintains a set of attributes about the user. For a particular transaction, the attribute provider and the CSP can be the same entity. These parties are defined as follows:
+If you want to understand how a Federation process works, you will have to know the actors involved. The first one, known as a Service Provider (SP), is an application which wishes to allow access to the user using the credentials issued by another application, the Credential Service Provider (CSP). A fourth application, the attribute provider (AP), may be involved in a federation where additional information about the user is required. For a particular transaction, the CSP and the AP, or the SP and the AP can be the same application. 
+
+<div style="text-align:center; width:70%"><img src="{{site.baseurl}}/img/federation.png"/></div>
+
+These parties are defined as follows:
 
 - **Credential Service Provider (CSP)**. Entity that establishes an individual’s identity and links the identity to a credential. CSPs validate the identity of the individual using the credential and pass along verification of the individual’s identity to an RP.
 
