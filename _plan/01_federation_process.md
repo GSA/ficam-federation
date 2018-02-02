@@ -23,7 +23,17 @@ from the external source to authenticate an identity.
 
 <div style="text-align:center; width:70%"><img src="{{site.baseurl}}/img/federation.png"/></div>
 
-During a Federation process, the CSP validates the identity of the individual using the credential and pass along the verification of the individual’s identity to an SP. This data sharing between the CSP and SP is made possible through the sharing of user's authentication information via common exchange protocols and agreed-upon open standards/specifications. This will enable your agency to allow a user from another organization or trust an authentication conducted outside of your agency. 
+During a Federation process, you will find these common steps:
+- **Access Request** - The user requests access to the SP application.
+- **Redirection** - The SP redirects the user to the IdP application.
+- **Authentication** - The user is challenged by the CSP to present a valid credential such as a username and password, or their certificate. The CSP validates the identity of the individual using the credential.
+- **Federation** - The CSP passes along the verification data, also known as _Assertion_, of the individual’s identity to the SP. 
+- **Validation** - Once the SP verifies the assertion from the CSP, it may allow access to the user to its application. The SP may request additional identity information about the user from the CSP or AP.
+- **Session** - Once the SP verifies the assertion, it will create a session for the user. The session will last for a period of time until the SP requires the user to authenticate with the CSP again.
+
+The above example scenario is also known as SP initiated federation. In case of an IdP initiated federation, the user requests access to the SP application by accessing the CSP application first instead of being redirected from the SP.
+
+This data sharing between the CSP and SP is made possible through the sharing of user's authentication information via common exchange protocols and agreed-upon open standards/specifications. This will enable your agency to allow a user from another organization or trust an authentication conducted outside of your agency. 
 
 In a federated environment, these transactions occur between trusted Identity Providers that have
 been approved through the Federal Trust Framework and relying parties. Given the nature of federated transactions and the electronic exchange of identity data across organizational boundaries, there is an increased focus on security and privacy to ensure users' sensitive identity data is appropriately safeguarded. 
