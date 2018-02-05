@@ -11,15 +11,17 @@ pubDate:
 - What are the items to consider when user analysis is performed. Roadmap doc Section 12.4.1 - Page 392 has some items to include.
 - Include materials from Ficam Architecture.
 
-You should know who _your users are_ before you can select the Identity Provider (IdP). Your users will generally fall into these three broad categories:
+=================================
+
+You should understand who _your users are_ before you can select the Identity Provider (IdP). Your users will generally fall into these three broad categories:
 
 - **Government Users**: If your user base is your agency's employees, this category will be applicable to you.
 - **Commercial Users**: When you have users who are not your agency employees, and include contractors from other commercial organization, these users will need to be identified by the IdP who holds their credentials.
 - **Citizen Consumers**: When a consumer of your service is a citizen, the user base will be very broad. You will have to analyze how you will identify these users when they want to access your agency's service.
 
-One of the first steps that your agency should take to enable the use of trusted third-party credentials is determining what types of credentials are acceptable for access. This is a multi-step process that involves careful consideration of a number of factors associated with the application’s business, security, infrastructure requirements, and the target user population.
+One of the first steps that you should take to enable the use of third-party credentials is determining what types of credentials are acceptable for access. This is a multi-step process that involves careful consideration of a number of factors associated with the application’s business, security, infrastructure requirements, and the target user population.
 
-## <span style="color: #0C5C89">**Checklist**</span>
+## Checklist
 
 > <i class="fa fa-check-square-o"></i> &nbsp;**Determine LOA and Security and Privacy Requirements.** Review the application’s level of assurance and analyze the specific security and technology requirements and infrastructure limitations.
 
@@ -27,15 +29,17 @@ One of the first steps that your agency should take to enable the use of trusted
 
 > <i class="fa fa-check-square-o"></i> &nbsp;**Analyze User Population.** Analyze the target user population to determine what credentials are available or can easily be obtained. When analyzing the user population, consider the following:
 
->> * Credentials that users external to the Federal Government already have 
+>> * Credentials that users already have 
 
->> * Total number of external users 
+>> * Total number of users 
 
 >> * User information requirements 
 
 >> * Ability of user to complete credential enrollment/issuance steps
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Select Acceptable Credentials.** An agency should select acceptable credentials that meet level of assurance, security, and privacy requirements and are available to the target user population.
+> <i class="fa fa-check-square-o"></i> &nbsp;**Select Acceptable Credentials.** Your agency should select acceptable credentials that meet level of assurance, security, and privacy requirements and are available to the target user population.
+
+## External Users
 
 When you are conducting a user population analysis, your agency should consider the following:
 
