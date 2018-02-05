@@ -24,24 +24,33 @@ Each application performs only their functions for the User.
 
 |  Application | What the Application Does | What the Application Does Not Do |
 | :------ | :------- | :------ |
-| **Service Provider** (also known as Relying Party) |  Provides the business service. <br>This could be managing email or reviewing and approving permits.	| Manage authentication or any authentication _secrets_. The service provider doesn't capture or store passwords or ??. <<br> Manage identity information.  |
-| **Identity Provider** (also known as Credential Service Provider)		| establishes an individual’s identity and links the identity to a credential | 		|
-| **User**	| 	requests access to an SP after authenticating to a CSP by providing his/her identity and token for verification. | 		|
+| **Service Provider (SP)** <br/>(also known as _Relying Party_) |  - Provides the business service. <br/>- This could be managing email or reviewing and approving permits. | - Manage login process or any login _secrets_. <br/>- The service provider doesn't capture or store passwords or login data. <br/>- Manage identity information.  |
+| **Identity Provider (IdP)** <br/>(also known as _Credential Service Provider_)	| - Establishes an individual’s identity by verifying who the user is. <br/>- Links the identity to a credential (e.g., login/password, ID Cards). <br/> - Validates the credential to facilitate the user to login to SP.| - Does not provide the service the user wants to access. <br/> - Does not keep track of what the user does in the SP application.		|
+| **User**	| 	- Requests access to an SP after authenticating to an IdP by providing his/her credential for verification. | 		|
 
 <!--Should we put in another column to also include "other" terms commonly used in govt docs?
 Should we explain authentication and credentials or link to another primer?   -->
 
-Add some sentences that explain different types of Identity Providers.  Lead into Know Your Users.  
+**Identity Provider (IdP)** can be:
+- **Enterprise SSO**: Your agency's enterprise Single Sign-On (SSO) system verifies that you are one of the agency's user. It also provides you with credentials to login to your agencies network. This credenatial is also used to give you access to a Service Provider (SP) application such as email or approving procurement system.
 
-An Identity Provider might be your agency's enterprise single sign on system. 
-An Identity provider might be...
+- **Government Wide Provider**: A common identity service that serves multiple agencies. An example is OMB's _max.gov_ where you can create a credential with your agency provided email address to access applications in your agency or other agencies. 
+  
+- **External Service**: An external IdP that allows consumers to access services. An example will be an identity application that allows fire fighters and first responders to access the services from the Department of Homeland Security (DHS).
 
-Explain a scenario where an IDP is your own agency's enterprise service focused on your agency users, a govt wide service focused on government users, a govt wide service focused on a community of interest, or a service focused on consumers. 
+<!-- Explain a scenario where an IDP is your own agency's enterprise service focused on your agency users, a govt wide service focused on government users, a govt wide service focused on a community of interest, or a service focused on consumers. 
 
-Then add an example for each. Use something they can go see and look at.
+ Then add an example for each. Use something they can go see and look at. -->
 
+**Service Provider (SP)** can be:
 
+- **Enterprise Application**: Your agency's enterprise applications, such as the email software or the procurement system, are examples of a Service Provider application.
 
+- **Government Wide Service**: A common service provided to users of multiple agencies such as pension benefits for government workers. 
+  
+- **External Service**: An external facing service that focusses on consumers. Users can create logins with their personal email address to access government services. An example is the HHS's _healthcare.gov_ where you can sign-up for healthcare, or the SSA.gov for Social Security.
+ 
+In order to understand how to plan for your Federation process, you will have to understand who your users are.
 
 
 
