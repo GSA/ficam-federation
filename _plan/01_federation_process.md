@@ -38,17 +38,19 @@ Should we explain authentication and credentials or link to another primer?   --
   
 - **External Service**: An external IdP that allows consumers to access services. An example will be an identity application that allows fire fighters and first responders to access the services from the Department of Homeland Security (DHS).
 
-<!-- Explain a scenario where an IDP is your own agency's enterprise service focused on your agency users, a govt wide service focused on government users, a govt wide service focused on a community of interest, or a service focused on consumers. 
+<!-- Explain a scenario where an IDP is your own agency's enterprise service focused on your agency users, a govt wide service focused on government users, a govt wide service focused on a community of interest (LEAP, NIH itrust), or a service focused on consumers. 
 
  Then add an example for each. Use something they can go see and look at. -->
 
-**Service Provider (SP)** can be:
+<!-- **Service Provider (SP)** can be:
 
 - **Enterprise Application**: Your agency's enterprise applications, such as the email software or the procurement system, are examples of a Service Provider application.
 
 - **Government Wide Service**: A common service provided to users of multiple agencies such as pension benefits for government workers. 
   
 - **External Service**: An external facing service that focusses on consumers. Users can create logins with their personal email address to access government services. An example is the HHS's _healthcare.gov_ where you can sign-up for healthcare, or the SSA.gov for Social Security.
+
+-->
  
 In order to understand how to plan for your Federation process, you will have to understand who your users are.
 
