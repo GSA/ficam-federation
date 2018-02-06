@@ -12,29 +12,46 @@ pubDate:
 - Relying Party Doc Section 5.1 (Page 21) has some materials for this planning.
 - (2/5/2018) Possible Single Sign-on Referenced Document: _Federal Identity, Credential, and Access Management Trust Framework Solutions Functional Requirements for FICAM SAML 2.0 Web Browser SSO Profile v1.0.2_ (Version 1.0.0) (date: 3/11/2014?) (doc undated)
 
-ORIG. INTRO PARAGRAPH:
-
-A successful federation implementation is one that takes an agency’s mission and business needs into consideration and supports an agency’s processes for interfacing with its customers. 
+(ORIG text) A successful federation implementation is one that takes an agency’s mission and business needs into consideration and supports an agency’s processes for interfacing with its customers. 
 When there are many externally facing applications, the cost savings are amplified, thereby increasing the benefits of accepting of third-party credentials. 
-(ORIG) The agency, **Isn't an RP = an application? Why does this say "agency"?** also known as the Relying Party (RP), can use this information to strengthen its business case and gain leadership approval. 
-(ORIG) To build the business case, the RP **Isn't an RP = an application? Or is it really an agency for this document?** will need to document the costs and benefits of accepting third-party credentials. This can be accomplished by taking the following steps:
+(ORIG text) The agency, also known as the Relying Party (RP), can use this information to strengthen its business case and gain leadership approval. **Isn't RP = an application?  How can it be an agency?**
+(ORIG text) To build the business case, the RP will need to document the costs and benefits of accepting third-party credentials. **How can an application do this, if RP is an application?** 
+
+(ORIG text) This can be accomplished by taking the following steps:
 
 For writing reference only:  (NIST SP 800-63-C) _Federation is a process that allows for the conveyance of authentication and subscriber attribute information across networked systems. In a federation scenario, the verifier or CSP is referred to as an identity provider, or IdP. The RP is the party that receives and uses the information provided by the IdP._ [more...]
 
-Breaks down into ideas like this (some thoughts)
+**Breaks down into ideas like this -- from Federation pages in FICAM-Arch Playbook and other sources:**
 
-## What Are the Benefits of Federation? (i.e., Single Sign-on [SSO] or Federated Sign-on)
-* ORIG: Cost savings [are amplified when an agency has many externally facing applications, which increases the benefits of accepting of third-party credentials.] 
-* Cost savings from reduced infrastructure, reduced need for personnel(?), elimination of redundant applications at different agencies.
-* Increased productivity -- your users could log into cross-agency websites and applications using their home agency credential.
-* Increased productivity from easy access to other agency's applications that are needed by your agency but not supported.
-* More collaboration and cooperation among agencies (e.g., what if we were all collaborated like we were "GOV.gov"?) = more contributors = more solutions.
-* Lower cost of IT tech support.
+## What are Single Sign-on (SSO) and Federated Sign-on?
+To plan for an SSO or FSO model for a federal enterprise or a federal mission application...[add text or move this]
+* Explain SSO
+* Explain FSO
+* Discuss planning below
 
-## What Do I Need To Consider [Do]?
-ORIG:  [Federation must] consider [your] agency’s mission, business needs, and customer-interface processes.<!--Examples would be helpful--> 
+## Benefits of Federation (i.e., SSO or FSO)
+* Enables your agency to establish and manage trusted identities for all system users.
+* Enables your agency to monitor user behavior and system security though diagnostics, analytics, and reporting.
+* Only authorized users can access protected resources, so Federation strengthens the Federal Government’s information and physical security.
+* Increases information-sharing and safeguarding
+* Increases interoperability through information-sharing agreements and establishing a common ICAM data architecture across government.
+* Secure delivery of mission services to customers, including access to information and resources.
+* Increased productivity through employee use of SSO or Federated Sign-on.
+* More collaboration and cooperation among agencies, and so new solutions (e.g., what if we were all collaborated like we were "GOV.gov"?)
+* Cost savings from reduced infrastructure, e.g., reduced credential authentication and authorization services, redundant applications.
+* Cost savings from centralized technical support teams.
+-- your users could log into cross-agency websites and applications using their home agency credential.
+
+* Foster trust by building protections for privacy and civil liberties into business processes and technical solutions
+Goal 4: Support Federal Government efficiency in information technology.
+4.1 - Streamline ICAM governance and program management within each agency or department
+4.2 - Standardize and automate ICAM business processes across the Federal Government
+4.3 - Establish shared service platforms and reuse or repurpose existing hardware and infrastructure when possible
+
+## What Do I Need To Consider?
+* Agency mission, business needs, and customer-interface processes. 
 * What are the requirements for the Federation project?
-* What federal requirements apply to Federation projects? -- policies, OMB memoranda, FISMA requirements, NIST standards, initatives to ensure compliance
+* What federal policies and mandates apply to Federation projects? -- policies, OMB memoranda, FISMA requirements, NIST standards, initatives to ensure compliance
 * Cost-benefit analysis for accepting third-party credentials [ORIG: business cases]
 * Develop a business case(s)
 * How to obtain funding and from where
@@ -42,17 +59,20 @@ ORIG:  [Federation must] consider [your] agency’s mission, business needs, and
 * How to set up agreements with other agencies
 * How to evaluate and contract with Service Providers
 * How to manage, mitigate, and report risks and issues -- internal agency, across-agency, cross-government?
-* Setting up communications and outreach vehicles - foster communications and cooperation, consistent messaging, timely and accurate reporting [Roadmap, pg. 178)
+* What federal reporting is required?
+* Develop communications and outreach vehicles - foster communications and cooperation, consistent messaging, timely and accurate reporting [Roadmap, pg. 178)
+
+Additional planning:
 * Establish cross-agency, cross-government working group(s)?
 * Define workstreams for project and administrative [Roadmap, pg. 177]
-* What reporting will be required?
+
 
 Future planning:
 * Which applications available from other agencies would your users benefit from if they had easy access to them?
 * Which applications could your agency eliminate if users had access to the same/similar applications at another agency?
 
-
-This can be accomplished by taking the following steps:
+## How Do We Plan for Federation?
+You can begin achieving the benefits of Federation by taking the following steps:
 
 ## <span style="color: #0C5C89">**Checklist**</span>
 
@@ -62,13 +82,13 @@ This can be accomplished by taking the following steps:
 * What new infrastructure needs to be put in place--design, build, implement?
 * What will be the cost of design, build, implement, operations, and maintenance (phases)? **Goes where?**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.** **How much will this cost to plan, design, build/integrate, operate, and maintain?** 
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.**
 * Calculate the cost based on the **integration?** effort per application.
 * Assess how complex is the application
 * Assess how easily can the application authentication method can be modified **Existing system or new system?**
 * Assess how easy it is to link third-party credentials to RP accounts. **Is this Account Linking?**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate ongoing costs.** **How much will other life-cycle cost phases cost?**
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate ongoing, life-cycle costs.**
 * Plan 
 * Design
 * Build/Integrate
