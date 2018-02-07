@@ -23,24 +23,24 @@ For writing reference only:  (NIST SP 800-63-C) _Federation is a process that al
 
 **Breaks down into ideas like this -- from Federation pages in FICAM-Arch Playbook and other sources:**
 
-## What are Single Sign-on (SSO) and Federated Sign-on?
+## What are Single Sign-on (SSO) and Federated Sign-on? **brief or if explained in Federal Process section, then eliminate here**
 To plan for an SSO or FSO model for a federal enterprise or a federal mission application...[add text or move this]
 * Explain SSO
 * Explain FSO
-* Discuss planning below
 
 ## Benefits of Federation (i.e., SSO or FSO)
-* Enables your agency to establish and manage trusted identities for all system users.
+* Enables your agency to securely deliver to your customers needed mission services and access to information and resources.
+* Strengthens information and physical security by allowing only authorized users to access protected resources. 
+* Establishes and enables trusted identities to be managed for all system users.
 * Enables your agency to monitor user behavior and system security though diagnostics, analytics, and reporting.
-* Only authorized users can access protected resources, so Federation strengthens the Federal Government’s information and physical security.
+* Cost savings from reduced infrastructure, e.g., reduced government authentication and authorization services by using third-party credentials and services
 * Increases information-sharing and safeguarding
-* Increases interoperability through information-sharing agreements and establishing a common ICAM data architecture across government.
-* Secure delivery of mission services to customers, including access to information and resources.
-* Increased productivity through employee use of SSO or Federated Sign-on.
-* More collaboration and cooperation among agencies, and so new solutions (e.g., what if we were all collaborated like we were "GOV.gov"?)
-* Cost savings from reduced infrastructure, e.g., reduced credential authentication and authorization services, redundant applications.
-* Cost savings from centralized technical support teams.
--- your users could log into cross-agency websites and applications using their home agency credential.
+* Cost savings through reducing agency technical support teams.
+* Increased interoperability by participating in the Federal Government-wide, common ICAM data architecture.
+* Increased productivity through user SSO or Federated Sign-on.
+* New solutions to pressing issues through increased agency and partner collaboration(e.g., like "GOV.gov + partners"?)
+
+-- your users could log into cross-agency websites and applications using third-party credentials.
 
 * Foster trust by building protections for privacy and civil liberties into business processes and technical solutions
 Goal 4: Support Federal Government efficiency in information technology.
@@ -63,15 +63,15 @@ Goal 4: Support Federal Government efficiency in information technology.
 * Develop communications and outreach vehicles - foster communications and cooperation, consistent messaging, timely and accurate reporting [Roadmap, pg. 178)
 
 Additional planning:
-* Establish cross-agency, cross-government working group(s)?
+* Establish working group(s)?
 * Define workstreams for project and administrative [Roadmap, pg. 177]
 
 
 Future planning:
-* Which applications available from other agencies would your users benefit from if they had easy access to them?
+* Which applications available from other agencies could your users benefit from if they had easy access to them?
 * Which applications could your agency eliminate if users had access to the same/similar applications at another agency?
 
-## How Do We Plan for Federation?
+## What Do We Need To Do?
 You can begin achieving the benefits of Federation by taking the following steps:
 
 ## <span style="color: #0C5C89">**Checklist**</span>
@@ -97,18 +97,33 @@ You can begin achieving the benefits of Federation by taking the following steps
 * Maintain
 * Service charges (Example:  If a shared service provider is used, such as a federation broker, then the RP should also account for ongoing service charges.) 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate/calculate cost benefit.** After the costs are known, calculate the costs and return on investment (ROI) can be calculated based on reducing the need for identity-proofing and managing credentials. Weigh the benefits? 
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate/calculate ROI benefit.** After the costs are known, calculate the costs and return on investment (ROI) can be calculated based on reducing the need for identity-proofing and managing credentials. Weigh the benefits? 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Create a phased approach.** <!--There is always a phased approach. What is the phased approach? Everyone already knows this is needed. Do we really need to say this?-->A phased and prioritized approach should be used to split activities into achievable milestones, incremental build and test, etc. Demonstrate incremental benefits. 
-* Phase A:  <!--Communicating is good but this text provides no value-->Communicate changes to stakeholders and users, since accepting externally issued credentials for access to government resources signals a paradigm shift for agencies and users that have traditionally relied on federally-issued credentials.
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding.**
+**What are steps?**
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and Select IdP(s).**
+* Evaluate - Review xx document [link] for guidance on evaluating IdPs.
+* Select - Reivew xx document [link] for guidance on selecting IdPs.
+
+<i class="fa fa-check-square-o"></i> &nbsp;**XXX Sevice-Level Agreements (SLAs).**
+* Enter into SLAs with IdPs - Review xx document [link] for guidance on SLAs. [**agency-specific?**]
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Schedule.** 
+* Prioritize incremental project tasks and achievable milestones (Agile - iterations) 
+* Phase A: Target business case systems
 * Phase B: xxxx
 * Phase C: xxx
 * Phase D: xxx
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop required program-management documents:**
-* Program Management Plan
-* Program Schedule and Milestones
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation project schedule.** Communicate with stakeholders and users, since third-party credentials is a significate change in traditional reliance on federally-issued credentials.
+* Develop Federation project schedule with phases and milestones.
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop Program Management core documents:**
+* Project Management Plan
+* Project Schedule and Milestones
 * Risk Management Plan
+* Communications Plan?
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Determine what reporting is required**
 * FISMA
