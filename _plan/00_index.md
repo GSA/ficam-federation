@@ -28,19 +28,38 @@ To plan for an SSO or FSO model for a federal enterprise or a federal mission ap
 * Explain SSO
 * Explain FSO
 
-## Benefits of Federation (i.e., SSO or FSO)
-* Enables your agency to securely deliver to your customers needed mission services and access to information and resources.
-* Strengthens information and physical security by allowing only authorized users to access protected resources. 
-* Establishes and enables trusted identities to be managed for all system users.
-* Enables your agency to monitor user behavior and system security though diagnostics, analytics, and reporting.
-* Cost savings from reduced infrastructure, e.g., reduced government authentication and authorization services by using third-party credentials and services
-* Increases information-sharing and safeguarding
-* Cost savings through reducing agency technical support teams.
-* Increased interoperability by participating in the Federal Government-wide, common ICAM data architecture.
-* Increased productivity through user SSO or Federated Sign-on.
-* New solutions to pressing issues through increased agency and partner collaboration(e.g., like "GOV.gov + partners"?)
+## Federation Benefits (i.e., SSO or FSO)
+* Simplified, secure delivery of mission services to federal agency customers. (Strengthens information security and results in satisfied customers)
+* Third-party-created trusted identities and credentials eliminate infrastructure burdens on federal agencies.
+* Only authorized users may access protected resources (strengthens information and physical security). 
+* Ability to monitor user behavior and system security though diagnostics, analytics, and reporting. (Information security)
+* Increased interoperability across the Federal Government through a common ICAM data architecture. (Greater interoperability)
+* Increases information-sharing and safeguarding.
+* Cost savings through reduced staff burden (e.g., technical support teams).
+* Increased productivity through simplified SSO or FSO processes.
 
--- your users could log into cross-agency websites and applications using third-party credentials.
+**OR recategorize into groups:**
+* Information Security - xxxxx, xxx, xxx
+* Physical Security - xxxx
+* Cybersecurity - Contiuous Diagnostics and Mitigation (CDM) monitoring of user behavior - Access Control Management (Trust in People Granted Access)
+* Privacy - 
+* Federal Government Cost Savings - xxxx, xxx, xxx 
+* Interoperablity across goverment - xxx, xx, xx, 
+* Increased productivity/efficiency - xx, xx, xx,
+* Directives and policies-compliant: HSPD-12; FISMA; CNAP; OMB Memoranda:  M11-11, xx, xxx, xxx, FICAM Roadmap (**list all appropriate directives, policies**)
+* Standards-compliant: NIST 800-63-3, 800-37, 800-79, 800-53, xxx (**which standards apply?**)
+
+Not relevant?
+* New solutions to pressing issues through increased collaboration among agencies, partners, and citizens.
+
+**CDM info:
+"It is paramount that the government protects networks, systems, and information from unauthorized access or disruption while continually providing essential services to the public and protecting privacy, civil rights, and civil liberties."**
+**Cybersecurity National Action Plan (CNAP):** 
+- Modernize Government IT and transform how the Government manages cybersecurity.  Also, **Federal Government will take steps to safeguard personal data in online transactions between citizens and the government, including through a new action plan to drive the Federal Government’s adoption and use of _effective identity proofing and strong multi-factor authentication methods_** and a systematic review of where the Federal Government can reduce reliance on Social Security Numbers as an identifier of citizens.
+- The Department of Homeland Security, the **General Services Administration**, and other Federal agencies will increase the availability of government-wide shared services for IT and cybersecurity, with the **goal of taking each individual agency out of the business of building, owning, and operating their own IT when more efficient, effective, and secure options are available, as well as ensuring that individual agencies are not left on their own to defend themselves against the most sophisticated threats.**
+- The Federal Government is accelerating **adoption of strong multi-factor authentication and identity proofing for citizen-facing Federal Government digital services.**  The **General Services Administration will establish a new program that will better protect and secure the data and personal information of Americans as they interact with Federal Government services, including tax data and benefit information.**
+
+-- your users could log into external-facing websites and applications using third-party credentials.
 
 * Foster trust by building protections for privacy and civil liberties into business processes and technical solutions
 Goal 4: Support Federal Government efficiency in information technology.
