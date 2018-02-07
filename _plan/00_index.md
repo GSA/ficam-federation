@@ -14,8 +14,8 @@ pubDate:
 
 (ORIG text) A successful federation implementation is one that takes an agency’s mission and business needs into consideration and supports an agency’s processes for interfacing with its customers. 
 When there are many externally facing applications, the cost savings are amplified, thereby increasing the benefits of accepting of third-party credentials. 
-(ORIG text) The agency, also known as the Relying Party (RP), can use this information to strengthen its business case and gain leadership approval. **Isn't RP = an application?  How can it be an agency?**
-(ORIG text) To build the business case, the RP will need to document the costs and benefits of accepting third-party credentials. **How can an application do this, if RP is an application?** 
+(ORIG text) The agency, also known as the Relying Party (RP), can use this information to strengthen its business case and gain leadership approval. **How can an agency be an RP?**
+(ORIG text)  **How can an application do this, if RP is an application?** 
 
 (ORIG text) This can be accomplished by taking the following steps:
 
@@ -31,25 +31,26 @@ To plan for an SSO or FSO model for a federal enterprise or a federal mission ap
 ## Federation Benefits (i.e., SSO or FSO)
 * Simplified, secure delivery of mission services to federal agency customers. (Strengthens information security and results in satisfied customers)
 * Third-party-created trusted identities and credentials eliminate infrastructure burdens on federal agencies.
-* Only authorized users may access protected resources (strengthens information and physical security). 
-* Ability to monitor user behavior and system security though diagnostics, analytics, and reporting. (Information security)
+* Only authorized users may access protected resources (strengthens information security and physical security). 
+* Ability to monitor user behavior and system security though diagnostics, analytics, and reporting. (Cybersecurity)
+* Protection of PII.
 * Increased interoperability across the Federal Government through a common ICAM data architecture. (Greater interoperability)
 * Increases information-sharing and safeguarding.
 * Cost savings through reduced staff burden (e.g., technical support teams).
 * Increased productivity through simplified SSO or FSO processes.
 
 **OR recategorize into groups:**
-* Information Security - xxxxx, xxx, xxx
-* Physical Security - xxxx
+* Information security and Privacy - xxxxx, xxx, xxx (includes privacy - PII is safeguarded)
 * Cybersecurity - **Include?** Contiuous Diagnostics and Mitigation (CDM) monitoring of user behavior - Access Control Management (Trust in People Granted Access)....
-* Privacy - 
+* Revoking User Credentials - (more timely) (managing credentials)
+* Physical Security - (How does Federation support physical security?)
 * Federal Government Cost Savings - xxxx, xxx, xxx 
 * Interoperablity across goverment - xxx, xx, xx, 
 * Increased productivity/efficiency - xx, xx, xx,
 * Compliant with Directives, Policies, and Standards
 
 Not relevant?
-* New solutions to pressing issues through increased collaboration among agencies, partners, and citizens.
+* Promotes innovative solutions to key government challenges through greater collaboration with partners and citizens.
 
 -- your users could log into external-facing websites and applications using third-party credentials.
 
@@ -87,11 +88,15 @@ You can begin achieving the benefits of Federation by taking the following steps
 
 ## <span style="color: #0C5C89">**Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate upfront cost to design, build, implement, and maintain the solution architecture?** 
-* Count your agency's applications that need to accept third-party credentials --> feeds into Solution Architecture
-* Determine what existing infrastructure can be reused **What does this mean? What might existing infrastructure consist of?**
-* What new infrastructure needs to be put in place--design, build, implement?
-* What will be the cost of design, build, implement, operations, and maintenance (phases)? **Goes where?**
+<i class="fa fa-check-square-o"></i> &nbsp;**Create a Business Case**
+* To build a business case, you'll need to document the costs and benefits of accepting third-party credentials.
+* And then what do they do?  **Is there a business case development reference doc?--From FICAM Roadmap, section 4, "ICAM Use Cases"??
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate upfront costs to plan, design, build, and maintain Federation solution?** 
+* Count your agency's applications that need to accept third-party credentials.
+* Determine what existing infrastructure can be reused.
+* What new infrastructure needs to be put in place?
+* What will your Federation solution cost to plan, design, build, and maintain?
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.**
 * Calculate the cost based on the **integration?** effort per application.
@@ -106,9 +111,11 @@ You can begin achieving the benefits of Federation by taking the following steps
 * Operate/Manage/Overhead
 * Governance
 * Maintain
-* Service charges (Example:  If a shared service provider is used, such as a federation broker, then the RP should also account for ongoing service charges.) 
+* Service charges (for example, if you use a shared service provider, such as a federation broker, then you would also calculate ongoing service charges.) 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate/calculate ROI benefit.** After the costs are known, calculate the costs and return on investment (ROI) can be calculated based on reducing the need for identity-proofing and managing credentials. Weigh the benefits? 
+<i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI benefit.** 
+* After the costs have been estimated, calculate the Return on Investment (ROI) gained by reducing your cost for identity-proofing and managing credentials. 
+* Weigh the benefits vs. cost. 
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding.**
 **What are steps?**
@@ -118,7 +125,7 @@ You can begin achieving the benefits of Federation by taking the following steps
 * Select - Reivew xx document [link] for guidance on selecting IdPs.
 
 <i class="fa fa-check-square-o"></i> &nbsp;**XXX Sevice-Level Agreements (SLAs).**
-* Enter into SLAs with IdPs - Review xx document [link] for guidance on SLAs. [**agency-specific?**]
+* Enter into SLAs with IdPs. Review xx document [link] for guidance on executing SLAs. [**agency-specific?**]
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Schedule.** 
 * Prioritize incremental project tasks and achievable milestones (Agile - iterations) 
@@ -127,8 +134,9 @@ You can begin achieving the benefits of Federation by taking the following steps
 * Phase C: xxx
 * Phase D: xxx
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation project schedule.** Communicate with stakeholders and users, since third-party credentials is a significate change in traditional reliance on federally-issued credentials.
-* Develop Federation project schedule with phases and milestones.
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation project schedule.** 
+* Communicate with stakeholders and users to determine their requirements and buy-in, since third-party credentials is a significate change in traditional reliance on federally-issued credentials.
+* Develop a Federation project schedule (phases and achievable, incremental milestones).
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop Program Management core documents:**
 * Project Management Plan
@@ -137,8 +145,10 @@ You can begin achieving the benefits of Federation by taking the following steps
 * Communications Plan?
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Determine what reporting is required**
-* FISMA
-* Privacy
+* Project Status Reviews and Reports to agency CIO*?*
+* Budget vs. expenditures reporting
+* FISMA reporting
+* Senior Agency Officials for Privacy reporting*?*
 
 
 
