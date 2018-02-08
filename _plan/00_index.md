@@ -15,7 +15,11 @@ pubDate:
 
 ===============================
 
-Now that you're learned what Federation is, you may be asking yourself: "Is Federation right for our agency? It's a real shift from the way we've done things in the past. What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? Which other agencies are using Federation? Is there a down side?
+Now that you're learned what Federation is, you may be asking yourself: 
+* Is Federation right for our agency? (It's a real shift from the way we've done things in the past.) 
+* What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? 
+* Which other agencies are using Federation? 
+* Is there a down side?
 
 ## Pros and Cons of Federation
 
@@ -31,7 +35,7 @@ Federation offers significant advantages to federal agencies, but it's important
 * Compliance with Executive Orders, directives, policies, and standards
 * What federal reporting is required for a Federation project (e.g., FISMA)?
 
-If, after considering the pros and cons, you think "yes, Federation would definitely benefit our agency," you'll need to start planning your Federation project.
+If, after considering the pros and cons, does Federation look like it would benefit your agency? ...and you would like to start ....  you'll think about planning your Federation project.
 
 ## How Do I Plan a Federation Project?
 
