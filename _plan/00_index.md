@@ -13,16 +13,17 @@ pubDate:
 - (2/5/2018) Possible Single Sign-on Referenced Document: _Federal Identity, Credential, and Access Management Trust Framework Solutions Functional Requirements for FICAM SAML 2.0 Web Browser SSO Profile v1.0.2_ (Version 1.0.0) (date: 3/11/2014?) (doc undated)
 - **One definition of SSO:** http://searchsecurity.techtarget.com/definition/single-sign-on Single sign-on (SSO) is a session and user authentication service that permits a user to use one set of login credentials (e.g., name and password) to access multiple applications. The service authenticates the ...user for all the applications he/she has been given rights to and eliminates further prompts when the user switches applications during the same session. On the back end, SSO [allows for] logging user activities as well as monitoring user accounts.   **Do we need to explain SSO/FSO for PM?  Is this covered in another section of playbook?**
 
+===============================
+
 Now that you're learned what Federation is, you may be asking yourself: "Is Federation right for our agency? It's a real shift from the way we've done things in the past. What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? Which other agencies are using Federation? Is there a down side?
 
-## Weigh the Pros and Cons of Federation
+## Pros and Cons of Federation
 
-Federation offers significant advantages to federal agencies, but it's important for you to weigh the pros and cons based on your agency's needs:
+Federation offers significant advantages to federal agencies, but it's important to weigh the pros and cons based on your agency's needs:
 * Agency mission
 * The level of your agency's interface with customers (few to many externally facing applications, few to many customers)
-* Benefits of streamlined (simplified) access to applications across government
+* Benefits of streamlined (simplified) access to applications across government by increased productivity through reduced user authentication needs (many logins, mulitiple credentials for many applications)
 * The benefits of reducing operational costs and credentialing infrastructure through Single Sign-on (SSO)/Federated Sign-on (FSO) and third-party credentialing services (--SSO, identity proofing, maintaining attribute repositories, and issuing/revoking credentials)
-* Increased productivity through reduced user authentication needs (many logins, mulitiple credentials for many applications)
 * Reduced labor cost for technical support teams
 * Availability of funding
 * Stakeholder buy-in
