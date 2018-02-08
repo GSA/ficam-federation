@@ -11,77 +11,46 @@ pubDate:
 - Intro to the Plan section - review, modify and apply plain language principles including less words / more actionable items; focus on steps for a program manager to plan for a single sign on or federated sign on model for a federal enterprise or a federal mission application
 - Relying Party Doc Section 5.1 (Page 21) has some materials for this planning.
 - (2/5/2018) Possible Single Sign-on Referenced Document: _Federal Identity, Credential, and Access Management Trust Framework Solutions Functional Requirements for FICAM SAML 2.0 Web Browser SSO Profile v1.0.2_ (Version 1.0.0) (date: 3/11/2014?) (doc undated)
+- **One definition of SSO:** http://searchsecurity.techtarget.com/definition/single-sign-on Single sign-on (SSO) is a session and user authentication service that permits a user to use one set of login credentials (e.g., name and password) to access multiple applications. The service authenticates the ...user for all the applications he/she has been given rights to and eliminates further prompts when the user switches applications during the same session. On the back end, SSO [allows for] logging user activities as well as monitoring user accounts.   **Do we need to explain SSO/FSO for PM?  Is this covered in another section of playbook?**
 
-(ORIG text) A successful federation implementation is one that takes an agency’s mission and business needs into consideration and supports an agency’s processes for interfacing with its customers. 
-When there are many externally facing applications, the cost savings are amplified, thereby increasing the benefits of accepting of third-party credentials. 
-(ORIG text) The agency, also known as the Relying Party (RP), can use this information to strengthen its business case and gain leadership approval. **How can an agency be an RP?**
-(ORIG text)  **How can an application do this, if RP is an application?** 
+Now that you're learned what Federation is, you may be asking yourself: "Is Federation right for our agency? It's a real shift from the way we've done things in the past. What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? Which other agencies are using Federation? Are there a down side?
 
-(ORIG text) This can be accomplished by taking the following steps:
+Federation offers significant advantages to federal agencies, but it's important to weigh the pros and cons based on your agency's needs:
+* Agency mission
+* The level of your agency's interface with customers (few to many externally facing applications, few to many customers)
+* Benefits of streamlined (simplified) access to applications across government
+* The benefits of reducing operational costs and credentialing infrastructure through Single Sign-on (SSO)/Federated Sign-on (FSO) and third-party credentialing services (--SSO, identity proofing, maintaining attribute repositories, and issuing/revoking credentials)
+* Increased productivity through reduced user authentication needs (many logins, mulitiple credentials for many applications)
+* Reduced labor cost for technical support teams
+* Finding funding sources for Federation projects
+* Stakeholder buy-in
+* What are the inherent risks? 
+* What federal reporting changes would be required with a Federation model (e.g., FISMA)?
+* Compliance with Executive Orders, directives, policies, and standards
 
-For writing reference only:  (NIST SP 800-63-C) _Federation is a process that allows for the conveyance of authentication and subscriber attribute information across networked systems. In a federation scenario, the verifier or CSP is referred to as an identity provider, or IdP. The RP is the party that receives and uses the information provided by the IdP._ [more...]
+Once you've considered the pros and cons and think Federation would benefit your agency, how do you plan for a Federation project?" 
 
-**Breaks down into ideas like this -- from Federation pages in FICAM-Arch Playbook and other sources:**
-
-## What are Single Sign-on (SSO) and Federated Sign-on? **brief or if explained in Federal Process section, then eliminate here**
-To plan for an SSO or FSO model for a federal enterprise or a federal mission application...[add text or move this]
-* Explain SSO
-* Explain FSO
-
-## Federation Benefits (i.e., SSO or FSO)
-* Simplified, secure delivery of mission services to federal agency customers. (Strengthens information security and results in satisfied customers)
-* Third-party-created trusted identities and credentials eliminate infrastructure burdens on federal agencies.
-* Only authorized users may access protected resources (strengthens information security and physical security). 
-* Ability to monitor user behavior and system security though diagnostics, analytics, and reporting. (Cybersecurity)
-* Protection of PII.
-* Increased interoperability across the Federal Government through a common ICAM data architecture. (Greater interoperability)
-* Increases information-sharing and safeguarding.
-* Cost savings through reduced staff burden (e.g., technical support teams).
-* Increased productivity through simplified SSO or FSO processes.
-
-**OR recategorize into groups:**
-* Information security and Privacy - xxxxx, xxx, xxx (includes privacy - PII is safeguarded)
-* Cybersecurity - **Include?** Contiuous Diagnostics and Mitigation (CDM) monitoring of user behavior - Access Control Management (Trust in People Granted Access)....
-* Revoking User Credentials - (more timely) (managing credentials)
-* Physical Security - (How does Federation support physical security?)
-* Federal Government Cost Savings - xxxx, xxx, xxx 
-* Interoperablity across goverment - xxx, xx, xx, 
-* Increased productivity/efficiency - xx, xx, xx,
-* Compliant with Directives, Policies, and Standards
-
-Not relevant?
-* Promotes innovative solutions to key government challenges through greater collaboration with partners and citizens.
-
--- your users could log into external-facing websites and applications using third-party credentials.
-
-* Foster trust by building protections for privacy and civil liberties into business processes and technical solutions
-Goal 4: Support Federal Government efficiency in information technology.
-4.1 - Streamline ICAM governance and program management within each agency or department
-4.2 - Standardize and automate ICAM business processes across the Federal Government
-4.3 - Establish shared service platforms and reuse or repurpose existing hardware and infrastructure when possible
-
-## What Do I Need To Consider?
+The key planning tasks would include: (See the checklists below for actionable steps)
 * Agency mission, business needs, and customer-interface processes. 
 * What are the requirements for the Federation project?
 * What federal policies and mandates apply to Federation projects? -- policies, OMB memoranda, FISMA requirements, NIST standards, initatives to ensure compliance
 * Cost-benefit analysis for accepting third-party credentials [ORIG: business cases]
 * Develop a business case(s)
 * How to obtain funding and from where
-* Identify stakeholders (program, agency, and government-wide)  [Does this apply: ICAM Segment government-wide and agency-level stakeholders in Roadmap, pgs. 168-175]
-* How to set up agreements with other agencies
+* Identify, communicate with, and get feedback from stakeholders about the Federation project.  [Does this apply: ICAM Segment government-wide and agency-level stakeholders in Roadmap, pgs. 168-175]
 * How to evaluate and contract with Service Providers
 * How to manage, mitigate, and report risks and issues -- internal agency, across-agency, cross-government?
 * What federal reporting is required?
 * Develop communications and outreach vehicles - foster communications and cooperation, consistent messaging, timely and accurate reporting [Roadmap, pg. 178)
 
-Additional planning:
-* Establish working group(s)?
-* Define workstreams for project and administrative [Roadmap, pg. 177]
+
 
 
 Future planning:
-* Which applications available from other agencies could your users benefit from if they had easy access to them?
-* Which applications could your agency eliminate if users had access to the same/similar applications at another agency?
+
+
+
+
 
 ## What Do We Need To Do?
 You can begin achieving the benefits of Federation by taking the following steps:
@@ -146,10 +115,12 @@ You can begin achieving the benefits of Federation by taking the following steps
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Determine what reporting is required**
 * Project Status Reviews and Reports to agency CIO*?*
-* Budget vs. expenditures reporting
+* Budget vs. actuals reporting
 * FISMA reporting
 * Senior Agency Officials for Privacy reporting*?*
 
 
-
+Additional planning:
+* Establish working group(s)?
+* Define workstreams for project and administrative [Roadmap, pg. 177]
 
