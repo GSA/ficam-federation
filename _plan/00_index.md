@@ -33,7 +33,7 @@ Federation offers significant advantages to federal agencies, but it's important
 * Stakeholder buy-in
 * What are the inherent risks? 
 * Compliance with Executive Orders, directives, policies, and standards
-* What federal reporting is required for a Federation project (e.g., FISMA)?
+* What federal reporting is required(e.g., FISMA)?
 
 If, after considering the pros and cons, does Federation look like it would benefit your agency? ...and you would like to start ....  you'll think about planning your Federation project.
 
