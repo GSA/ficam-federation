@@ -1,65 +1,34 @@
 ---
 layout: default
-title: Federation Design Patterns  
+title: Federation Design
 permalink: /design/
 collection: design
 pubDate: 
 ---
 
 - Audience: Engineer/Architect
-- Detail the different design patterns for federation.
+- Provide an introduction to federation transaction and lead them to design patterns and protocols.
 - FICAM Roadmap section 12.1.2 Federation Trust Topologies
 
-If you want to design a federation architecture, there are a number of different information sharing approaches that your agency might choose. These approaches, referred to as design patterns, will differ based on the type of relationship that exists with the external parties involved and the level of trust required for the transaction and are driven by your organization‘s business model. 
+============================
 
-Here are the three common federation design patterns.
+You will see these common steps during a federation transaction: 
 
-## Point-to-Point 
+- **Login** - The user requests access to the SP application.
+- **Redirection** - The service provider checks that the user is not authenticated and redirects the user to the Identity Provider (IdP) application.
+- **Authentication** - The user is challenged by the Identity Provider to prove who he/she is via a valid credential such as a username and password. The IdP validates the identity of the individual using the credential.
+- **Data Sharing** - The IdP shares the information, also known as _Assertion_, with the SP that the user was successfully vetted.
+- **Validation** - Once the SP verifies the assertion from the CSP, it may allow access to the user to its application. The SP may request additional identity information about the user from the CSP or AP.
 
-This pattern establishes a bi-lateral trust agreement between two parties to exchange data directly. 
-- This approach will provide you with the flexibility in defining the data sharing model that only relates to the involved parties.
-- The downside of this model is that it may be customized to data exchange agreements between the two entities and may not be flexible to expand the federation beyond the two entities in the future.
+The above example scenario is also known as _SP initiated federation_. In case of an _IdP initiated federation_, the user requests access to the SP application by accessing the CSP application first instead of being redirected from the SP.
 
-An example of this pattern is the Defense Support of Civil Authorities pilot program between DHS and DoD. 
-It involved the exchange of data between the two agencies for the purpose of enabling DoD
-personnel to access DHS resources. Because the Defense Support of Civil Authorities
-pilot program involved only two organizations, the point-to-point model was deemed the
-most appropriate.
+## Design Patterns
 
-## Hub-and-Spoke
-
-This pattern is a typical federation scenario where a single entity acts as the identity provider for a number of service providers. 
-- The service providers do not communicate with each other; all communication and information exchange occurs through the identity provider. 
-- The benefits are simplification of the federation process for all SP since one IdP dictates the data
-exchange. 
-- The drawback of this approach is that the federation process is limited to the capability
-of the IdP to provide the data requirement for all.
-
-An example is OMB‘s **Max.gov**. It acts as a central identity provider that each agency can connect
-to in order to communicate and share data with other agencies. The hub-and-spoke model was 
-appropriate to consolidate data in a single location that could enforce strict access restrictions.
-
-## Networked 
-
-In this scenario, all entities are interconnected and can communicate and exchange data with all others. 
-- Entities may choose one or more approved Identity Providers. 
-- The ability to connect to multiple entities allows for interoperability and de-centralized data sharing. 
-- The complexity of maintaining the federation agreement over time increases as changes to one entity starts to affect other entities. 
-- A networked approach will require oversight and co-ordination between the entities involved.
-
-An example is the **InCommon** Federation. Though InCommon does not provide
-any of the services itself, it uses the networked model to manage a common trust and technology framework 
-that enables Service Providers to quickly establish peer-to-peer connections to any of the Identity 
-Providers in research and higher education.
-
-When establishing a new federation, it is likely that your agency will be able select a trust model to
-suit the specific needs of the involved parties. This decision is often affected by existing
-infrastructure availability, business requirements, privacy considerations, and granular attribute
-release needs. 
+If you want to design a federation implementation, you will find a number of different information sharing approaches that your agency might choose. These approaches, referred to as **design patterns**, will differ based on the type of relationship that exists with the external parties involved and the level of trust required for the transaction. 
 
 Your agency‘s existing ICAM investments, such as modernized logical access
 control systems (LACS), may also provide additional capabilities that could impact the
-federation topology that best meets the agency‘s needs. These additional factors may drive an
+federation architecture that best meets the agency‘s needs. These additional factors may drive an
 agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a
 model that closely represents the agency‘s needs. 
 
@@ -69,6 +38,20 @@ trust. When entering into an established federation; however, it is likely that 
 federation members have already chosen a trust topology. Therefore it is important than an 
 agency examine the factors previously discussed to select a federation that most closely meets 
 its needs.
+
+## Federation Protocols
+
+This data sharing between the CSP and SP is made possible through the sharing of user's authentication information via common exchange protocols and agreed-upon open standards/specifications. This will enable your agency to allow a user from another organization or trust an authentication conducted outside of your agency. 
+
+In a federated environment, these transactions occur between trusted Identity Providers that have
+been approved through the Federal Trust Framework and relying parties. Given the nature of federated transactions and the electronic exchange of identity data across organizational boundaries, there is an increased focus on security and privacy to ensure users' sensitive identity data is appropriately safeguarded. 
+
+When establishing a new federation, it is likely that your agency will be able select a trust model to
+suit the specific needs of the involved parties. This decision is often affected by existing
+infrastructure availability, business requirements, privacy considerations, and granular attribute
+release needs. 
+
+
 
 
 
