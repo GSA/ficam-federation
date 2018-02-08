@@ -7,12 +7,19 @@ pubDate:
 ---
 
 - Audience: Engineer/Architect
-- Define the criteria for selecting architecture. Detail the different types of architecture - stand-alone, enterprise and broker.
+- Define the criteria for selecting architecture. Detail the different types of architecture patterns.
 - Relying Party document section 6.2 - Developing the Solution Architecture.
+- FICAM Roadmap section 12.1.2 Federation Trust Topologies
 
-If you want to design a federation architecture, there are a number of different information sharing approaches that your agency might choose. These approaches, referred to as design patterns, will differ based on the type of relationship that exists with the external parties involved and the level of trust required for the transaction and are driven by your organization‘s business model. 
+============================
 
-Here are the three common federation design patterns.
+You will find three commonly used federation architectures. Each of these architectures has a common set of functionalities - the ability to integrate with a CSP, parse an assertion, and link accounts. However, you will see variations to how those requirements are implemented. Each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model. 
+
+- [Stand-Alone Application](#stand-alone-application)
+- [Enterprise Federation](#enterprise-federation)
+- [Federation Broker](#federation-broker)
+
+To select a solution architecture, you should understand which architecture is most applicable to your agency’s situation. We recommended that your agency use the information collected from the assessments during the agency’s planning period to select the [solution architecture](#architecture-selection).
 
 ## Point-to-Point 
 
@@ -70,13 +77,7 @@ federation members have already chosen a trust topology. Therefore it is importa
 agency examine the factors previously discussed to select a federation that most closely meets 
 its needs.
 
-You will find three commonly used federation architectures. Each of these architectures has a common set of functionalities - the ability to integrate with a CSP, parse an assertion, and link accounts. However, you will see variations to how those requirements are implemented. Each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model. 
 
-- [Stand-Alone Application](#stand-alone-application)
-- [Enterprise Federation](#enterprise-federation)
-- [Federation Broker](#federation-broker)
-
-To select a solution architecture, you should understand which architecture is most applicable to your agency’s situation. We recommended that your agency use the information collected from the assessments during the agency’s planning period to select the [solution architecture](#architecture-selection).
 
 ## Stand-Alone Application
 
