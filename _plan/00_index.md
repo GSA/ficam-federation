@@ -15,7 +15,7 @@ pubDate:
 
 Now that you're learned what Federation is, you may be asking yourself: "Is Federation right for our agency? It's a real shift from the way we've done things in the past. What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? Which other agencies are using Federation? Is there a down side?
 
-## Weigh the Pros and Cons
+## Weigh the Pros and Cons of Federation
 
 Federation offers significant advantages to federal agencies, but it's important for you to weigh the pros and cons based on your agency's needs:
 * Agency mission
@@ -51,7 +51,7 @@ Key planning tasks: (**Note:**&nbsp;&nbsp;See the checklists below for actionabl
 * What federal mandates and policies apply?
 * Develop communications and outreach vehicles - foster communications and cooperation, consistent messaging, timely and accurate reporting [Roadmap, pg. 178)
 
-xxxxx, xxxxx Federation by taking the following steps:
+Intro statement:  xxxxx, xxxxx Federation by taking the following steps:
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
@@ -98,10 +98,10 @@ xxxxx, xxxxx Federation by taking the following steps:
 * Develop a phased, Federation project schedule with incremental milestones.
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
-* Project Management Plan
+* Project Management Plan (with Work Breakdown Structure)
 * Project Schedule and Milestones
 * Risk Management Plan
-* Communications Plan?
+* Communications Plan
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Timely and accurate reporting**
 * Project Status Reviews and Reports to agency CIO*?*
@@ -111,6 +111,5 @@ xxxxx, xxxxx Federation by taking the following steps:
 
 
 Additional planning:
-* Establish working group(s)?
-* Define workstreams for project and administrative [Roadmap, pg. 177]
+* Establish stakeholders working group(s)/tiger team
 
