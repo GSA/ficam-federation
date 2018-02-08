@@ -9,6 +9,7 @@ pubDate:
 - Audience: Engineer/Architect
 - Provide an introduction to federation transaction and lead them to design patterns and protocols.
 - FICAM Roadmap section 12.1.2 Federation Trust Topologies
+- FICAM TFS Relying Party Doc Section 3.1.1 - Federated Authentication by a credential provider. 
 
 ============================
 
