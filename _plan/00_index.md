@@ -41,7 +41,7 @@ Federation may offer significant advantages for your agency, but it's important 
 
 If the pros outweigh the cons and Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
 
-## Plan for a Federation Project?
+## Plan for a Federation Project
 
 To help you plan, here are some key steps with actionable checklists: 
 
@@ -87,7 +87,7 @@ To help you plan, here are some key steps with actionable checklists:
 * Communicate with stakeholders and users to determine their requirements and buy-in.
 * Develop a phased, Federation project schedule with incremental milestones.
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Technical Team
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Technical Team**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and Select Service Providers (IdPs)**
 * Evaluate - Review xx document [link] for guidance on evaluating IdPs.
