@@ -41,7 +41,7 @@ Federation may offer significant advantages for your agency, but it's important 
 
 If the pros outweigh the cons and Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
 
-## How Do I Plan for a Federation Project?
+## Plan for a Federation Project?
 
 To help you plan, here are some key steps with actionable checklists: 
 
