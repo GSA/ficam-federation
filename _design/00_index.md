@@ -10,47 +10,47 @@ pubDate:
 - Provide an introduction to federation transaction and lead them to design patterns and protocols.
 - FICAM Roadmap section 12.1.2 Federation Trust Topologies
 - FICAM TFS Relying Party Doc Section 3.1.1 - Federated Authentication by a credential provider. 
+- FICAM TFS Relying Party Doc Section 3.1.2 - Direct Authentication with PKI Credentials. 
 
 ============================
 
-You will see these common steps during a federation transaction: 
+## Federation Process
 
-- **Login** - The user requests access to the SP application.
-- **Redirection** - The service provider checks that the user is not authenticated and redirects the user to the Identity Provider (IdP) application.
-- **Authentication** - The user is challenged by the Identity Provider to prove who he/she is via a valid credential such as a username and password. The IdP validates the identity of the individual using the credential.
-- **Data Sharing** - The IdP shares the information, also known as _Assertion_, with the SP that the user was successfully vetted.
-- **Validation** - Once the SP verifies the assertion from the CSP, it may allow access to the user to its application. The SP may request additional identity information about the user from the CSP or AP.
+You will see these common steps during a typical IdP based federation transaction: 
 
-The above example scenario is also known as _SP initiated federation_. In case of an _IdP initiated federation_, the user requests access to the SP application by accessing the CSP application first instead of being redirected from the SP.
+1. **Request Access**: You request access to the Service Provider (SP) application.
+2. **Redirection**: The SP redirects you to the Identity Provider (IdP) application.
+3. **Authentication**: The IdP prompts you for your credential (e.g., username and password). The IdP validates your identity.
+4. **Data Sharing**: The IdP redirects you back to the SP and shares your information via an _Assertion_.
+5. **Access Granted**: The SP verifies the assertion and allows you access. 
 
-## Design Patterns
+The above example scenario is also known as _SP initiated federation_. In case of an _IdP initiated federation_, you will access the IdP directly eliminating the redirection steps 1 and 2.
 
-If you want to design a federation implementation, you will find a number of different information sharing approaches that your agency might choose. These approaches, referred to as **design patterns**, will differ based on the type of relationship that exists with the external parties involved and the level of trust required for the transaction. 
+If you are using your PKI credentials (PIV or PIV-I card), you may present those credentials to the SP directly assuming that the SP is capable of validating the credentials.
 
-Your agency‘s existing ICAM investments, such as modernized logical access
-control systems (LACS), may also provide additional capabilities that could impact the
-federation architecture that best meets the agency‘s needs. These additional factors may drive an
-agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a
-model that closely represents the agency‘s needs. 
+1. **Request Access**: You request access to the SP application by presenting your PKI credential.
+2. **Validation**: SP verifies that you posses a valid certificate in your PKI credential.
+3. **Access Granted**: The SP identifies your identity and allows you access. 
 
-Regardless of the federation trust topology selected, there are a number of resources that have 
-been established within the Federal Government to provide agencies with a foundational level of 
-trust. When entering into an established federation; however, it is likely that the existing 
-federation members have already chosen a trust topology. Therefore it is important than an 
-agency examine the factors previously discussed to select a federation that most closely meets 
-its needs.
+The validation process is complicated because it involves the steps of verifying the certificate status with the issuer and making sure that it can trust the issuer. You will find further details on PKI Credentials at [FPKI Guide](https://fpki.idmanagement.gov).
+
+## Federation Architecture
+
+If you want to design a federation implementation, you will find a number of different approaches that your agency might find suitable. These approaches, referred to as **design patterns**, will differ based on the type of relationship and the level of trust that exists with the Identity Provider(s). 
+
+Your agency‘s existing ICAM investments, such as modernized logical access control systems (LACS), may also provide additional capabilities that could impact the federation architecture. These additional factors may drive an agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a model that closely represents the agency‘s needs. 
 
 ## Federation Protocols
 
-This data sharing between the CSP and SP is made possible through the sharing of user's authentication information via common exchange protocols and agreed-upon open standards/specifications. This will enable your agency to allow a user from another organization or trust an authentication conducted outside of your agency. 
+When you design your agency's federation process, you should use follow these principles.
 
-In a federated environment, these transactions occur between trusted Identity Providers that have
-been approved through the Federal Trust Framework and relying parties. Given the nature of federated transactions and the electronic exchange of identity data across organizational boundaries, there is an increased focus on security and privacy to ensure users' sensitive identity data is appropriately safeguarded. 
+- Use a common exchange protocol for assertions.
+- Assertion protocols should be agreed-upon open standards/specifications to allow interoperability.
+- Build a trust relation with the IdP when federating outside of your agency. 
 
-When establishing a new federation, it is likely that your agency will be able select a trust model to
-suit the specific needs of the involved parties. This decision is often affected by existing
-infrastructure availability, business requirements, privacy considerations, and granular attribute
-release needs. 
+In a federated environment, these transactions occur between trusted Identity Providers that have been approved through the Federal Trust Framework. Given the nature of federated transactions and the electronic exchange of identity data across organizational boundaries, there is an increased focus on security and privacy to ensure users' sensitive identity data is appropriately safeguarded. 
+
+When establishing a new federation, it is likely that your agency will be able select a trust model to suit the specific needs of the involved parties. However, this decision is often affected by existing infrastructure availability, business requirements, privacy considerations, and granular attribute release needs. 
 
 
 
