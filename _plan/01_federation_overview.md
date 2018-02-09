@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Federation Process
+title: Federation Overview
 permalink: plan/federationprocess/
 collection: plan
 pubDate: 
@@ -10,6 +10,8 @@ pubDate:
 - Layout the different actors in federation - CSP, AP, RP, end user. Relying Party doc Section 3.1 Federation Process.
 - Include diagrams which may help in visualizing the flow of data between the actors. Example Relying Party Doc Fig 2 (Page 7).
 - We're focusing on web based applications and mobile applications. 
+
+==========================================
 
 Planning to include federation for **your application** is great for privacy, security, interoperability and efficiency.  It also requires you to understand specialized terminology to understand what to plan for, research, build, or buy.    
 
