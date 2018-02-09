@@ -15,15 +15,19 @@ pubDate:
 
 ===============================
 
-Now that you're learned what Federation is, you may be asking yourself: 
-* Is Federation right for our agency? (It's a real shift from the way we've done things in the past.) 
+For a basic overview of Federation concepts, please review _What is Federation?_ and watch the informative video, _How Federation Works_.
+
+Once these concepts become more clear, you can see that Federation is a real shift ub the way things have been done things in the past.  So, you might be asking yourself: 
+* Is Federation right for our agency? 
 * What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? 
-* Which other agencies are using Federation? 
+* Which other agencies are using Federation and have they seen [add for PM: "operational and cost"?] benefits from it?
+* What are the challenges in transitioning to Federation?
+* What will it cost?
 * Is there a down side?
 
 ## Pros and Cons of Federation
 
-Federation offers significant advantages to federal agencies, but it's important to weigh the pros and cons based on your agency's needs:
+Federation offers significant advantages to federal agencies, but you'll need to weigh the pros and cons based on your agency's needs:
 * Agency mission
 * The level of your agency's interface with customers (few to many externally facing applications, few to many customers)
 * Benefits of streamlined (simplified) access to applications across government by increased productivity through reduced user authentication needs (many logins, mulitiple credentials for many applications)
@@ -35,11 +39,11 @@ Federation offers significant advantages to federal agencies, but it's important
 * Compliance with Executive Orders, directives, policies, and standards
 * What federal reporting is required(e.g., FISMA)?
 
-If, after considering the pros and cons, does Federation look like it would benefit your agency? ...and you would like to start ....  you'll think about planning your Federation project.
+If the pros outweigh the cons and Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project. **Would the first Federation project be a test case?**
 
 ## How Do I Plan a Federation Project?
 
-Intro statement:  xxxxxx 
+Here are some key planning steps with actionable checklists: 
 
 Key planning tasks: (**Note:**&nbsp;&nbsp;See the checklists below for actionable steps)
 * Assess your agency's mission, business needs, and customer-interface processes 
