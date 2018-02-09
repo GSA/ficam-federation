@@ -17,22 +17,23 @@ pubDate:
 
 For a basic overview of Federation concepts, please review _What is Federation?_ and watch the informative video, _How Federation Works_.
 
-Once these concepts become more clear, you can see that Federation is a real shift in the way things have been done things in the past.  So, you might be asking yourself: 
-* Is Federation right for our agency? 
-* What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? 
-* Which other agencies are using Federation and have they seen [add for PM: "operational and cost"?] benefits from it?
-* What are the challenges in transitioning to Federation?
-* What will it cost?
-* Is there a down side?
+Federation is a real shift in the way things have been done in the past, but it's the right thing for your agency.  Federation eliminates the familiar/tired old hurtles/ of multiple logins and authentications to get to mission-essential applications and externally facing websites. Federation will give your agency and your customers streamlined, Single Sign-on/Federated Sign-on access to .....
 
-Federation may offer significant advantages for your agency, but it's important to weigh the pros and cons, based on your agency's needs.
+Remember, if you can, the 1993? state-of-the-art, 200 MB HD? 
 
-## Federation Pros and Cons
+
+* Advantages of Single Sign-on (SS)/Federated Sign-on (FSO) - Nearly seamless acess to applications 
+* Significant cost reductions for IT infrastructure and internal identity and access services
+
+Federation offers significant advantages for your agency.  Here are some aspects to consider as your agency transitions to Federation.
+
+## Transitioning to Federation
+
+## Things To Consider:
 
 * Does your agency mission have extensive interface with your customers (e.g, many externally facing applications)?
 * Would your internal and external customers benefit from simplified access to these applications?
 * Federation reduces IT infrastructure costs over time
-* Level of applications' complexity
 * Budget and availability of additional funding
 * Number of stakeholders and effort to achieve buy-in
 * Inherent risks 
