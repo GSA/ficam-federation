@@ -23,7 +23,15 @@ You should understand who _your users are_ before you can select the Identity Pr
 
 When you are conducting a user population analysis, your agency should consider the following:
 
-> <i class="fa fa-check-square-o"></i> **Risk Assessment:** Review the application’s risk assessment guidelines and analyze the specific security and technology requirements and infrastructure limitations. You should also consider a number of factors associated with the application’s business, security, infrastructure requirements, and the target user population. Consult the NIST 800-63 documents to understand what are the applicable risk assessment profiles.
+> <i class="fa fa-check-square-o"></i> **Risk Assessment:** Review the application’s risk assessment guidelines and analyze the specific security and technology requirements and infrastructure limitations. 
+
+>> * What is the data and information that your users will have access to? 
+
+>> * What are the transactions that they can perform in your application?
+
+>> * What are the risks associated with those accesses and transactions?
+
+>> * Consult the NIST 800-63 documents to understand what are the applicable risk assessment profiles.
 
 > <i class="fa fa-check-square-o"></i> **Identify Credential Requirements.** Based on the application’s risk assessment, you should review the list of approved credentials that meet the security, privacy, and technology requirements. 
 
@@ -31,7 +39,7 @@ When you are conducting a user population analysis, your agency should consider 
 
 >> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. 
 
->> * Refer to guidance posted on the Federal Government’s Identity Management homepage for a current list of approved credentials.
+>> * Refer to guidance posted on the Federal Government’s [Identity Management](https://idmanagement.gov) website for a current list of approved credentials.
 
 > <i class="fa fa-check-square-o"></i> **Analyze User Population.** Analyze the target user population to determine what credentials are available or can easily be obtained. When analyzing the user population, consider the following:
 
