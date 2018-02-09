@@ -17,7 +17,7 @@ pubDate:
 
 For a basic overview of Federation concepts, please review _What is Federation?_ and watch the informative video, _How Federation Works_.
 
-Once these concepts become more clear, you can see that Federation is a real shift ub the way things have been done things in the past.  So, you might be asking yourself: 
+Once these concepts become more clear, you can see that Federation is a real shift in the way things have been done things in the past.  So, you might be asking yourself: 
 * Is Federation right for our agency? 
 * What are the advantages of Single Sign-on (SS)/Federated Sign-on (FSO) and third-party credentials? 
 * Which other agencies are using Federation and have they seen [add for PM: "operational and cost"?] benefits from it?
@@ -25,42 +25,25 @@ Once these concepts become more clear, you can see that Federation is a real shi
 * What will it cost?
 * Is there a down side?
 
-## Pros and Cons of Federation
+Federation may offer significant advantages for your agency, but it's important to weigh the pros and cons, based on your agency's needs.
 
-Federation offers significant advantages to federal agencies, but you'll need to weigh the pros and cons based on your agency's needs:
-* Agency mission
-* The level of your agency's interface with customers (few to many externally facing applications, few to many customers)
-* Benefits of streamlined (simplified) access to applications across government by increased productivity through reduced user authentication needs (many logins, mulitiple credentials for many applications)
-* The benefits of reducing operational costs and credentialing infrastructure through Single Sign-on (SSO)/Federated Sign-on (FSO) and third-party credentialing services (--SSO, identity proofing, maintaining attribute repositories, and issuing/revoking credentials)
-* Reduced labor cost for technical support teams
-* Availability of funding
-* Stakeholder buy-in
-* What are the inherent risks? 
-* Compliance with Executive Orders, directives, policies, and standards
-* What federal reporting is required(e.g., FISMA)?
+## Federation Pros and Cons
 
-If the pros outweigh the cons and Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project. **Would the first Federation project be a test case?**
+* Does your agency mission include extensive interface with customers (e.g, many externally facing applications)?
+* Would your internal and external customers benefit from simplified access to these applications?
+* Reduced costs over time with Federation
+* Level of applications' complexity
+* Budget and availability of additional funding
+* Number of stakeholders and effort to achieve buy-in
+* Inherent risks 
+* Need to comply with related Executive Orders, directives, policies, and standards
+* Reporting requirements (e.g., FISMA)
 
-## How Do I Plan a Federation Project?
+If the pros outweigh the cons and Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
 
-Here are some key planning steps with actionable checklists: 
+## How Do I Plan for a Federation Project?
 
-Key planning tasks: (**Note:**&nbsp;&nbsp;See the checklists below for actionable steps)
-* Assess your agency's mission, business needs, and customer-interface processes 
-* Create a business case(s)
-* Estimate upfront costs and application integration cost **application = what?**
-* Cost-benefit analysis with ROI
-* Draft requirements for agency and stakeholder review
-* Identify funding sources
-* Communicate and collaborate with stakeholders
-* Evaluate and select Service Providers (IdPs)
-* Enter into Service-Level Agreements (SLAs)
-* Manage and mitigate risks
-* What federal reporting is required?
-* What federal mandates and policies apply?
-* Develop communications and outreach vehicles - foster communications and cooperation, consistent messaging, timely and accurate reporting [Roadmap, pg. 178)
-
-Intro statement:  xxxxx, xxxxx Federation by taking the following steps:
+To help you plan, here are some key steps with actionable checklists: 
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
