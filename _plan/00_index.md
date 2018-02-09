@@ -29,9 +29,9 @@ Federation may offer significant advantages for your agency, but it's important 
 
 ## Federation Pros and Cons
 
-* Does your agency mission include extensive interface with customers (e.g, many externally facing applications)?
+* Does your agency mission have extensive interface with your customers (e.g, many externally facing applications)?
 * Would your internal and external customers benefit from simplified access to these applications?
-* Reduced costs over time with Federation
+* Federation reduces IT infrastructure costs over time
 * Level of applications' complexity
 * Budget and availability of additional funding
 * Number of stakeholders and effort to achieve buy-in
@@ -52,44 +52,51 @@ To help you plan, here are some key steps with actionable checklists:
 * Step?
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Create a Business Case**
-* To build a business case, you'll need to document the costs and benefits of accepting third-party credentials.
-* And then what do they do?  **Is there a business case development reference doc?--From FICAM Roadmap, section 4, "ICAM Use Cases"??
+* To build a business case, you'll need to document the costs and benefits of SSO/FSO and accepting third-party credentials.
+* Add a link to **business case development how-to reference?--Maybe from FICAM Roadmap, section 4, "ICAM Use Cases"??**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate upfront costs to plan, design, and build the Federation solution?** 
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate upfront costs to plan, design, and build the Federation solution** 
 * Estimate the cost of moving to SSO/FSO and third-party credentials 
 * Count the agency's applications that need to accept third-party credentials
 * Determine what existing infrastructure can be reused
-* Determine what new infrastructure needs to be put in place
+* Determine what new IT infrastructure needs to be put in place
 * Estimate the total upfront costs for all project phases
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.** **Isn't this part of Build (in previous checklist item)**
-* Estimate the cost to integrate the solution for all applications (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
-* Estimate the cost to modify each exsting application's authentication method
+* Estimate the cost to integrate the solution for target applications (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
+* Estimate the cost to modify each existing application's authentication method
 * Estimate the cost to link third-party credentials to Relying Party accounts
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Estimate ongoing, life-cycle costs.**
 * Include Service charges (e.g., for SPs, such as a federation brokers, also calculate ongoing service charges) 
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI benefit.** 
-* After the costs have been estimated, calculate the Return on Investment (ROI) gained by reducing your cost for identity-proofing and managing credentials. 
+* After the costs have been estimated, calculate the Return on Investment (ROI).
+* **Is there a weigh to calculate the possible cost reduction over time?**
 * Weigh the benefits vs. cost. 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding.**
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding**
 **What are steps?**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and Select Service Providers (IdPs).**
-* Evaluate - Review xx document [link] for guidance on evaluating IdPs.
-* Select - Reivew xx document [link] for guidance on selecting IdPs.
+<i class="fa fa-check-square-o"></i> &nbsp;**Otain Stakeholder Buy-in**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreements (SLAs).**
-* Enter into SLAs with IdPs. Review xx document [link] for guidance on executing SLAs. [**agency-specific?**]
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Working Group/Tiger Team*
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish a Federation project schedule.** 
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish a Federation Project Schedule** 
 * Target business case applications
 * Communicate with stakeholders and users to determine their requirements and buy-in.
 * Develop a phased, Federation project schedule with incremental milestones.
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Technical Team
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and Select Service Providers (IdPs)**
+* Evaluate - Review xx document [link] for guidance on evaluating IdPs.
+* Select - Reivew xx document [link] for guidance on selecting IdPs.
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreements (SLAs)**
+* Enter into SLAs with IdPs. Review xx document [link] for guidance on executing SLAs. [**agency-specific?**]
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop Project Management Core Documents:**
 * Project Management Plan (with Work Breakdown Structure)
 * Project Schedule and Milestones
 * Risk Management Plan
@@ -97,11 +104,8 @@ To help you plan, here are some key steps with actionable checklists:
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Timely and accurate reporting**
 * Project Status Reviews and Reports to agency CIO*?*
-* Budget vs. actuals reporting
-* FISMA reporting
-* Senior Agency Officials for Privacy reporting*?*
+* Budget tracking
+* FISMA
+* Senior Agency Officials for Privacy (SAOP)
 
-
-Additional planning:
-* Establish stakeholders working group(s)/tiger team
 
