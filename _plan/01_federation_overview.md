@@ -44,7 +44,7 @@ Should we explain authentication and credentials or link to another primer?   --
 
  Then add an example for each. Use something they can go see and look at. -->
 
-You can see an example of the federation process at the [The Federation Gateway](https://hallways.cap.gsa.gov/login-information) website. It is the Service Provider (SP) partnered with [Max.gov](https://max.gov) as the Identity Provider (IdP). You can login as a Federal Employee with full access or as a public user with limited access.
+An example of the federation process is the [The Acquisition Gateway](https://hallways.cap.gsa.gov/login-information), where it is the Service Provider (SP) with [Max.gov](https://max.gov) as the Identity Provider (IdP). You can login as a Federal Employee with full access or visit the site as a public user with limited access.
  
 In order to understand how to plan for your Federation process, you will have to understand who your users are.
 
