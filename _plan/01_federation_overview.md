@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Federation Overview
+title: Federation Concepts
 permalink: plan/federationprocess/
 collection: plan
 pubDate: 
