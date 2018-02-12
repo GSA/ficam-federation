@@ -15,10 +15,11 @@ pubDate:
 
 ===============================
 
-For a basic overview of Federation concepts, please review _What is Federation?_ and watch the informative video, _How Federation Works_.
+For an overview of Federation, please read _What is Federation?_ and watch the informative video, _How Federation Works_.
 
-Federation is a real shift in the way things have been done in the past, but it's the right thing for your agency.  Federation eliminates the familiar/tired old hurtles/ of multiple logins and authentications to get to mission-essential applications and externally facing websites. Federation will give your agency and your customers streamlined, Single Sign-on/Federated Sign-on access to .....
+Federation is a real shift in the way the Federal Government has done in the past, but it's the right thing for your agency, the government, and your customers. Federation will give you back valuable time—time that’s now wasted jumping over the familiar old hurtles of multiple logins, passwords, and authentications just to begin doing your work.  Through Federation and Single Sign-on/Federated Sign-on, you and your customers will get rapid, streamlined access to mission-essential applications and the externally facing websites so everyone gets the information they need faster.  Once your agency is federated, you may well ask, “why didn’t we do this before?”  
 
+In the old days, they had to ring the local operator to get the state operator…
 Remember, if you can, the 1993? state-of-the-art, 200 MB HD? 
 
 
