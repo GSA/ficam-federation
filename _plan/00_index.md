@@ -32,15 +32,15 @@ Federation offers significant advantages for your agency.  Here are some aspects
 ## Things To Consider:
 
 * Does your agency mission have extensive interface with your customers (e.g, many externally facing applications)?
-* Would your internal and external customers benefit from simplified access to these applications?
+* Would your agency users and external customers benefit from streamlined access to these applications?
 * Federation reduces IT infrastructure costs over time
-* Budget and availability of additional funding
-* Number of stakeholders and effort to achieve buy-in
+* Budget and funding sources [**Are there special funding sources?**]
+* Stakeholders buy-in
 * Inherent risks 
 * Need to comply with related Executive Orders, directives, policies, and standards
 * Reporting requirements (e.g., FISMA)
 
-If the pros outweigh the cons and Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
+If Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
 
 ## Plan for a Federation Project
 
