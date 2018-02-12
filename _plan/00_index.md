@@ -18,7 +18,7 @@ pubDate:
 For an overview of Federation, please read _What is Federation?_ and watch the informative video, _How Federation Works_.
 
 **Ideas:**
-Federation is a real shift in the way we've done things in the past, but it's the right thing for your agency, your customers, and the U.S. Government. Federation gives you the back the gift of time&nbsp;&mdash;&nbsp;time that’s now lost jumping over the familiar old hurtles of multiple logins, passwords, and authentications just to begin doing your work.  Through Federation and Single Sign-on/Federated Sign-on, you and your customers will get rapid, streamlined access to mission-essential applications and the externally facing websites so everyone gets the information they need faster.  Once your agency is federated, you may well ask, “why didn’t we do this before?”  
+Federation is a real shift in the way we've done things in the past, but it's the right thing for your agency, your customers, and the U.S. Government. Federation gives you back the gift of time&nbsp;&mdash;&nbsp;time that’s now lost jumping over the familiar old hurtles of multiple logins, passwords, and authentications just to begin doing your work.  Through Federation and Single Sign-on/Federated Sign-on, you and your customers will get rapid, streamlined access to mission-essential applications and the externally facing websites so everyone gets the information they need faster.  Once your agency is federated, you may well ask, “why didn’t we do this before?”  
 
 In the old days, they had to ring the local operator to get the state operator…
 Remember, if you can, the 1993 state-of-the-art, 200 MB HD? 
@@ -33,20 +33,19 @@ Federation offers significant advantages for your agency.  Here are some aspects
 
 ## Things To Consider:
 
-* Does your agency mission have extensive interface with your customers (e.g, many externally facing applications)?
-* Would your agency users and external customers benefit from streamlined access to these applications?
+* Extensive interface with your customers (e.g., user population and many externally facing websites)?
+* Would your agency users and external customers benefit from streamlined access to applications and websites?
 * Federation reduces IT infrastructure costs over time
 * Budget and funding sources [**Are there special funding sources?**]
-* Stakeholders buy-in
-* Inherent risks 
-* Need to comply with related Executive Orders, directives, policies, and standards
-* Reporting requirements (e.g., FISMA)
+* Stakeholders
+* Executive Orders, directives, policies, and standards
+* Reporting requirements
 
 If Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
 
 ## Plan for a Federation Project
 
-To help you plan, here are some key steps with actionable checklists: 
+To help you plan, here are some key steps and actions you can take: 
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
