@@ -26,9 +26,9 @@ When you are conducting a user population analysis, you should consider the foll
 
 ><i class="fa fa-check-square-o"></i> **User Population.** Analyze your target user population to determine what credentials are available or can easily be obtained. You should consider the following:
 
->> * **User Type**: Determine how many different types of users your application will cater to based on the categories presented above. You may have to further split up the users into even smaller categories based on the credentials that they might use to authenticate. An example will be the Federal employees that have PIV credentials vs. those that do not.
+>> * **User Type**: Determine how many different types of users your application will cater to based on the categories presented above. You may have to further split-up the users into smaller categories based on the credentials that they may possess. An example will be the Federal employees that have PIV credentials vs. those that do not.
 
->> * **User Identity**: How will you identify each category of users based on their ability to provide an identifying attribute? Some of your users may have agency issued email addresses vs. those that do not. Some of your public users may have a personal email address, or possess a mobile device where they can receive text messages. Others may not have any computer access and solely rely on a broker agent or assister to register themselves for government services such as medicare and medicaid.
+>> * **User Identity**: How will you identify each category of users based on their ability to provide an identifying attribute? Some of your users may have agency issued email addresses vs. those that do not. Your public users may have a personal email address, or possess a mobile device. Others may not have any computer access and solely rely on a broker agent or assister to register themselves for government services.
 
 >> * **Number of Users**: Determine the population size for each category of users. It could affect the total complexity and cost of integrating a potential credential type.
 
@@ -44,15 +44,21 @@ When you are conducting a user population analysis, you should consider the foll
 
 >> * Consult the NIST 800-63 documents to understand what the applicable risk assessment profiles are.
 
-> <i class="fa fa-check-square-o"></i> **Identity Assurance.** Based on the application’s risk assessment, you should review the list of approved credentials that meet the security, privacy, and technology requirements. 
+> <i class="fa fa-check-square-o"></i> **Identity Assurance.** Based on the application’s risk assessment, you should find out the credentials that will meet the security, privacy, and technology requirements for different types of access. 
 
->> * Stronger credentials that users already have such as a PIV for government users are better than just using email and password. You can include stronger authentication methods such as multi-factor authentication to enforce higher security. 
+>> * Stronger credentials that users already have such as a PIV for government users are better than just using email and password. As an example, you can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
 
 >> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
 
 >> * Refer to guidance posted on the Federal Government’s [Identity Management](https://idmanagement.gov) website for a current list of approved credentials.
 
-> <i class="fa fa-check-square-o"></i> **Credential Enrollment & Issuance**: Some types of credentials require an in-person enrollment and/or issuance interaction between the user and Identity Provider. You should consider the ability of your users to participate in this type of interaction when determining the feasibility of implementing a particular credential type.
+>> * Consult the NIST 800-63C document to learn about the different Identity, Federation and Authentication Assurance Levels.
+
+> <i class="fa fa-check-square-o"></i> **Credential Issuance & Enrollment**: Determine how the credentials are issued by the Identity Provider and how they can linked to your application user.
+
+>> * A commercial entity will possess a different credential issuance policy than a public user. You will have to plan for differences in the credential types.
+
+>> * Some types of credentials require an in-person enrollment and/or issuance interaction between the user and Identity Provider. You should consider the ability of your users to participate in this type of interaction when determining the feasibility of implementing a particular credential type.
 
 Once you have analyzed your user population, you should be able to select one or more Identity Provider(s) that will provide you with the authentication and federation services.
 
