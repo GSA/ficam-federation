@@ -42,7 +42,7 @@ Below are some helpful actions you can take to plan your Federation Project.
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Assess Agency mission, business needs, and customer-interface processes.**
+<i class="fa fa-check-square-o"></i> &nbsp;**Assess Agency mission, business needs, and customer-interface processes**
 * Step?
 * Step?
 
@@ -62,17 +62,17 @@ Below are some helpful actions you can take to plan your Federation Project.
 * Determine what new IT needs to be added to existing IT infrastructure
 * Estimate the total upfront costs
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.** <!--Isn't this part of Build?-->
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate Application Integration Costs** <!--Isn't this part of Build?-->
 * Estimate the cost to integrate the Federation solution for your targeted applications (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
 * Estimate the cost to modify each application's authentication method
 <!--* Estimate the cost to link third-party credentials to Relying Party accounts.  Is this relevant here?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate ongoing, life-cycle costs.**
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate Ongoing, Life-Cycle Costs**
 * Ongoing service charges (e.g., for Service Providers, such as a federation brokers)
 * Operations cost
 * Maintenance cost
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI benefit.** 
+<i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI Benefit** 
 * Based on cost estimates, calculate the Return on Investment (ROI).
 * Weigh benefits vs. cost. 
 
@@ -107,7 +107,7 @@ Below are some helpful actions you can take to plan your Federation Project.
 * Risk Management Plan
 * Communications Plan
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Timely and accurate reporting**
+<i class="fa fa-check-square-o"></i> &nbsp;**Timely and Accurate Reporting**
 * Project Status Reviews and Reports to agency CIO*?*
 * Budget tracking
 * FISMA
