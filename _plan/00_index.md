@@ -29,16 +29,16 @@ We want to help you and your agency transition to Federation. Please email us wi
 * Significant cost reductions for IT infrastructure
 * Significate cost reductions in internal identity and access services
 
-## Transition to Federation -- Things To Consider:
+## Federation Transition: Things To Consider
 
 * How extensive is your interface with your customers (e.g., many externally facing websites)?
 * How many mission-critical agency applications does your agency own?
 * Budget and funding sources
-* Size of your stakeholder community
+* Stakeholder buy-in
 * Policy compliance
 * Reporting requirements
 
-Below are some helpful checklists and actions you can take to plan your Federation Project. 
+Below are some helpful actions you can take to plan your Federation Project. 
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
@@ -47,53 +47,63 @@ Below are some helpful checklists and actions you can take to plan your Federati
 * Step?
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Create a Business Case**
-* To build a business case, you'll need to document the costs and benefits of SSO/FSO and accepting third-party credentials.
-* Add a link to **business case development how-to reference?--Maybe from FICAM Roadmap, section 4, "ICAM Use Cases"??**
+* Document your business case **Add a link to business case development how-to reference?--Maybe from FICAM Roadmap, section 4, "ICAM Use Cases"??**
+* Identify targeted applications
+* Document the costs and benefits of SSO/FSO
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate upfront costs to plan, design, and build the Federation solution** 
-* Estimate the cost of moving to SSO/FSO and third-party credentials 
-* Count the agency's applications that need to accept third-party credentials
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop a preliminary Federation solution**<!--How does the PM, etc., come up with "a Federation solution"?--> 
+* Step 1
+* Step 2
+* Step 3
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate upfront costs to plan, design, and build your Federation solution**<!--How does the PM, etc., come up with "a Federation solution"?--> 
+* Count the targeted applications
 * Determine what existing infrastructure can be reused
-* Determine what new IT infrastructure needs to be put in place
-* Estimate the total upfront costs for all project phases
+* Determine what new IT needs to be added to existing IT infrastructure
+* Estimate the total upfront costs
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.** **Isn't this part of Build (in previous checklist item)**
-* Estimate the cost to integrate the solution for target applications (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
-* Estimate the cost to modify each existing application's authentication method
-* Estimate the cost to link third-party credentials to Relying Party accounts
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate application integration costs.** <!--Isn't this part of Build?-->
+* Estimate the cost to integrate the Federation solution for your targeted applications (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
+* Estimate the cost to modify each application's authentication method
+<!--* Estimate the cost to link third-party credentials to Relying Party accounts.  Is this relevant here?-->
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Estimate ongoing, life-cycle costs.**
-* Include Service charges (e.g., for SPs, such as a federation brokers, also calculate ongoing service charges) 
+* Ongoing service charges (e.g., for Service Providers, such as a federation brokers)
+* Operations cost
+* Maintenance cost
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI benefit.** 
-* After the costs have been estimated, calculate the Return on Investment (ROI).
-* **Is there a weigh to calculate the possible cost reduction over time?**
-* Weigh the benefits vs. cost. 
+* Based on cost estimates, calculate the Return on Investment (ROI).
+* Weigh benefits vs. cost. 
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding**
-**What are steps?**
+* Step 1
+* Step 2
+* Step 3
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish Working Group/Tiger Team**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Otain Stakeholder Buy-in**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish Working Group/Tiger Team*
-
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish a Federation Project Schedule** 
-* Target business case applications
-* Communicate with stakeholders and users to determine their requirements and buy-in.
-* Develop a phased, Federation project schedule with incremental milestones.
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop a Federation Project Schedule** 
+* Target business case applications integration/acquisition
+* Determine stakeholders' requirements and achieve buy-in.
+* Develop a phased project schedule with incremental milestones.
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Technical Team**
+* Identify team members
+* Step 2
+* Step 3
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and Select Service Providers (IdPs)**
-* Evaluate - Review xx document [link] for guidance on evaluating IdPs.
-* Select - Reivew xx document [link] for guidance on selecting IdPs.
+* Evaluate IdPs. (Review evaluation criteria and guidance: **Add link to xx document [link] for guidance on evaluating**) 
+* Select IdPs. (Reivew selection criteria and guidance:  **Add link to xx document [link] for guidance on selecting IdPs.**)
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreements (SLAs)**
-* Enter into SLAs with IdPs. Review xx document [link] for guidance on executing SLAs. [**agency-specific?**]
+<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreements (SLAs) with IdPs**
+* Enter into SLAs with IdPs. (Review SLA guidance: **Add link for guidance on executing SLAs.**)
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop Project Management Core Documents:**
-* Project Management Plan (with Work Breakdown Structure)
-* Project Schedule and Milestones
+* Project Management Plan (with Work Breakdown Structure and Milestones)
 * Risk Management Plan
 * Communications Plan
 
@@ -102,5 +112,3 @@ Below are some helpful checklists and actions you can take to plan your Federati
 * Budget tracking
 * FISMA
 * Senior Agency Officials for Privacy (SAOP)
-
-
