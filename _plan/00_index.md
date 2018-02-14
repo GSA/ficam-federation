@@ -15,12 +15,11 @@ pubDate:
 
 ===============================
 
-For an overview of Federation, please read _What is Federation?_ and watch the informative video, _How Federation Works_.
+For an overview of Federation, please read _What is Federation?_ and watch the informative video, _How Does Federation Work?_.
 
-**Ideas:**
-Federation is a real shift in the way we've done things in the past, but it's the right thing for your agency, your customers, and the U.S. Government. Federation gives you back the gift of time&nbsp;&mdash;&nbsp;time that’s now lost jumping over the familiar old hurtles of multiple logins, passwords, and authentications just to begin doing your work.  Through Federation and Single Sign-on/Federated Sign-on, you and your customers will get rapid, streamlined access to mission-essential applications and the externally facing websites so everyone gets the information they need faster.  Once your agency is federated, you may well ask, “why didn’t we do this before?”  
+It is true that Federation is a real shift in the way things have been done in the past, but once your agency is federated, you may well ask, “why didn’t we do this before?” Federation gives you back the gift of time&nbsp;&mdash;&nbsp;time that’s now lost jumping over the familiar old hurtles of multiple logins, passwords, and authentications just to begin doing your work.  Through Federation and Single Sign-on/Federated Sign-on, you and your customers will get rapid, streamlined access to mission-essential applications and the externally facing websites so everyone gets the information they need faster.    
 
-In the old days, they had to ring the local operator to get the state operator…
+Maybe:  References to old ways of doing things: they had to ring the local operator to get the state operator…
 Remember, if you can, the 1993 state-of-the-art, 200 MB HD? 
 
 
@@ -29,9 +28,9 @@ Remember, if you can, the 1993 state-of-the-art, 200 MB HD?
 
 Federation offers significant advantages for your agency.  Here are some aspects to consider as your agency transitions to Federation.
 
-## Transitioning to Federation
+## Transition to Federation
 
-## Things To Consider:
+## Things To Consider: (working...)
 
 * Extensive interface with your customers (e.g., user population and many externally facing websites)?
 * Would your agency users and external customers benefit from streamlined access to applications and websites?
