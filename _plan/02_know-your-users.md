@@ -16,9 +16,9 @@ pubDate:
 You should understand who _your users are_ before you can select the Identity Provider(s) (IdPs). Your users will generally fall into these broad categories:
 
 | **Federal Government Users** | They are your agency's employees or another Federal agency's employees.<br/>They may possess a PIV credential. <br/>An example is a Department of Homeland Security (DHS) user who wants to access the USCIS' immigration system.|
-| **Non-Federal Government Users** | They are the State & Local, Tribal or Territorial Govenment Users.<br/>An example is a State Attorney who wants to access the Federal judicial records.|
-| **Non-Government Public Users** | They are the non-government users such as a U.S. citizen or a tourist. <br/> The user category is wide and the user base will be very broad.<br/> They may not possess credentials issued by the Federal government.<br/> An example is a visitor applying for a U.S. visa. |
-| **Commercial Users** | They are organizations such as bank or brokerage businesses.<br/> They will need to be identified by their business license or similar artifacts.<br/> An example is a brokerage firm buying treasury bills and notes from the U.S. Treasury Department.|
+| **Other Government Users** | They are the State & Local, Tribal or Territorial Govenment Users.<br/>An example is a State Attorney who wants to access the Federal judicial records.|
+| **Government To Business Users** | They are organizations such as bank or brokerage businesses.<br/> They will need to be identified by their business license or similar artifacts.<br/> An example is a brokerage firm buying treasury bills and notes from the U.S. Treasury Department.|
+| **Government To Citizen Users** | They are the non-government users such as American public. <br/> The user category is wide and the user base will be very broad.<br/> They may not possess credentials issued by the Federal government.<br/> An example is a U.S. citizen enrolling for medicare benefits or a veteran accessing healthcare benefits. |
 
 ## User Analysis
 
