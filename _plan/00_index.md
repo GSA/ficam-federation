@@ -15,32 +15,28 @@ pubDate:
 
 ===============================
 
-For an overview of Federation, please read _What is Federation?_ and watch the informative video, _How Does Federation Work?_.
+It’s true that Federation is a real shift in the way we’ve done in the past, but let's open up some windows and let the fresh air in.  Federation is good change.  It will make your life easier and those of your customers.  Federation will give you and your customers rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to get to applications or websites you need to start your work.  Once your agency is federated, you may well ask, “why didn’t we do this before?”
 
-It is true that Federation is a real shift in the way things have been done in the past, but once your agency is federated, you may well ask, “why didn’t we do this before?” Federation gives you back the gift of time&nbsp;&mdash;&nbsp;time that’s now lost jumping over the familiar old hurtles of multiple logins, passwords, and authentications just to begin doing your work.  Through Federation and Single Sign-on/Federated Sign-on, you and your customers will get rapid, streamlined access to mission-essential applications and the externally facing websites so everyone gets the information they need faster.    
+We want to help you and your agency make the transition to Federation. Please email any and all questions to us at: fpki@gsa.gov!<!--Is this the right email address? Should it be "federation@gsa.gov"?-->
 
-Maybe:  References to old ways of doing things: they had to ring the local operator to get the state operator…
-Remember, if you can, the 1993 state-of-the-art, 200 MB HD? 
+## Federation Advantages 
 
+* Single Sign-on (SS)/Federated Sign-on (FSO) gives you nearly seamless acess to critical applications and websites
+* Happy users and customers
+* Increased collaboration across agencies and with partners
+* Significant cost reductions for IT infrastructure
+* Significate cost reductions in internal identity and access services
 
-* Advantages of Single Sign-on (SS)/Federated Sign-on (FSO) - Nearly seamless acess to applications 
-* Significant cost reductions for IT infrastructure and internal identity and access services
+## Transition to Federation -- Things To Consider:
 
-Federation offers significant advantages for your agency.  Here are some aspects to consider as your agency transitions to Federation.
-
-## Transition to Federation
-
-## Things To Consider: (working...)
-
-* Extensive interface with your customers (e.g., user population and many externally facing websites)?
-* Would your agency users and external customers benefit from streamlined access to applications and websites?
-* Federation reduces IT infrastructure costs over time
-* Budget and funding sources [**Are there special funding sources?**]
-* Stakeholders
-* Executive Orders, directives, policies, and standards
+* How extensive is your interface with your customers (e.g., many externally facing websites)?
+* How many mission-critical agency applications does your agency own?
+* Budget and funding sources
+* Size of your stakeholder community
+* Policy compliance
 * Reporting requirements
 
-If Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project.    **Would the first Federation project be a test case?**
+If Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project. 
 
 ## Plan for a Federation Project
 
