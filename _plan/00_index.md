@@ -42,7 +42,7 @@ Below are some helpful actions you can take to plan your Federation Project.
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Assess Agency mission, business needs, and customer-interface processes**
+<i class="fa fa-check-square-o"></i> &nbsp;**Assess Agency Mission, Business Needs, and Customer Interface Processes**
 * Step?
 * Step?
 
@@ -51,7 +51,7 @@ Below are some helpful actions you can take to plan your Federation Project.
 * Identify targeted applications
 * Document the costs and benefits of SSO/FSO
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop a preliminary Federation solution**<!--How does the PM, etc., come up with "a Federation solution"?--> 
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop a Preliminary Federation solution**<!--How does the PM, etc., come up with "a Federation solution"?--> 
 * Step 1
 * Step 2
 * Step 3
