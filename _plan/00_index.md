@@ -15,9 +15,11 @@ pubDate:
 
 ===============================
 
-It’s true that Federation is a real shift in the way we’ve done in the past, but let's open up some windows and let the fresh air in.  Federation is good change.  It will make your life easier and those of your customers.  Federation will give you and your customers rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to get to applications or websites you need to start your work.  Once your agency is federated, you may well ask, “why didn’t we do this before?”
+It’s true that Federation is a real shift in the way we’ve done in the past, but let's open up some windows and let the fresh air in.  Federation is good change.  It will make your life easier and those of your customers.  Federation will give you and your customers rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to get to applications or websites you need to start your work.  
 
-We want to help you and your agency make the transition to Federation. Please email any and all questions to us at: fpki@gsa.gov!<!--Is this the right email address? Should it be "federation@gsa.gov"?-->
+Once your agency is federated, you may well ask, “why didn’t we do this before?”
+
+We want to help you and your agency transition to Federation. Please email us with any and all questions at: fpki@gsa.gov!<!--Is this the right email address? Should it be "federation@gsa.gov"?-->
 
 ## Federation Advantages 
 
@@ -36,11 +38,7 @@ We want to help you and your agency make the transition to Federation. Please em
 * Policy compliance
 * Reporting requirements
 
-If Federation looks like it would benefit your agency, the next step is to [target and] plan for a Federation project. 
-
-## Plan for a Federation Project
-
-To help you plan, here are some key steps and actions you can take: 
+Below are some helpful checklists and actions you can take to plan your Federation Project. 
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
