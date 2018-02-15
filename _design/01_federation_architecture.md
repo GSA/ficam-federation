@@ -13,9 +13,9 @@ pubDate:
 
 ============================
 
-To select a solution architecture, you should understand which architecture is most applicable to you. 
+You should select a federation architecture that is most applicable to you.
 
-Commonly used federation architectures have a common set of functionalities - the ability to integrate with an Identity Provider (IdP), parse an assertion, and link accounts. However, you will see variations in how they connect to each other. 
+Federation architectures have a common set of functionalities - the ability to integrate with an Identity Provider (IdP), parse an assertion, and link accounts. However, you will see variations in how they connect to each other. 
 
 - [Point-to-Point](#point-to-point)
 - [Hub-and-Spoke](#hub-and-spoke)
@@ -26,27 +26,26 @@ We recommended that you use the information collected from the assessments durin
 
 ## Point-to-Point 
 
-This pattern establishes a bi-lateral trust agreement between two parties to exchange data directly.
+This architecture involves only the IdP and SP without considering any other SP or IdP in the mix. The IdP and SP establishes a direct connection with each other based on the trust relationship between them. You will find this as the simplest solution for establishing federation.
 
 <div style="text-align:center"><img src="{{site.baseurl}}/img/point-to-point.png"/></div>
-
-Point-to-Point deployment may not be the optimal solution if an agency has more than several applications it wishes to enable federation. The initial expenditure and maintenance cost of this approach increases in a linear fashion with each application that is federation enabled. 
 
 **Advantages**:
 - This approach provides you with the flexibility in defining the data sharing model that only relates to the two applications.
 - Requiring minimal implementation effort when an agency has a limited number of applications. 
-- Provides a low effort method to pilot the acceptance of third-party credentials before implementing a more robust solution.
+- Requires the lowest effort to pilot the federation of identity before implementing a more robust solution.
 
 **Disadvantages**:
-- It may limit you to data exchange agreements between the IdP and SP and may not be flexible to expand the federation beyond the two entities in the future.
-- This architecture approach does not provide scalability for agencies with many applications.
-- Effort required compounds with the addition of each application; requiring per application updates to support onboarding, modification, and off-boarding of CSPs. 
+- You may limit yourself to data exchange agreements between the IdP and SP.
+- It may not be flexible enough to expand the federation beyond the two entities in the future.
+- This approach does not provide scalability for agencies with many applications.
+- Effort required to integrate additional applications increases, requiring per application updates to support onboarding, modification, and off-boarding of CSPs.
 
 An example of this pattern is the Defense Support of Civil Authorities pilot program between DHS and DoD. It involved the exchange of data between the two agencies for the purpose of enabling DoD personnel to access DHS resources. The Defense Support of Civil Authorities pilot program involved only two organizations and the point-to-point model was deemed the most appropriate.
 
 ## Hub-and-Spoke
 
-You will find this pattern in a typical federation scenario where a single enterprise application acts as the identity provider for a number of service providers.
+You will find this architecture in a typical federation scenario where a single enterprise application acts as the IdP for a number of SPs.
 
 <div style="text-align:center"><img src="{{site.baseurl}}/img/hub-and-spoke.png"/></div>
 
@@ -82,7 +81,7 @@ An example is the **InCommon** Federation. Although InCommon does not provide an
 
 ## Federation Broker
 
-The federation broker is a combination of the hub-and-spoke and networked architectures, where one IdP can act as a proxy to other IdPs. You can eliminate the requirement of SPs to connect to multiple IdP individually. 
+The federation broker is a combination of the hub-and-spoke and networked architectures, where one IdP can act as a proxy to other IdPs. You can eliminate the requirement of SPs to connect to multiple IdPs individually. 
 
 <div style="text-align:center"><img src="{{site.baseurl}}/img/fed-broker.png"/></div>
 
