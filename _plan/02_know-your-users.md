@@ -23,15 +23,19 @@ You should understand who **your users** are before you can select the **Identit
 
 When you are conducting a user population analysis, you should consider the following:
 
-><i class="fa fa-check-square-o"></i> **User Population.** Analyze your target user population to determine what credentials are available or can easily be obtained. You should consider the following:
+><i class="fa fa-check-square-o"></i> **User Population.** Analyze your target user population to determine what authentication parameters are available or can easily be established. You should consider the following:
 
->> * **User Type**: Determine how many different types of users your application will cater to based on the categories presented above. You may have to further split-up the users into smaller categories based on the credentials that they may possess. An example will be the Federal employees that have PIV credentials vs. those that do not.
+> * **User Types**: Determine how many different categories of users your application will cater to based on the categories presented above. 
 
->> * **User Identity**: How will you identify each category of users based on their ability to provide an identifying attribute? Some of your users may have agency issued email addresses vs. those that do not. Your public users may have a personal email address, or possess a mobile device. Others may not have any computer access and solely rely on a broker agent or assister to register themselves for government services.
+> * **User Identity**: How will you identify each category of users? 
+>> * User's enterprise login may not be unique across the different user categories.
+>> * Some of your users may have agency issued email addresses vs. those that do not. 
+>> * Your public users may have a personal email address, or possess a mobile device. 
+>> * Others may not have any computer access and solely rely on a broker agent or assister to register themselves for government services.
 
->> * **Number of Users**: Determine the population size for each category of users. It could affect the total complexity and cost of integrating a potential credential type.
+> * **Number of Users**: Determine the population size for each category of users. It could affect the complexity and cost of integrating a potential user type.
 
->> * **User Information**: You may have to collect additional information beyond what is provided as part of the authentication transaction in order to create and link user accounts. The availability of this information could vary depending on the type of credential used; however, you should seek to collect only the minimum necessary data.
+> * **User Information**: You may have to collect additional information beyond what is provided as part of the authentication transaction in order to create and link user accounts. The availability of this information could vary depending on the type of credential used.
 
 > <i class="fa fa-check-square-o"></i> **Risk Assessment:** Follow some of the guidelines below to assess the risks and analyze any specific security and privacy requirements. 
 
@@ -43,9 +47,11 @@ When you are conducting a user population analysis, you should consider the foll
 
 >> * Consult the NIST 800-63 documents to understand what the applicable risk assessment profiles are.
 
-> <i class="fa fa-check-square-o"></i> **Identity Assurance.** Based on the application’s risk assessment, you should find out the credentials that will meet the security, privacy, and technology requirements for different types of access. 
+> <i class="fa fa-check-square-o"></i> **Identity Assurance.** You should find out the authentication methods that will meet the security, privacy, and technology requirements for different types of users based on the application’s risk assessment. 
 
->> * Stronger credentials that users already have such as a PIV for government users are better than just using email and password. As an example, you can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
+>> * Stronger credentials that users already have possess such as a PIV credential for government users are better than just using login and password. 
+
+>> * You can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
 
 >> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
 
