@@ -81,21 +81,19 @@ An example is the **InCommon** Federation. Although InCommon does not provide an
 
 ## Federation Broker
 
-The federation broker is a combination of the hub-and-spoke and networked architectures, where one IdP can act as a proxy to other IdPs. You can eliminate the requirement of SPs to connect to multiple IdPs individually. 
+The federation broker combines the advantages of the hub-and-spoke and networked architectures. One IdP can act as a proxy to other IdPs. You can eliminate the requirement of SPs to integrate with multiple IdPs individually. 
 
 <div style="text-align:center"><img src="{{site.baseurl}}/img/fed-broker.png"/></div>
-
-The federation broker provides a scalable architecture that enables the SP to outsource some of the functionality required to accept third-party credentials.
 
 **Advantages**:
 - The Federation broker handles all interactions with the external IdPs.
 - Provides the SP with a selection of IdPs that have federation capabilities for different users similar to a networked architecture. 
-- Removes the need for the SP to manage and configure IdP connections, including the onboarding, modification, and off-boarding. 
-- Providing the ability to scale from a single application to many applications. 
+- Removes the need for the SP to manage and configure individual IdP connections, including the onboarding, modification, and off-boarding. 
+- Provides the ability to scale from a single application to many applications. 
 
 **Disadvantages**:
-- This introduces security risks due to user information being passed through a third party before arriving at the SP. The SP should review the federation broker’s policies and make a determination if the trade off in security is worth the convenience of reduced integration effort; 
-- It also will limit you to the selection of IdPs to those that the federation broker is connected to. 
+- Introduces security risks due to user information being passed through a third party before arriving at the SP. The SP should review the federation broker’s policies and make a determination if the trade off in security is worth the convenience of reduced integration effort; 
+- It limits you to the selection of IdPs to those that the federation broker is connected to. 
 
 
 ## Architecture Selection
