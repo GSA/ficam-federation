@@ -39,29 +39,29 @@ When you are conducting a user population analysis, you should consider the foll
 
 > <i class="fa fa-check-square-o"></i> **Risk Assessment:** Follow some of the guidelines below to assess the risks and analyze any specific security and privacy requirements. 
 
->> * What is the data and information that your users will have access to? Does it include any sensitive Personally Identifiable Information (**PII**) or covered by **HIPAA** regulations on data security and privacy? 
+> * What is the data and information that your users will have access to? Does it include any sensitive Personally Identifiable Information (**PII**) or covered by **HIPAA** regulations on data security and privacy? 
 
->> * What are the transactions that they can perform in your application? Can they alter any credential data or tamper with any audit logs?
+> * What are the transactions that they can perform in your application? Can they alter any credential data or tamper with any audit logs?
 
->> * Are there any risks associated with those accesses and transactions?
+> * Are there any risks associated with those accesses and transactions?
 
->> * Consult the NIST 800-63 documents to understand what the applicable risk assessment profiles are.
+> * Consult the NIST 800-63 documents to understand what the applicable risk assessment profiles are.
 
 > <i class="fa fa-check-square-o"></i> **Identity Assurance.** You should find out the authentication methods that will meet the security, privacy, and technology requirements for different types of users based on the application’s risk assessment. 
 
->> * Stronger credentials that users already have possess such as a PIV credential for government users are better than just using login and password. 
+> * Stronger credentials that users already have possess such as a PIV credential for government users are better than just using login and password. 
 
->> * You can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
+> * You can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
 
->> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
+> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
 
->> * Consult the NIST 800-63C document to learn about the different Identity, Federation and Authentication Assurance Levels.
+> * Consult the NIST 800-63C document to learn about the different Identity, Federation and Authentication Assurance Levels.
 
 > <i class="fa fa-check-square-o"></i> **Credential Issuance & Enrollment**: Determine how the credentials are issued by the Identity Provider and how they can linked to your application user.
 
->> * A commercial entity will possess a different credential issuance policy than a public user. You will have to plan for differences in the credential types.
+> * A commercial entity will possess a different credential issuance policy than a public user. You will have to plan for differences in the credential types.
 
->> * Some types of credentials require an in-person enrollment and/or issuance interaction between the user and Identity Provider. You should consider the ability of your users to participate in this type of interaction when determining the feasibility of implementing a particular credential type.
+> * Some types of credentials require an in-person enrollment and/or issuance interaction between the user and Identity Provider. You should consider the ability of your users to participate in this type of interaction when determining the feasibility of implementing a particular credential type.
 
 Once you have analyzed your user population, you should be able to select one or more Identity Provider(s) that will provide you with the authentication and federation services.
 
