@@ -11,7 +11,7 @@ pubDate:
 - Refer to Section 11 Examples of NIST SP 800-63C for SAML OIDC and Kerberos.
 - Introduce FPKI and provide links to the FPKI Guides for more information.
 
-The federation protocols are used to transfer data from the CSP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to the Federal Government:
+The federation protocols are used to transfer data from the IdP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to the Federal Government:
 
 - [SAML](#security-assertion-markup-language-saml)
 - [iGov](#international-assurance-government-profile-igov)
@@ -20,11 +20,13 @@ The federation protocols are used to transfer data from the CSP to SP during a f
 
 ## Security Assertion Markup Language (SAML)
 
-SAML is an XML-based framework for creating and exchanging authentication and attribute information between trusted entities over the internet. The building blocks of SAML include:
+SAML is an open-standards based XML data exchange framework for creating and exchanging authentication and attribute information between trusted entities over the internet. SAML is widely used for sharing data securely between websites such as your bank, where it is also known as '_Web Browser SSO Profile_'.
 
+- SAML standards include secure exchange format to preserve message confidentiality and integrity.
+- It can also be used for non-repudiation.
 - The Assertions XML schema, which defines the structure of the assertion.
 - The SAML Protocols, which are used to request assertions and artifacts.
-- The Bindings, which define the underlying communication protocols (such as HTTP or SOAP), and can be used to transport the SAML assertions.
+- SAML can be transported over HTTP or SOAP.
 
 The three components above define a SAML profile that corresponds to a particular use case such as “Web Browser SSO”.
 SAML Assertions are encoded in an XML schema and can carry up to three types of statements:
