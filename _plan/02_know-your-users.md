@@ -13,7 +13,7 @@ pubDate:
 
 =================================
 
-You should understand who _your users are_ before you can select the Identity Provider(s) (IdPs). Your users will generally fall into these broad categories:
+You should understand who **your users** are before you can select the **Identity Provider(s) (IdPs)**. Your users will generally fall into these broad categories:
 
 <div><img src="{{site.baseurl}}/img/fed-users.png"/></div>
 
@@ -48,8 +48,6 @@ When you are conducting a user population analysis, you should consider the foll
 >> * Stronger credentials that users already have such as a PIV for government users are better than just using email and password. As an example, you can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
 
 >> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
-
->> * Refer to guidance posted on the Federal Government’s [Identity Management](https://idmanagement.gov) website for a current list of approved credentials.
 
 >> * Consult the NIST 800-63C document to learn about the different Identity, Federation and Authentication Assurance Levels.
 
