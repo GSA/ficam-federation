@@ -20,15 +20,18 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 
 ## Security Assertion Markup Language (SAML)
 
-SAML is an open-standards based XML data exchange framework for creating and exchanging authentication and attribute information between trusted entities over the internet. SAML is widely used for sharing data securely between websites such as your bank, where it is also known as '_Web Browser SSO Profile_'.
+SAML is an open-standards based XML data exchange framework for creating and exchanging authentication and attribute information between trusted entities over the internet. 
 
 - SAML standards include secure exchange format to preserve message confidentiality and integrity.
 - It can also be used for non-repudiation.
+- Utilizes the XML Digital Signature envelopes to secure messages.
+
+SAML is widely used for sharing data securely between websites such as your bank. This is also known as '_Web Browser SSO Profile_'. It comprises of the following three components.
+
 - The Assertions XML schema, which defines the structure of the assertion.
 - The SAML Protocols, which are used to request assertions and artifacts.
 - SAML can be transported over HTTP or SOAP.
 
-The three components above define a SAML profile that corresponds to a particular use case such as “Web Browser SSO”.
 SAML Assertions are encoded in an XML schema and can carry up to three types of statements:
 
 - _Authentication statements_ include information about the assertion issuer, the authenticated subscriber, validity period, and other authentication information. For example, an Authentication Assertion would state the subscriber “John” was authenticated using a password at 10:32pm on 06-06-2004.
@@ -37,7 +40,7 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 
 ## International Assurance Government Profile (iGov)
 
-The iGov specifications are used to define the OpenID Connect (OIDC) profile for securing federated access in the government context.  OIDC builds on top of the OAuth 2.0 (OAUTH) authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. 
+The iGov specifications are used to define the OpenID Connect (OIDC) profile for securing federated access in the government context.  OIDC builds on top of the **OAuth 2.0 (OAUTH)** authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. 
 
 In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
 
@@ -49,7 +52,7 @@ In a successful OpenID Connect transaction, the IdP issues an ID Token, which is
 
 In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access token which can be used to access the UserInfo Endpoint at the IdP. This endpoint returns a JSON object representing a set of attributes about the subscriber, including but not limited to their name, email address, physical address, phone number, and other profile information. While the information inside the ID Token is reflective of the authentication event, the information in the UserInfo Endpoint is generally more stable and could be more general purpose. Access to different attributes from the UserInfo Endpoint is governed by the use of a specially-defined set of OAuth scopes, openid, profile, email, phone, and address. 
 
-An additional scope, offline_access, is used to govern the issuance of refresh tokens, which allow the RP to access the UserInfo Endpoint when the subscriber is not present. Access to the UserInfo Endpoint is structured as an API and may be available when the subscriber is not present. Therefore, access to the UserInfo Endpoint is not sufficient for proving a subscriber’s presence and establishing an authenticated session at the RP.
+An additional scope, offline_access, is used to govern the issuance of refresh tokens, which allow the SP to access the UserInfo Endpoint when the subscriber is not present. Access to the UserInfo Endpoint is structured as an API and may be available when the subscriber is not present. Therefore, access to the UserInfo Endpoint is not sufficient for proving a subscriber’s presence and establishing an authenticated session at the RP.
 
 ## Kerberos Tickets
 
