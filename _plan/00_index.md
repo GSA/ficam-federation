@@ -15,11 +15,13 @@ pubDate:
 
 ===============================
 
-It’s true that Federation is a real shift in the way we’ve done in the past, but let's open up some windows and let the fresh air in.  Federation is good change.  It will make your life easier and those of your customers.  Federation will give you and your customers rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to get to applications or websites you need to start your work.  
+It’s true that Federation is a real shift in the way we’ve done in the past, but Federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you and your customers rapid, streamlined access to critical applications and websites--without having to step over that pack of tired dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
 
-Once your agency is federated, you may well ask, “why didn’t we do this before?”
+Once your agency is federated, you may well ask: “Why didn’t we do this before?”
 
-We want to help you and your agency transition to Federation. Please email us with any and all questions at: fpki@gsa.gov!<!--Is this the right email address? Should it be "federation@gsa.gov"?-->
+We want to do whatever we can to help you and your agency transition to Federation. 
+
+Please email us with any and all questions at: fpki@gsa.gov!<!--Is this the right email address? Should it be "federation@gsa.gov"?-->
 
 ## Federation Advantages 
 
@@ -29,7 +31,7 @@ We want to help you and your agency transition to Federation. Please email us wi
 * Significant cost reductions for IT infrastructure
 * Significate cost reductions in internal identity and access services
 
-## Federation Transition: Things To Consider
+## Things To Consider
 
 * How extensive is your interface with your customers (e.g., many externally facing websites)?
 * How many mission-critical agency applications does your agency own?
