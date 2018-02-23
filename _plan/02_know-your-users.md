@@ -21,47 +21,48 @@ You should understand who **your users** are before you can select the **Identit
 
 ## User Analysis
 
-When you are conducting a user population analysis, you should consider the following:
+When you are conducting a user analysis, you should consider the following:
 
-><i class="fa fa-check-square-o"></i> **User Population.** Analyze your target user population to determine what authentication parameters are available or can easily be established. You should consider the following:
+<i class="fa fa-check-square-o"></i> **User Population.** Analyze your target user population to determine what authenticators are available or can easily be established. You should consider the following:
 
-> * **User Types**: Determine how many different categories of users your application will cater to based on the categories presented above. 
+* **User Categories**: Determine how many different categories of users your application will cater to based on the categories presented above. 
 
-> * **User Identity**: How will you identify each category of users? 
->> * User's enterprise login may not be unique across the different user categories.
->> * Some of your users may have agency issued email addresses vs. those that do not. 
->> * Your public users may have a personal email address, or possess a mobile device. 
->> * Others may not have any computer access and solely rely on a broker agent or assister to register themselves for government services.
+* **User Identity**: How will you identify each category of users? 
+>* Some of your users may have agency issued email addresses vs. those that do not. 
+>* Your public users may have a personal email address, or possess a mobile device. 
+>* Others may not have any computer access and solely rely on a broker agent or assister to register themselves for government services.
 
-> * **Number of Users**: Determine the population size for each category of users. It could affect the complexity and cost of integrating a potential user type.
+ * **Number of Users**: Determine the population size for each category of users. It could affect the complexity and cost of integrating a potential user type.
 
-> * **User Information**: You may have to collect additional information beyond what is provided as part of the authentication transaction in order to create and link user accounts. The availability of this information could vary depending on the type of credential used.
+ * **Demographic Information**: You may have to collect additional demographic information beyond what is provided as part of the authentication transaction. This information will help you identify the authenticators that might be applicable to the user. As an example, a senior citizen may not be capable of using a mobile phone as an authenticator while a younger person may be more adept at it.
 
-> <i class="fa fa-check-square-o"></i> **Risk Assessment:** Follow some of the guidelines below to assess the risks and analyze any specific security and privacy requirements. 
+ * **Geographic Information**: You should also determine if the authenticators will change based on the geographical location of these users.
+ 
+ <i class="fa fa-check-square-o"></i> **Risk Assessment:** Follow some of the guidelines below to assess the risks and analyze any specific security and privacy requirements. 
 
-> * What is the data and information that your users will have access to? Does it include any sensitive Personally Identifiable Information (**PII**) or covered by **HIPAA** regulations on data security and privacy? 
+ * What is the data and information that your users will have access to? Does it include any sensitive Personally Identifiable Information (**PII**) or covered by **HIPAA** regulations on data security and privacy? 
 
-> * What are the transactions that they can perform in your application? Can they alter any credential data or tamper with any audit logs?
+ * What are the transactions that they can perform in your application? Can they alter any credential data or tamper with any audit logs?
 
-> * Are there any risks associated with those accesses and transactions?
+ * Are there any risks associated with those accesses and transactions?
 
-> * Consult the NIST 800-63 documents to understand what the applicable risk assessment profiles are.
+ * Consult the NIST 800-63 documents to understand what the applicable risk assessment profiles are.
 
-> <i class="fa fa-check-square-o"></i> **Identity Assurance.** You should find out the authentication methods that will meet the security, privacy, and technology requirements for different types of users based on the application’s risk assessment. 
+ <i class="fa fa-check-square-o"></i> **Identity Assurance.** You should find out the authenticators that will meet the security, privacy, and technology requirements for different types of users based on the application’s risk assessment. 
 
-> * Stronger credentials that users already have possess such as a PIV credential for government users are better than just using login and password. 
+ * Stronger credentials that users already have possess such as a PIV credential for government users are better than just using login and password. 
 
-> * You can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
+ * You can introduce stronger authentication methods, such as multi-factor authentication, to enforce higher security. 
 
-> * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
+ * Reduce redundant issuance of credentials while requiring the lowest level of effort on the part of the user. If the user already has a PIV issued by another agency, you can setup to accept that credential instead of issuing a new PIV.
 
-> * Consult the NIST 800-63C document to learn about the different Identity, Federation and Authentication Assurance Levels.
+ * Consult the NIST 800-63C document to learn about the different Identity, Federation and Authentication Assurance Levels.
 
-> <i class="fa fa-check-square-o"></i> **Credential Issuance & Enrollment**: Determine how the credentials are issued by the Identity Provider and how they can linked to your application user.
+ <i class="fa fa-check-square-o"></i> **Credential Issuance & Enrollment**: Determine how the credentials are issued by the Identity Provider and how they can linked to your application user.
 
-> * A commercial entity will possess a different credential issuance policy than a public user. You will have to plan for differences in the credential types.
+ * A commercial entity will possess a different credential issuance policy than a public user. You will have to plan for differences in the credential types.
 
-> * Some types of credentials require an in-person enrollment and/or issuance interaction between the user and Identity Provider. You should consider the ability of your users to participate in this type of interaction when determining the feasibility of implementing a particular credential type.
+ * Some types of credentials require an in-person enrollment and/or issuance interaction between the user and Identity Provider. You should consider the ability of your users to participate in this type of interaction when determining the feasibility of implementing a particular credential type.
 
 Once you have analyzed your user population, you should be able to select one or more Identity Provider(s) that will provide you with the authentication and federation services.
 
