@@ -11,36 +11,31 @@ pubDate:
 - Intro to the Plan section - review, modify and apply plain language principles including less words / more actionable items; focus on steps for a program manager to plan for a single sign on or federated sign on model for a federal enterprise or a federal mission application
 - Relying Party Doc Section 5.1 (Page 21) has some materials for this planning.
 - (2/5/2018) Possible Single Sign-on Referenced Document: _Federal Identity, Credential, and Access Management Trust Framework Solutions Functional Requirements for FICAM SAML 2.0 Web Browser SSO Profile v1.0.2_ (Version 1.0.0) (date: 3/11/2014?) (doc undated)
-- **One definition of SSO:** http://searchsecurity.techtarget.com/definition/single-sign-on Single sign-on (SSO) is a session and user authentication service that permits a user to use one set of login credentials (e.g., name and password) to access multiple applications. The service authenticates the ...user for all the applications he/she has been given rights to and eliminates further prompts when the user switches applications during the same session. On the back end, SSO [allows for] logging user activities as well as monitoring user accounts.   **Do we need to explain SSO/FSO for PM?  Is this covered in another section of playbook?**
 
 ===============================
 
-It’s true that Federation is a real shift in the way we’ve done in the past, but Federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you and your customers rapid, streamlined access to critical applications and websites--without having to step over that pack of tired dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
+It’s true that Federation is a real shift in the way we’ve done in the past, but Federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you rapid, streamlined access to critical applications and websites--without having to step over that pack of tired dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
 
-Once your agency is federated, you may well ask: “Why didn’t we do this before?”
-
-We want to do whatever we can to help you and your agency transition to Federation. 
-
-Please email us with any and all questions at: fpki@gsa.gov!<!--Is this the right email address? Should it be "federation@gsa.gov"?-->
+We want to help you and your agency transition to Federation! Please email us with any and all questions at: fpki@gsa.gov
 
 ## Federation Advantages 
 
 * Single Sign-on (SS)/Federated Sign-on (FSO) gives you nearly seamless acess to critical applications and websites
-* Happy users and customers
-* Increased collaboration across agencies and with partners
+* Happy users, partners, and customers
+* Increased collaboration across agencies and partner organizations
 * Significant cost reductions for IT infrastructure
-* Significate cost reductions in internal identity and access services
+* Significate cost reductions for internal identity and access services
 
 ## Things To Consider
 
-* How extensive is your interface with your customers (e.g., many externally facing websites)?
-* How many mission-critical agency applications does your agency own?
+* How extensive is your interface with your customers (e.g., few-to-many externally facing websites)?
+* How many mission-critical agency applications and websites does your agency own?
 * Budget and funding sources
 * Stakeholder buy-in
 * Policy compliance
 * Reporting requirements
 
-Below are some helpful actions you can take to plan your Federation Project. 
+Here are some actions you can take to plan your Federation project: 
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
@@ -64,7 +59,7 @@ Below are some helpful actions you can take to plan your Federation Project.
 * Determine what new IT needs to be added to existing IT infrastructure
 * Estimate the total upfront costs
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate Application Integration Costs** <!--Isn't this part of Build?-->
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate Application Integration Costs**
 * Estimate the cost to integrate the Federation solution for your targeted applications (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
 * Estimate the cost to modify each application's authentication method
 <!--* Estimate the cost to link third-party credentials to Relying Party accounts.  Is this relevant here?-->
