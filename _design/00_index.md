@@ -20,27 +20,27 @@ You should consider these topics when designing your Agency's Federation.
 
 If you want to design a federation implementation, you will find a number of different approaches that your agency might find suitable. These approaches will differ based on:
 
-- The number of Service Provider applications that you are planning to federate now and in the future.
-- The different types of credential requirements for your users.
-- The number of Identity Provider(s) that you will have to integrate with.
-- The type of relationship and the level of trust that exists with these Identity Provider(s). 
-- The existing infrastructure for Enterprise Single Sign-on and/or Federation.
+- The number of Service Provider (SP) applications that you are planning to federate now and in the future.
+- The different types of authenticator requirements for your users.
+- The number of Identity Providers (IdPs) that you will have to integrate with.
+- The type of relationship and the level of trust that exists with these IdPs. 
+- The existing infrastructure for Enterprise Single Sign-on (SSO) and/or federation services.
 
-Your agency‘s existing ICAM investments, such as modernized logical access control systems (LACS), may also provide additional capabilities that could impact the federation architecture. These additional factors may drive an agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a model that closely represents the agency‘s needs. 
+Your existing ICAM investments, such as modernized Logical Access Control Systems (LACS), may also provide additional capabilities that could impact the federation architecture. These additional factors may drive an agency to adopt a hybrid approach that combines elements of multiple topologies, resulting in a model that closely represents the agency‘s needs. 
 
-You should learn more about different [Federation Architectures](federationarch) before designing your solution architecture.
+You should learn more about different [Federation Architectures](federationarch) before designing your solution.
 
 ## Federation Protocols
 
 When you design your agency's federation process, you should use follow these principles.
 
-- Use a common exchange protocol for assertions.
+- Use a common exchange protocol for exchanging assertions.
 - Assertion protocols should be agreed-upon open standards/specifications to allow interoperability.
-- Build a trust relation with the IdP when federating outside of your agency. 
+- Build a trust relation with the IdPs when federating outside of your agency. 
 
-In a federated environment, these transactions occur between trusted Identity Providers that have been approved through the Federal Trust Framework. Given the nature of federated transactions and the electronic exchange of identity data across organizational boundaries, there is an increased focus on security and privacy to ensure users' sensitive identity data is appropriately safeguarded. 
+In a federated environment, these transactions occur between trusted Identity Providers that are deemed suitable for your user population. Given the nature of the federated transactions and the electronic exchange of identity data across organizational boundaries, there is an increased focus on security and privacy to ensure users' sensitive identity data is appropriately safeguarded. 
 
-When establishing a new federation, it is likely that you will be able select a design model to suit the specific needs of the involved applications. However, this decision is often affected by existing infrastructure availability, business requirements, privacy considerations, and granular attribute release needs. 
+When establishing a new federation, you should select a [Federation Protocol](federation_protocols) that suits the specific needs of the involved applications. However, this decision is often affected by existing infrastructure availability, business requirements, privacy considerations, and granular attribute release needs.
 
 
 
