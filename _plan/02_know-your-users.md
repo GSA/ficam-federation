@@ -34,9 +34,9 @@ When you are conducting a user analysis, you should consider the following:
 
  * **Number of Users**: Determine the population size for each category of users. It could affect the complexity and cost of integrating a potential user type.
 
- * **Demographic Information**: You may have to collect additional demographic information beyond what is provided as part of the authentication transaction. This information will help you identify the authenticators that might be applicable to the user. As an example, a senior citizen may not be capable of using a mobile phone as an authenticator while a younger person may be more adept at it.
+ * **Demographic Information**: You may have to collect additional demographic information beyond what is provided as part of the authentication transaction. This information will help you in identity proofing and authentication options that might be applicable to the user. As an example, a senior citizen may not be capable of using a mobile phone as an authenticator while a younger person may be more adept at it.
 
- * **Geographic Information**: You should also determine if the authenticators will change based on the geographical location of these users.
+ * **Geographic Information**: You should also determine if the identity proofing requirements will change based on the geographical location of these users. How can you increase the coverage of these users who are located in a rural area vs. those that live in the cities? -- Are there any examples that might be better suited? ---
  
  <i class="fa fa-check-square-o"></i> **Risk Assessment:** Follow some of the guidelines below to assess the risks and analyze any specific security and privacy requirements. 
 
