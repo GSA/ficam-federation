@@ -51,11 +51,11 @@ After the WG/TT concludes its assessment and you get the green light:
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop a Proposed Federation Solution**
 * Identify an architecture team
 * Direct the architecture team to develop a proposed solution:
-> Count the targeted applications
-> Determine what existing infrastructure can be reused
-> Determine what new IT needs to be added
-> Study the options
-> Develop the solution
+> Count the targeted applications<br>
+> Determine what existing infrastructure can be reused<br>
+> Determine what new IT needs to be added<br>
+> Study the options<br>
+> Develop the solution<br>
 
 With a proposed solution in hand:
 
@@ -63,8 +63,8 @@ With a proposed solution in hand:
 * Estimate targeted application integration costs (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
 * Estimate the cost to modify each application's authentication method
 * Estimate ongoing, life-cycle costs
-> Ongoing service charges (e.g., for Service Providers--federation brokers, etc.)
-> Operations cost
+> Ongoing service charges (e.g., for Service Providers--federation brokers, etc.)<br>
+> Operations cost<br>
 > Maintenance cost
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI Benefit** 
