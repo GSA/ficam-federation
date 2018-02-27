@@ -20,7 +20,7 @@ We want to help your agency transition to Federation! We are available to answer
 
 ## Federation Advantages 
 
-* Single Sign-on (SS)/Federated Sign-on (FSO) gives you nearly seamless acess to critical applications and websites
+* Single Sign-on (SS)/Federated Sign-on (FSO) gives you nearly seamless access to critical applications and websites
 * Happy users, partners, and customers
 * Significant cost reductions for IT infrastructure
 * Significate cost reductions for internal identity and access services
@@ -70,7 +70,7 @@ With a proposed solution in hand:
 <i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI Benefit** 
 * Based on cost estimates, calculate the Return on Investment (ROI).
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Otain Stakeholder Buy-in**
+<i class="fa fa-check-square-o"></i> &nbsp;**Obtain Stakeholder Buy-in**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding**
 * Step 1
