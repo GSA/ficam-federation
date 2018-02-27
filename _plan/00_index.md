@@ -14,24 +14,26 @@ pubDate:
 
 ===============================
 
-It’s true that Federation is a real shift in the way we’ve done in the past, but Federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you rapid, streamlined access to critical applications and websites--without having to step over that pack of tired dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
+It’s true that Federation is a real shift in the way we’ve done in the past, but Federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
 
-We want to help your agency transition to Federation! We are available to answer any and all of your questions: fpki@gsa.gov
+We want to help your agency transition to Federation. We are available to answer any and all of your questions: fpki@gsa.gov
 
 ## Federation Advantages 
 
 * Single Sign-on (SS)/Federated Sign-on (FSO) gives you nearly seamless access to critical applications and websites
 * Happy users, partners, and customers
-* Significant cost reductions for IT infrastructure
 * Significate cost reductions for internal identity and access services
+* Significant cost reductions for IT infrastructure
+
 
 ## Things To Consider
-How do I know if Federation is right for my agency?  Fully achieving these advantages may depend on:
+How do I know if Federation is right for my agency?  Consider:
 
-* How many externally facing websites does your agency own?
+* How many externally facing websites does the agency own?
 * How many mission-critical agency applications and websites?
-* Funding sources and budget
-* Stakeholder buy-in
+* Does my agency already have allocated funding?
+* Is additional funding available?
+* Will our stakeholders readily agree with this bold move? 
 
 To start planning a Federation project, here are concrete actions you can take: 
 
