@@ -17,18 +17,17 @@ You should select a federation architecture that is most applicable to you.
 
 Federation architectures have a common set of functionalities - the ability to integrate with an Identity Provider (IdP), parse an assertion, and link accounts. However, you will see variations in how they connect to each other. 
 
-- [Point-to-Point](#point-to-point)
-- [Hub-and-Spoke](#hub-and-spoke)
-- [Networked](#networked)
+- [Stand-Alone Application](#stand-alone-application)
+- [Enterprise Federation](#enterprise-federation)
 - [Federation Broker](#federation-broker)
 
-We recommended that you use the information collected from the assessments during the planning period to select the [solution architecture](#architecture-selection).
+We recommended that you use the information collected from the assessments during the planning period to select the solution architecture.
 
-## Point-to-Point 
+## Stand-Alone Application
 
-This architecture involves only the IdP and SP without considering any other SP or IdP in the mix. The IdP and SP establishes a direct connection with each other based on the trust relationship between them. You will find this as the simplest solution for establishing federation.
+The IdP and SP establishes a direct connection with each other based on the trust relationship between them. You will find this as the simplest solution for establishing federation. 
 
-<div style="text-align:center"><img src="{{site.baseurl}}/img/point-to-point.png"/></div>
+<div style="text-align:center"><img src="{{site.baseurl}}/img/stand-alone.png"/></div>
 
 **Advantages**:
 - This approach provides you with the flexibility in defining the data sharing model that only relates to the two applications.
@@ -43,45 +42,27 @@ This architecture involves only the IdP and SP without considering any other SP 
 
 An example of this pattern is the Defense Support of Civil Authorities pilot program between DHS and DoD. It involved the exchange of data between the two agencies for the purpose of enabling DoD personnel to access DHS resources. The Defense Support of Civil Authorities pilot program involved only two organizations and the point-to-point model was deemed the most appropriate.
 
-## Hub-and-Spoke
+## Enterprise Federation
 
-You will find this architecture in a typical federation scenario where a single enterprise application acts as the IdP for a number of SPs.
+You will find this architecture in a typical federation scenario where a single enterprise application acts as the federation server for a number of SPs within your agency. The federation server integrates with each of the Identity Providers (IdPs) instead of the SPs directly.
 
-<div style="text-align:center"><img src="{{site.baseurl}}/img/hub-and-spoke.png"/></div>
-
-**Advantages**:
-- The IdP provides the federation services for all the SPs.
-- If your user wants to switch between multiple SPs, it has to federate via the IdP.
-- The IdP may be the Federation service of the Enterprise Single Sign-on application.
-- Simplification of the Federation process for all SPs because the IdP is the same.
-
-**Disadvantages**:
-- The federation process is limited to the capability of the IdP.
-
-An example is OMB‘s **Max.gov**. It acts as a central identity provider that each agency can connect
-to in order to communicate and share data with other agencies. The hub-and-spoke model was 
-appropriate to consolidate data in a single location that could enforce strict access restrictions.
-
-## Networked 
-
-In this scenario, the SPs may be connected to one or more IdPs. 
-
-<div style="text-align:center"><img src="{{site.baseurl}}/img/networked.png"/></div>
+<div style="text-align:center"><img src="{{site.baseurl}}/img/fed-arch.png"/></div>
 
 **Advantages**:
-- You will find more flexibility in integrating SPs with one or more IdPs. 
-- Allows for interoperability and de-centralized data sharing.
-- Allows a broader set of user population to federate since each IdP may have authentication services for different users.
+- The federation server provides the federation services for all the SPs.
+- Simplification of the federation process for all SPs because the integration is with one federation server application.
+- Provides scalability to add more applications in the future since the integration is simpler.
+- You will control the IdPs that the SP applications can accept third-party credentials from.
 
 **Disadvantages**:
-- The complexity of maintaining the federation agreement over time increases as changes to one starts to affect others. 
-- A networked approach will require oversight and co-ordination between the applications involved.
+- The federation process is limited to the capability of the federation server.
+- The effort and investment needed to stand up an enterprise federation service is higher than the stand-alone option.
 
-An example is the **InCommon** Federation. Although InCommon does not provide any of the services itself, it uses the networked model to manage a common trust and technology framework that enables Service Providers to quickly establish peer-to-peer connections to any of the Identity Providers in research and higher education.
+An example is GSA's federation server setup for all the GSA wide applications that integrate with it. All GSA users who have an account can use this service to access the applications.
 
 ## Federation Broker
 
-The federation broker combines the advantages of the hub-and-spoke and networked architectures. One IdP can act as a proxy to other IdPs. You can eliminate the requirement of SPs to integrate with multiple IdPs individually. 
+The federation broker provides a proxy service between the IdPs and your agency's federation server. Often the federation broker is provided as a service to all agencies. An example is OMB‘s **Max.gov**. It acts as a central federation broker that each agency can connect to and share data with other agencies. The broker model was appropriate to consolidate data in a single location that could enforce strict access restrictions.
 
 <div style="text-align:center"><img src="{{site.baseurl}}/img/fed-broker.png"/></div>
 
@@ -93,19 +74,9 @@ The federation broker combines the advantages of the hub-and-spoke and networked
 
 **Disadvantages**:
 - Introduces security risks due to user information being passed through a third party before arriving at the SP. The SP should review the federation broker’s policies and make a determination if the trade off in security is worth the convenience of reduced integration effort; 
-- It limits you to the selection of IdPs to those that the federation broker is connected to. 
+- It limits you to the selection of IdPs to those that the federation broker is connected to.
+- You may not have control over which third-party credentials are allowed since that is decided by the broker.
 
-
-## Architecture Selection
-
-The table below provides guidance to the applicability of each architectural solution.
-
-| <center> Architecture </center> | <center> Situations </center> | 
-|:---------------------------------------:|-------------------------------|
-| **Point-to-Point** | • An agency has a small number of applications that only caters to a small group of users. <br/><br/> • An agency wishes to pilot the acceptance of credentials on a small scale before deploying it for the entire agency. <br/><br/> •For an agency that will enable more than three or four applications, another approach is recommended to reduce overall cost.|
-| **Hub-and-Spoke** | • You have or plan to have an Enterprise IdP. <br/><br> • You wish to maintain control of which IdPs are integrated. <br/><br> • You have many applications that are required to accept one set of credentials. <br/><br/> • You have flexibility in existing agency-wide infrastructure that can be modified/augmented to accept the credentials. |
-| **Networked** | • You have many applications that are required to accept third-party credentials. <br/><br/> • You want to accept third-party credentials from a large user base that spans many IdPs. <br/><br/> • You have privacy requirements to accept externally-issued credentials without knowing which IdP a user authenticated to. |
-| **Federation Broker** | • You want to simplify the integrations for the SPs. <br/><br/> • You want to accept third-party credentials from a large user base that spans many IdPs. <br/><br/> • You want the complexity of implementing a federation broker and establish the integrations with external IdPs. |
 
 
 
