@@ -15,13 +15,20 @@ pubDate:
 
 You should select a federation architecture that is most applicable to you.
 
-Federation architectures have a common set of functionalities - the ability to integrate with an Identity Provider (IdP), parse an assertion, and link accounts. However, you will see variations in how they connect to each other. 
+Federation architectures have a common set of functionalities - the ability to integrate with an Identity Provider (IdP), parse an assertion, and link accounts. However, you will see variations in how they connect to each other. We recommended that you use the information collected from the assessments during the planning period to select the solution architecture.
 
 - [Stand-Alone Application](#stand-alone-application)
 - [Enterprise Federation](#enterprise-federation)
 - [Federation Broker](#federation-broker)
 
-We recommended that you use the information collected from the assessments during the planning period to select the solution architecture.
+The table below provides guidance to the applicability of each architectural solution. 
+
+| <center> Recommended Approach </center> | <center> Situations </center> | 
+|:---------------------------------------:|-------------------------------|
+| **Stand-Alone** | • You have a small number of applications that require federation. <br/><br/> • You want to pilot before deploying it for the entire agency. |
+| **Enterprise** | • You want to maintain control of which IdPs are integrated. <br><br> • You have many applications to federate. <br/><br/> • You already have existing agency-wide infrastructure that can be modified/augmented. |
+| **Federation Broker** | • You have many applications to federate. <br/><br/> • You have an existing agency-wide infrastructure that can be leveraged. <br/><br/> • You want to accept third-party credentials from a large user base that spans many IdPs. <br/><br/> • Your privacy requirements do not dictate which IdP a user authenticated to. |
+
 
 ## Stand-Alone Application
 
