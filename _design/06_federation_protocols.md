@@ -21,14 +21,12 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 - [Federal PKI](#federal-pki-fpki)
 
 These pointers will help you understand the basic differences between them.
-- SAML is **XML** based, while iGov for OIDC/OAuth protocols are built on **JSON** data format.
-- SAML supports both authentication and authorization. 
-- OIDC is for authentication, while OAuth supports authorizations.
-- SAML is mostly used for securing web applications.
-- OIDC and OAuth are used in web and mobile apps.
-- Federal PKI can be used in conjunction with SAML or iGov.
-- SAML can utilize **XML data encryption** to secure data while in transit.
-- OIDC and OAuth protocols rely on **TLS** for security while data is in motion.
+
+| **Protocol** | **Features** |
+| **SAML** | • **XML** based. <br/>• Supports both authentication and authorization. <br/>• Mostly used for securing web applications.|
+| **iGov For OAuth2** | • Based on **JSON** data format. <br/> • OAuth is for authorization. <br/> • Used in web and mobile apps|
+| **iGov For OIDC** | • Based on **JSON** data format. <br/> • OIDC is for authentication. <br/> • Used in web and mobile apps|
+| **Federal PKI** | • Uses PIV/CAC credentials. <br/>• Federal PKI can be used in conjunction with SAML or iGov. |
 
 ## Security Assertion Markup Language (SAML)
 
@@ -62,6 +60,8 @@ The three profiles of OAuth2 are:
 - OAuth2 Protected Resource Profiles
 
 The **Client Profiles** defines the data requested for authorization requests. It includes the full redirect URIs with a client ID. The iGov adds the authentication step for the client to the authorization server using the claims based tokens. The data should be signed by the client using its private key. There are different specifications for each type of client.
+
+The Authorization Server Profiles are used to define how the authorization server (IdP) will interact with the client. The assertion will need to be encrypted using TLS endpoints.
 
 ## iGov For OIDC
 
