@@ -13,12 +13,20 @@ pubDate:
 
 =================================
 
-The federation protocols are used to transfer data from the IdP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to the Federal Government:
+The federation protocols are used to transfer data from the IdP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to Federation in the Federal Government.
 
 - [SAML](#security-assertion-markup-language-saml)
 - [iGov For OIDC](#igov-for-oidc)
-- [iGov For OAuth 2.0](#igov-for-oauth-2.0)
+- [iGov For OAuth](#igov-for-oauth2)
 - [Federal PKI](#federal-pki-fpki)
+
+These pointers will help you understand the basic differences between them.
+- SAML is **XML** based, while iGov for OIDC/OAuth protocols are built on **JSON** data format.
+- SAML is mostly used for web applications.
+- OIDC and OAuth are used in web or mobile apps.
+- Federal PKI can be used in conjunction with SAML or iGov.
+- SAML can utilize **XML data encryption** to secure data while in transit.
+- OIDC and OAuth protocols rely on **TLS** for security while data is in motion.
 
 ## Security Assertion Markup Language (SAML)
 
@@ -27,6 +35,7 @@ SAML is an open-standards based XML data exchange framework for creating and exc
 - SAML standards include secure exchange format to preserve message confidentiality and integrity.
 - It can also be used for non-repudiation.
 - Utilizes the XML Digital Signature envelopes to secure messages.
+- Latest version is SAML 2.0 though SAML 1.1 is also used. 
 
 SAML is widely used for sharing data securely between websites such as your bank. This is also known as '_Web Browser SSO Profile_'. It comprises of the following three components.
 
@@ -56,7 +65,7 @@ In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access 
 
 An additional scope, offline_access, is used to govern the issuance of refresh tokens, which allow the SP to access the UserInfo Endpoint when the subscriber is not present. Access to the UserInfo Endpoint is structured as an API and may be available when the subscriber is not present. Therefore, access to the UserInfo Endpoint is not sufficient for proving a subscriber’s presence and establishing an authenticated session at the RP.
 
-## iGov For OAuth 2.0
+## iGov For OAuth
 
 The iGov specifications are used to define the OpenID Connect (OIDC) profile for securing federated access in the government context.  OIDC builds on top of the **OAuth 2.0 (OAUTH)** authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. 
 
