@@ -22,19 +22,22 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 
 These pointers will help you understand the basic differences between them.
 - SAML is **XML** based, while iGov for OIDC/OAuth protocols are built on **JSON** data format.
-- SAML is mostly used for web applications.
-- OIDC and OAuth are used in web or mobile apps.
+- SAML supports both authentication and authorization. 
+- OIDC is for authentication, while OAuth supports authorizations.
+- SAML is mostly used for securing web applications.
+- OIDC and OAuth are used in web and mobile apps.
 - Federal PKI can be used in conjunction with SAML or iGov.
 - SAML can utilize **XML data encryption** to secure data while in transit.
 - OIDC and OAuth protocols rely on **TLS** for security while data is in motion.
 
 ## Security Assertion Markup Language (SAML)
 
-SAML is an open-standards based XML data exchange framework for creating and exchanging authentication and attribute information between trusted entities over the internet. 
+SAML is an open-standards for authentication and authorization between trusted entities over the internet.
 
-- SAML standards include secure exchange format to preserve message confidentiality and integrity.
-- It can also be used for non-repudiation.
+- SAML standards use XML data type.
 - Utilizes the XML Digital Signature envelopes to secure messages.
+- It includes secure exchange format to preserve message confidentiality and integrity.
+- It can also be used for non-repudiation.
 - Latest version is SAML 2.0 though SAML 1.1 is also used. 
 
 SAML is widely used for sharing data securely between websites such as your bank. This is also known as '_Web Browser SSO Profile_'. It comprises of the following three components.
@@ -51,36 +54,24 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 
 ## iGov For OAuth2
 
-OAuth2 web authorization protocol is used widely to secure web facing applications using JSON data formats via REST APIs. The iGov specifications add security and interoperability to the **OAuth 2.0** (OAuth2) protocol framework for federated access in the government context. 
+**OAuth 2.0** (OAuth2) is a delegated web authorization protocol. It is used widely to request access to web facing applications using JSON data formats via REST APIs. Since OAuth2 does not support data transfer security other than TLS, the iGov specifications add security and interoperability to the protocol framework for federated access in the government context. 
 
 The three profiles of OAuth2 are:
 - OAuth2 Client Profiles
 - OAuth2 Authorization Server Profiles
 - OAuth2 Protected Resource Profiles
 
-In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
-
-- iss - An HTTPS URL identifying the IdP that issued the assertion.
-- sub - An IdP-specific subject identifier representing the subscriber.
-- aud - An IdP-specific audience identifier, equal to the OAuth 2.0 client identifier of the client at the IdP.
-- exp - The timestamp at which the ID Token expires and after which SHALL NOT be accepted the client.
-- iat - The timestamp at which the ID Token was issued and before which SHALL NOT be accepted by the client.
-
-In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access token which can be used to access the UserInfo Endpoint at the IdP. This endpoint returns a JSON object representing a set of attributes about the subscriber, including but not limited to their name, email address, physical address, phone number, and other profile information. While the information inside the ID Token is reflective of the authentication event, the information in the UserInfo Endpoint is generally more stable and could be more general purpose. Access to different attributes from the UserInfo Endpoint is governed by the use of a specially-defined set of OAuth scopes, openid, profile, email, phone, and address. 
-
-An additional scope, offline_access, is used to govern the issuance of refresh tokens, which allow the SP to access the UserInfo Endpoint when the subscriber is not present. Access to the UserInfo Endpoint is structured as an API and may be available when the subscriber is not present. Therefore, access to the UserInfo Endpoint is not sufficient for proving a subscriber’s presence and establishing an authenticated session at the RP.
+The **Client Profiles** defines the data requested for authorization requests. It includes the full redirect URIs with a client ID. The iGov adds the authentication step for the client to the authorization server using the claims based tokens. The data should be signed by the client using its private key. There are different specifications for each type of client.
 
 ## iGov For OIDC
 
-**OpenID Connect** (OIDC) builds on top of the **OAuth 2.0 (OAUTH)** authorization protocol to enable your agency users to authorize the SP to access the identity and authentication information. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
+**OpenID Connect** (OIDC) protocol specifies the authentication and profile information exchange for web and mobile applications. It is build on top of the **OAuth 2.0 (OAUTH)** authorization protocol and shares similar JSON data format for assertions. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
 
-In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
+There are two profiles in OIDC:
+- OpenID Relying Party Profile
+- OpenID Provider Profile
 
-- iss - An HTTPS URL identifying the IdP that issued the assertion.
-- sub - An IdP-specific subject identifier representing the subscriber.
-- aud - An IdP-specific audience identifier, equal to the OAuth 2.0 client identifier of the client at the IdP.
-- exp - The timestamp at which the ID Token expires and after which SHALL NOT be accepted the client.
-- iat - The timestamp at which the ID Token was issued and before which SHALL NOT be accepted by the client.
+In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. 
 
 In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access token which can be used to access the UserInfo Endpoint at the IdP. This endpoint returns a JSON object representing a set of attributes about the subscriber, including but not limited to their name, email address, physical address, phone number, and other profile information. While the information inside the ID Token is reflective of the authentication event, the information in the UserInfo Endpoint is generally more stable and could be more general purpose. Access to different attributes from the UserInfo Endpoint is governed by the use of a specially-defined set of OAuth scopes, openid, profile, email, phone, and address. 
 
@@ -88,10 +79,7 @@ An additional scope, offline_access, is used to govern the issuance of refresh t
 
 ## Federal PKI (FPKI)
 
-A core component of the Federal Trust Framework, FPKI provides a common, government-wide
-infrastructure (e.g., policies, processes, server platforms, software, and workstations) for the
-purpose of administering digital certificates and public-private key pairs, including the ability to
-issue, maintain, and revoke public key certificates. 
+A core component of the Federal Trust Framework, FPKI provides a common, government-wide infrastructure (e.g., policies, processes, server platforms, software, and workstations) for the purpose of administering digital certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. 
 
 Federal PKI Policy Authority (FPKIPA) and the Federal PKI Management Authority (FPKIMA) are the 
 Federal Trust Framework governance bodies for PKI credentials. The policies of the FPKIPA and 
