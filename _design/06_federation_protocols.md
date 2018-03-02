@@ -16,8 +16,8 @@ pubDate:
 The federation protocols are used to transfer data from the IdP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to Federation in the Federal Government.
 
 - [SAML](#security-assertion-markup-language-saml)
+- [iGov For OAuth2](#igov-for-oauth2)
 - [iGov For OIDC](#igov-for-oidc)
-- [iGov For OAuth](#igov-for-oauth2)
 - [Federal PKI](#federal-pki-fpki)
 
 These pointers will help you understand the basic differences between them.
@@ -49,9 +49,14 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 - _Attribute statements_ contain specific additional characteristics related to the subscriber. For example, subject “John” is associated with attribute “Role” with value “Manager”.
 - _Authorization statements_ identify the resources the subscriber has permission to access. These resources may include specific devices, files, and information on specific web servers. For example, subject “John” for action “Read” on “Webserver1002” given evidence “Role”.
 
-## iGov For OIDC
+## iGov For OAuth2
 
-The iGov specifications are used to define the OpenID Connect (OIDC) profile for securing federated access in the government context.  OIDC builds on top of the **OAuth 2.0 (OAUTH)** authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. 
+OAuth2 web authorization protocol is used widely to secure web facing applications using JSON data formats via REST APIs. The iGov specifications add security and interoperability to the **OAuth 2.0** (OAuth2) protocol framework for federated access in the government context. 
+
+The three profiles of OAuth2 are:
+- OAuth2 Client Profiles
+- OAuth2 Authorization Server Profiles
+- OAuth2 Protected Resource Profiles
 
 In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
 
@@ -65,9 +70,9 @@ In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access 
 
 An additional scope, offline_access, is used to govern the issuance of refresh tokens, which allow the SP to access the UserInfo Endpoint when the subscriber is not present. Access to the UserInfo Endpoint is structured as an API and may be available when the subscriber is not present. Therefore, access to the UserInfo Endpoint is not sufficient for proving a subscriber’s presence and establishing an authenticated session at the RP.
 
-## iGov For OAuth
+## iGov For OIDC
 
-The iGov specifications are used to define the OpenID Connect (OIDC) profile for securing federated access in the government context.  OIDC builds on top of the **OAuth 2.0 (OAUTH)** authorization protocol to enable your agency users to authorize the SP to access the  identity and authentication information. The SP in both OpenID Connect and OAuth 2.0 is known as the client. 
+**OpenID Connect** (OIDC) builds on top of the **OAuth 2.0 (OAUTH)** authorization protocol to enable your agency users to authorize the SP to access the identity and authentication information. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
 
 In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. This token contains at minimum the following information about the subscriber and authentication event:
 
