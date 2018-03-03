@@ -14,84 +14,77 @@ pubDate:
 
 ===============================
 
-It’s true that Federation is a real shift in the way we’ve done in the past, but Federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
+It’s true that federation is a real change in the way things have been done in the past, but federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
 
-We want to help your agency transition to Federation. We are available to answer any and all of your questions: fpki@gsa.gov
+We want to help you transition to Federation. Please send any and all questions to: fpki@gsa.gov
 
 ## Federation Advantages 
 
-* Single Sign-on (SS)/Federated Sign-on (FSO) gives you nearly seamless access to critical applications and websites
+* Single Sign-on (SS)/Federated Sign-on (FSO) will give you nearly seamless access to critical applications and websites
 * Happy users, partners, and customers
 * Significate cost reductions for internal identity and access services
 * Significant cost reductions for IT infrastructure
 
 
 ## Things To Consider
-How do I know if Federation is right for my agency?  Consider:
+How do I know if federation is right for my agency?  Consider:
 
-* How many externally facing websites does the agency own?
-* How many mission-critical agency applications and websites?
-* Does my agency already have allocated funding?
-* Is additional funding available?
+* How many externally facing websites does your agency have? 
+* How many mission-critical agency applications do you own?
+* Does my agency already have additional funding for HSPD-12 and ICAM improvements?
+* Are there other additional funding sources available?
 * Will our stakeholders readily agree with this bold move? 
 
-To start planning a Federation project, here are concrete actions you can take: 
+Here are **key actions** to help you begin planning for a federation project:  
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish a Working Group/Tiger Team To Assess Federation for your Agency**
-* Assess your agency's mission and the benefits of Federation
-* Assess business needs
-* Assess customer interface processes
-* Identify targeted applications
-* Document the potential costs
-* Create a business case
+<i class="fa fa-check-square-o"></i> &nbsp;**Create a Tiger Team/Working Group to determine whether federation will benefit your agency**
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Direct Tiger Team/Working Group to create a business case**
+* Create a business case:
+> Current and optimized state of targeted processes
+> Identify targeted websites/applications
+> Estimate the potential costs and funding sources
 * Obtain preliminary stakeholder buy-in
 
-After the WG/TT concludes its assessment and you get the green light:
+Once you get a green light to proceed:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop a Proposed Federation Solution**
-* Identify an architecture team
-* Direct the architecture team to develop a proposed solution:
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify an Architecture Team to propose a federation solution**
 > Count the targeted applications<br>
 > Determine what existing infrastructure can be reused<br>
 > Determine what new IT needs to be added<br>
 > Study the options<br>
 > Develop the solution<br>
 
-With a proposed solution in hand:
+With the proposed solution in hand:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate the Cost**
-* Estimate targeted application integration costs (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
-* Estimate the cost to modify each application's authentication method
-* Estimate ongoing, life-cycle costs
-> Ongoing service charges (e.g., for Service Providers--federation brokers, etc.)<br>
-> Operations cost<br>
-> Maintenance cost
+<i class="fa fa-check-square-o"></i> &nbsp;**Estimate total cost and calculate the ROI benefit**
+* Estimate application integration costs (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
+* Estimate the costs to modify each application's authentication method
+* Estimate ongoing, life-cycle costs (federation broker charges, operations, maintenance)
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Calculate ROI Benefit** 
-* Based on cost estimates, calculate the Return on Investment (ROI).
+"ROI looks good and management approves moving ahead":
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Obtain Stakeholder Buy-in**
+<i class="fa fa-check-square-o"></i> &nbsp;**Obtain committed stakeholder buy-in**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify and Obtain Funding**
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify and obtain funding**
 * Step 1
 * Step 2
 * Step 3
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop a Federation Project Schedule** 
-* Target business case applications integration/acquisition
-* Develop a phased project schedule with incremental milestones.
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop a federation project schedule** 
+* Develop a phased project schedule with incremental milestones, including applications integration/acquisition
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish Federation Project Technical Team**
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish federation technical team**
 * Identify technical team members
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and Select Service Providers (IdPs)**
+<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and select service providers (IdPs)**
 <**Add link to xx document [link] for guidance on evaluating**> 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreement (SLA) with IdPs**
+<i class="fa fa-check-square-o"></i> &nbsp;**...Sevice-Level Agreements (SLAs)**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop Project Management Core Documents:**
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
 * Project Management Plan (with Work Breakdown Structure and Milestones)
 * Risk Management Plan
 * Communications Plan
