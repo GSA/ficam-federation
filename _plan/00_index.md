@@ -20,7 +20,7 @@ We want to help you transition to federation! Please send any and all questions 
 
 ## Federation Advantages 
 
-* Samless access to critical websites and applications
+* Seamless access to critical websites and applications
 * Happy users, partners, and customers
 * Significate cost reductions for internal identity and access services
 * Significant cost reductions for IT infrastructure
@@ -48,6 +48,7 @@ Here are **key actions** to help you begin planning for a federation project:
 > Current and optimized state of targeted processes
 > Identify targeted websites/applications
 > Estimate the potential costs and funding sources
+> Identify the potential risks
 * Identify stakeholders and obtain preliminary buy-in
 * Obtain CIO, CISO, and CFO approval to proceed with your federation project
 
