@@ -22,10 +22,10 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 
 | <center>Protocol</center> | <center>Features</center> |
 |:---------------------------------------:|-------------------------------|
-| **SAML** | • **XML** based data exchange. <br/> • Open standard for both authentication and authorization over HTTP or SOAP. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
-| **iGov For OAuth2** | • Based on **JSON** data format. <br/> • OAuth is open standard for authorization over HTTP. <br/> • Used for securing web and mobile apps. |
-| **iGov For OIDC** | • Based on **JSON** data format. <br/> • OIDC is open standard for authentication over HTTP. <br/> • Used for securing web and mobile apps. |
-| **Federal PKI** | • Leverages PIV/CAC credentials. <br/>• Federal PKI can be used in conjunction with SAML or iGov. |
+| **SAML** | • **XML** based data exchange over HTTP or SOAP. <br/> • Open standard for both authentication and authorization. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
+| **iGov For OAuth2** | • Based on **JSON** data format over HTTP. <br/> • OAuth is open standard for authorization. <br/> • Used for securing web and mobile apps. |
+| **iGov For OIDC** | • Based on **JSON** data format over HTTP. <br/> • OIDC is open standard for authentication. <br/> • Used for securing web and mobile apps. |
+| **Federal PKI** | • Can be used for both authentication and authorization. <br/>• Leverages PIV/CAC credentials issued by other agencies. <br/>• Federal PKI can be used in conjunction with SAML or iGov protocols. |
 
 ## Security Assertion Markup Language (SAML)
 
@@ -61,30 +61,30 @@ OAuth2 has the following roles:
 
 An **Access Token** is issued by the Authorization Server to the Client based on the Resource Owner successfully validating its credentials. This access token is presented to the Resource Server by the Client to request authorization to a specific end point. The access token has a specific scope such as HTTP URI, duration and other access parameters.
 
-You will find these three commonly used profiles of OAuth2 which define the data requirements:
+You will find these three commonly used profiles of iGov for OAuth2 which define the data requirements:
 - OAuth2 Client Profiles
 - OAuth2 Authorization Server Profiles
 - OAuth2 Protected Resource Profiles
 
 The **Client Profiles** define the data requested for authorization requests. It includes the full redirect URIs with a client ID. The iGov adds the authentication step for the client to the authorization server using the claims based tokens. The data should be signed by the client using its private key. There are different specifications for each type of client.
 
-The Authorization Server Profiles are used to define how the authorization server (IdP) will interact with the client. The assertion will need to be encrypted using TLS endpoints. The Protected Resource Profiles define the requirements for the client requesting access to the Resource Server.
+The **Authorization Server** Profiles are used to define how the authorization server (IdP) will interact with the client. The assertion will need to be encrypted using TLS endpoints. The **Protected Resource Profiles** define the requirements for the client requesting access to the Resource Server.
 
 You will find more information at [IGov for OAuth 2.0](http://openid.net/specs/openid-igov-oauth2-1_0-02.html).
 
 ## iGov For OIDC
 
-**OpenID Connect** (OIDC) protocol specifies the authentication and profile information exchange for web and mobile applications. It is build on top of the **OAuth 2.0 (OAUTH)** authorization protocol and shares similar JSON data format for assertions. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
+**OpenID Connect** (OIDC) protocol adds the authentication and profile information for web and mobile applications on top of the **OAuth 2.0 (OAUTH)** authorization protocol. It shares similar JSON data format for assertions. The iGov specifications are used to define the OIDC profile for securing federated access in the government context.
 
-In a successful OpenID Connect transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. 
+OIDC allows clients such as a web browser or a mobile device to access the authentication information of the end-user. In a successful OIDC transaction, the IdP issues an ID Token, which is a signed assertion in JSON Web Token (JWT) format. The client parses the ID Token to learn about the subscriber and primary authentication event at the IdP. 
+
+In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access token which can be used to access the UserInfo Endpoint at the IdP. This endpoint returns a JSON object representing a set of attributes about the subscriber, including but not limited to their name, email address, physical address, phone number, and other profile information. Access to different attributes from the UserInfo Endpoint is governed by the use of a specially-defined set of OAuth scopes, openid, profile, email, phone, and address.
 
 There are two profiles in OIDC:
-- OpenID Relying Party Profile
-- OpenID Provider Profile
+- **_OpenID Relying Party Profile_** defines the requests for authorization end points.
+- **_OpenID Provider Profile_** defines the provider requirements such as signing the ID Token and support for the UserInfo endpoint.
 
-In addition to the ID Token, the IdP also issues the client an OAuth 2.0 access token which can be used to access the UserInfo Endpoint at the IdP. This endpoint returns a JSON object representing a set of attributes about the subscriber, including but not limited to their name, email address, physical address, phone number, and other profile information. While the information inside the ID Token is reflective of the authentication event, the information in the UserInfo Endpoint is generally more stable and could be more general purpose. Access to different attributes from the UserInfo Endpoint is governed by the use of a specially-defined set of OAuth scopes, openid, profile, email, phone, and address. 
-
-An additional scope, offline_access, is used to govern the issuance of refresh tokens, which allow the SP to access the UserInfo Endpoint when the subscriber is not present. Access to the UserInfo Endpoint is structured as an API and may be available when the subscriber is not present. Therefore, access to the UserInfo Endpoint is not sufficient for proving a subscriber’s presence and establishing an authenticated session at the RP.
+An additional scope, **_offline_access_**, is used to govern the issuance of refresh tokens, which allow the SP to access the UserInfo Endpoint when the subscriber is not present. 
 
 You will find more information at [IGov for OIDC](http://openid.net/specs/openid-igov-openid-connect-1_0-02.html).
 
