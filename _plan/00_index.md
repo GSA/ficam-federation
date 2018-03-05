@@ -25,7 +25,7 @@ We want to help you transition to federation! Please send any and all questions 
 * Strengthens information security and privacy protections 
 * Maximizes shared services and reuse of existing IT infrastructure
 * Significantly reduces costs for new IT infrastructure
-* Significately reduces costs for internal identity and access services
+* Significantly reduces costs for internal identity and access services
 * Happy users, partners, and customers
 
 
@@ -43,7 +43,7 @@ Here are **key actions** to help you begin planning for a federation project:
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Create a Tiger Team/Working Group to determine whether federation will benefit your agency**
+<i class="fa fa-check-square-o"></i> &nbsp;**Create a Tiger Team/Working Group to determine whether federation will benefit the agency**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Direct Tiger Team/Working Group to create a business case**
 * Create a business case:
@@ -58,12 +58,12 @@ Here are **key actions** to help you begin planning for a federation project:
 Once you get a green light:
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify an architecture team to propose a federation solution**
-* Identify archtecture team members
+* Identify architecture team members
 * Develop a proposed federation solution:
 > Count the targeted websites and mission-critical applications<br>
 > Determine what existing IT infrastructure can be reused<br>
 > Determine whether new IT needs to be added and what<br>
-> Develop a protentially viable solution<br>
+> Develop a potentially viable solution<br>
 
 With the proposed solution in hand:
 
@@ -83,7 +83,7 @@ With the proposed solution in hand:
 
 <i class="fa fa-check-square-o"></i> &nbsp;**With agency approval, obtain final stakeholder buy-in**<!--CIO/CISO approve?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**After stakeholder are on board, management approves the project**
+<i class="fa fa-check-square-o"></i> &nbsp;**After stakeholders are on board, management approves the project**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Establish federation technical implementation team**
 * Identify technical implementation team members
@@ -94,7 +94,7 @@ With the proposed solution in hand:
 <i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and select service providers (IdPs)**
 <**Add link to xx document [link] for guidance on evaluating**> 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreements (SLAs)**
+<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Service-Level Agreements (SLAs)**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
 * Project Management Plan (with Work Breakdown Structure and Milestones)
