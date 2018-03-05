@@ -14,25 +14,27 @@ pubDate:
 
 ===============================
 
-It’s true that federation is a real change in the way things have been done in the past, but federation is good change.  It will not only make your life easier but also those of your customers.  Federation will give you rapid, streamlined access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access applications and websites you need to start your work.  
+It’s true that federation is a real change in the way things have been done in the past, but federation is good change.  It will make your life and the lives of your customers and partners much easier.  Federation will give you rapid, seamless access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that your customers, partners, and agency users need to start their work.  
 
-We want to help you transition to Federation. Please send any and all questions to: fpki@gsa.gov
+We want to help you transition to federation! Please send any and all questions to: fpki@gsa.gov
 
 ## Federation Advantages 
 
-* Single Sign-on (SS)/Federated Sign-on (FSO) will give you nearly seamless access to critical applications and websites
+* Samless access to critical websites and applications
 * Happy users, partners, and customers
 * Significate cost reductions for internal identity and access services
 * Significant cost reductions for IT infrastructure
 
 
 ## Things To Consider
-How do I know if federation is right for my agency?  Consider:
+Is federation right for your agency?  Consider:
 
 * How many externally facing websites does your agency have? 
 * How many mission-critical agency applications do you own?
-* Does my agency already have additional funding for HSPD-12 and ICAM improvements?
+* Customer population
+* Does my agency have available funding for single sign-on IT improvements and service provider fees?
 * Are there other additional funding sources available?
+* What are the potential risks?
 * Will our stakeholders readily agree with this bold move? 
 
 Here are **key actions** to help you begin planning for a federation project:  
@@ -46,7 +48,8 @@ Here are **key actions** to help you begin planning for a federation project:
 > Current and optimized state of targeted processes
 > Identify targeted websites/applications
 > Estimate the potential costs and funding sources
-* Obtain preliminary stakeholder buy-in
+* Identify stakeholders and obtain preliminary buy-in
+* Obtain CIO, CISO, and CFO approval to proceed with your federation project
 
 Once you get a green light to proceed:
 
