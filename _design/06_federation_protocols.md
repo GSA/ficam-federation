@@ -22,7 +22,7 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 
 | <center>Protocol</center> | <center>Features</center> |
 |:---------------------------------------:|-------------------------------|
-| **SAML** | • **XML** based data exchange over HTTP or SOAP. <br/> • Open standard for both authentication. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
+| **SAML** | • **XML** based data exchange over HTTP or SOAP. <br/> • Open standard for authentication. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
 | **iGov For OAuth2** | • Based on **JSON** data format over HTTP. <br/> • OAuth is open standard for authorization. <br/> • Used for securing web and mobile apps. |
 | **iGov For OIDC** | • Based on **JSON** data format over HTTP. <br/> • OIDC is open standard for authentication. <br/> • Used for securing web and mobile apps. |
 | **Federal PKI** | • Can be used for both authentication and authorization. <br/>• Leverages PIV/CAC credentials issued by other agencies. <br/>• Federal PKI can be used in conjunction with SAML or iGov protocols. |
