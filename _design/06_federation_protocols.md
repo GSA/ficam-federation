@@ -22,7 +22,7 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 
 | <center>Protocol</center> | <center>Features</center> |
 |:---------------------------------------:|-------------------------------|
-| **SAML** | • **XML** based data exchange over HTTP or SOAP. <br/> • Open standard for both authentication and authorization. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
+| **SAML** | • **XML** based data exchange over HTTP or SOAP. <br/> • Open standard for both authentication. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
 | **iGov For OAuth2** | • Based on **JSON** data format over HTTP. <br/> • OAuth is open standard for authorization. <br/> • Used for securing web and mobile apps. |
 | **iGov For OIDC** | • Based on **JSON** data format over HTTP. <br/> • OIDC is open standard for authentication. <br/> • Used for securing web and mobile apps. |
 | **Federal PKI** | • Can be used for both authentication and authorization. <br/>• Leverages PIV/CAC credentials issued by other agencies. <br/>• Federal PKI can be used in conjunction with SAML or iGov protocols. |
@@ -43,11 +43,10 @@ SAML is widely used for sharing data securely between websites such as your bank
 - The SAML Protocols, which are used to request assertions and artifacts.
 - SAML can be transported over HTTP or SOAP.
 
-SAML Assertions are encoded in an XML schema and can carry up to three types of statements:
+SAML Assertions are encoded in an XML schema and can carry these types of statements:
 
 - **_Authentication statements_** include information about the assertion issuer, the authenticated subscriber, validity period, and other authentication information. For example, an Authentication Assertion would state the subscriber “John” was authenticated using a password at 10:32pm on 06-06-2004.
 - **_Attribute statements_** contain specific additional characteristics related to the subscriber. For example, subject “John” is associated with attribute “Role” with value “Manager”.
-- **_Authorization statements_** identify the resources the subscriber has permission to access. These resources may include specific devices, files, and information on specific web servers. For example, subject “John” for action “Read” on “Webserver1002” given evidence “Role”.
 
 ## iGov For OAuth2
 
@@ -55,7 +54,7 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 
 OAuth2 has the following roles:
 - **_Resource Owner_** is most commonly the end-user who is granting access.
-- **_Client_** is the application making the request on behalf of the resource owner, e.g. the web browser.
+- **_Client_** is the user agent making the request on behalf of the resource owner, e.g. the web browser.
 - **_Resource Server_** is the application that the client is requesting access to.
 - **_Authorization Server_** is the application (IdP) which allows the client access using access tokens.
 
