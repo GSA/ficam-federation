@@ -19,23 +19,25 @@ It’s true that federation is a real change in the way things have been done in
 We want to help you transition to federation! Please send any and all questions to: fpki@gsa.gov
 
 ## Federation Advantages 
+[Use "sustainable"....?]
 
 * Seamless access to critical websites and applications
+* Strengthens information security and privacy protections 
+* Maximizes shared services and reuse of existing IT infrastructure
+* Significantly reduces costs for new IT infrastructure
+* Significately reduces costs for internal identity and access services
 * Happy users, partners, and customers
-* Significate cost reductions for internal identity and access services
-* Significant cost reductions for IT infrastructure
 
 
 ## Things To Consider
-Is federation right for your agency?  Consider:
+Is federation right for your agency?  Here are a few things to consider:
 
-* How many externally facing websites does your agency have? 
-* How many mission-critical agency applications do you own?
-* Customer population
-* Does my agency have available funding for single sign-on IT improvements and service provider fees?
-* Are there other additional funding sources available?
+* How many externally facing websites and mission-critical applications does my agency own?<!--Are the agency websites always the location for accessing mission-critical systems?  Are mission-critical applications both internal and external?-->
+* How big is our customer population?
+* Is internal funding available for single sign-on/federated sign-on, IT improvements?
+* Are additional funding sources available?
 * What are the potential risks?
-* Will our stakeholders readily agree with this bold move? 
+* Are our stakeholders likely to agree with this bold move? 
 
 Here are **key actions** to help you begin planning for a federation project:  
 
@@ -47,46 +49,52 @@ Here are **key actions** to help you begin planning for a federation project:
 * Create a business case:
 > Current and optimized state of targeted processes
 > Identify targeted websites/applications
-> Estimate the potential costs and funding sources
+> Estimate the potential costs
+> Identify funding sources
 > Identify the potential risks
-* Identify stakeholders and obtain preliminary buy-in
-* Obtain CIO, CISO, and CFO approval to proceed with your federation project
+* Identify stakeholders and obtain preliminary approval
+* Obtain CIO, CISO, and CFO approval to proceed with your agency's federation project
 
-Once you get a green light to proceed:
+Once you get a green light:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify an Architecture Team to propose a federation solution**
-> Count the targeted applications<br>
-> Determine what existing infrastructure can be reused<br>
-> Determine what new IT needs to be added<br>
-> Study the options<br>
-> Develop the solution<br>
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify an architecture team to propose a federation solution**
+* Identify archtecture team members
+* Develop a proposed federation solution:
+> Count the targeted websites and mission-critical applications<br>
+> Determine what existing IT infrastructure can be reused<br>
+> Determine whether new IT needs to be added and what<br>
+> Develop a protentially viable solution<br>
 
 With the proposed solution in hand:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Estimate total cost and calculate the ROI benefit**
+<i class="fa fa-check-square-o"></i> &nbsp;**Work with budget team to estimate total cost and calculate the ROI benefit**
 * Estimate application integration costs (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
 * Estimate the costs to modify each application's authentication method
 * Estimate ongoing, life-cycle costs (federation broker charges, operations, maintenance)
 
-"ROI looks good and management approves moving ahead":
-
-<i class="fa fa-check-square-o"></i> &nbsp;**Obtain committed stakeholder buy-in**
-
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify and obtain funding**
+<i class="fa fa-check-square-o"></i> &nbsp;**If ROI looks promising, identify potential sources of funding**
 * Step 1
 * Step 2
 * Step 3
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop a federation project schedule** 
-* Develop a phased project schedule with incremental milestones, including applications integration/acquisition
+<i class="fa fa-check-square-o"></i> &nbsp;**Obtain preliminary, key stakeholder buy-in**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish federation technical team**
-* Identify technical team members
+<i class="fa fa-check-square-o"></i> &nbsp;**Present federation solution, projected costs, ROI, and potential sources of funding to management for approval to proceed**<!--CIO/CISO/CFO approve?-->
+
+<i class="fa fa-check-square-o"></i> &nbsp;**With agency approval, obtain final stakeholder buy-in**<!--CIO/CISO approve?-->
+
+<i class="fa fa-check-square-o"></i> &nbsp;**After stakeholder are on board, management approves the project**
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish federation technical implementation team**
+* Identify technical implementation team members
+
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop a project life-cycle schedule with milestones** 
+* Develop a phased project schedule with incremental milestones, including applications integration/acquisition
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and select service providers (IdPs)**
 <**Add link to xx document [link] for guidance on evaluating**> 
 
-<i class="fa fa-check-square-o"></i> &nbsp;**...Sevice-Level Agreements (SLAs)**
+<i class="fa fa-check-square-o"></i> &nbsp;**Enter into Sevice-Level Agreements (SLAs)**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
 * Project Management Plan (with Work Breakdown Structure and Milestones)
