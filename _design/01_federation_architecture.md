@@ -26,7 +26,7 @@ The table below provides guidance to the applicability of each architectural sol
 | <center> Recommended Approach </center> | <center> Situations </center> | 
 |:---------------------------------------:|-------------------------------|
 | **Stand-Alone** | • You have a small number of applications that require federation. <br/><br/> • You want to pilot before deploying it for the entire agency. |
-| **Enterprise** | • You want to maintain control of which IdPs are integrated. <br><br> • You have many applications to federate. <br/><br/> • You already have existing agency-wide infrastructure that can be modified/augmented. |
+| **Enterprise** |  • You have many applications to federate. <br/><br/> • You want to maintain control of which IdPs are integrated. <br/><br/> • You already have existing agency-wide infrastructure that can be modified/augmented. |
 | **Federation Broker** | • You have many applications to federate. <br/><br/> • You have an existing agency-wide infrastructure that can be leveraged. <br/><br/> • You want to accept third-party credentials from a large user base that spans many IdPs. <br/><br/> • Your privacy requirements do not dictate which IdP a user authenticated to. |
 
 
@@ -69,8 +69,11 @@ An example is GSA's federation server setup for all the GSA wide applications th
 
 ## Federation Broker
 
-The federation broker provides a proxy service between the IdPs and your agency's federation server. Often the federation broker is provided as a service to all agencies. An example is OMB‘s **Max.gov**. It acts as a central federation broker that each agency can connect to and share data with other agencies. The broker model was appropriate to consolidate data in a single location that could enforce strict access restrictions.
+The federation broker provides a proxy service between the IdPs and your agency's federation server. Often the federation broker is provided as a service to all agencies. 
 
+{% include alert-info.html content="An example is OMB‘s **Max.gov**. It acts as a central federation broker that each agency can connect to and share data with other agencies. The broker model was appropriate to consolidate data in a single location that could enforce strict access restrictions." %} 
+
+<br/>
 <div style="text-align:center"><img src="{{site.baseurl}}/img/fed-broker.png"/></div>
 
 **Advantages**:
