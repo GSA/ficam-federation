@@ -90,7 +90,7 @@ You will find more information at [IGov for OIDC](http://openid.net/specs/openid
 
 ## Federal PKI (FPKI)
 
-A core component of the Federal Trust Framework, FPKI provides a common, government-wide infrastructure (e.g., policies, processes, server platforms, software, and workstations) for the purpose of administering digital certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. 
+FPKI allows federation of identity information from one agency to another. A core component of the Federal Trust Framework, FPKI provides a common, government-wide infrastructure (e.g., policies, processes, server platforms, software, and workstations) for the purpose of administering digital certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. 
 
 Federal PKI Policy Authority (FPKIPA) and the Federal PKI Management Authority (FPKIMA) are the 
 Federal Trust Framework governance bodies for PKI credentials. The policies of the FPKIPA and 
