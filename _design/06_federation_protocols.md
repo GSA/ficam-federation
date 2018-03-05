@@ -20,13 +20,12 @@ The federation protocols are used to transfer data from the IdP to SP during a f
 - [iGov For OIDC](#igov-for-oidc)
 - [Federal PKI](#federal-pki-fpki)
 
-These pointers will help you understand the basic differences between them.
-
-| **Protocol** | **Features** |
-| **SAML** | • **XML** based. <br/>• Supports both authentication and authorization. <br/>• Mostly used for securing web applications.|
-| **iGov For OAuth2** | • Based on **JSON** data format. <br/> • OAuth is for authorization. <br/> • Used in web and mobile apps|
-| **iGov For OIDC** | • Based on **JSON** data format. <br/> • OIDC is for authentication. <br/> • Used in web and mobile apps|
-| **Federal PKI** | • Uses PIV/CAC credentials. <br/>• Federal PKI can be used in conjunction with SAML or iGov. |
+| <center>Protocol</center> | <center>Features</center> |
+|:---------------------------------------:|-------------------------------|
+| **SAML** | • **XML** based data exchange. <br/> • Open standard for both authentication and authorization. <br/> • Mostly used for securing web applications. <br/> • Data secured using XML Encryption. |
+| **iGov For OAuth2** | • Based on **JSON** data format. <br/> • OAuth is open standard for authorization. <br/> • Used for securing web and mobile apps. |
+| **iGov For OIDC** | • Based on **JSON** data format. <br/> • OIDC is open standard for authentication. <br/> • Used for securing web and mobile apps. |
+| **Federal PKI** | • Leverages PIV/CAC credentials. <br/>• Federal PKI can be used in conjunction with SAML or iGov. |
 
 ## Security Assertion Markup Language (SAML)
 
