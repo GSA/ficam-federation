@@ -29,16 +29,16 @@ We want to help you transition to federation! Please send any and all questions 
 
 
 ## Things To Consider
-Is Federation right for my agency? Your agency's answers to these questions may help you to decide: 
+Is Federation right for my agency? Your answers to these questions may help you to decide: 
 
 * How many externally facing websites and mission-critical applications we own?
 * How big is our customer population?
-* Is internal funding available for single sign-on/federated sign-on IT improvements?
-* Are additional funding sources available?
+* What funding is available for single sign-on/federated sign-on IT improvements?<!--New IT modernization funding available, per OMB at ICAM Day-->
+* Are internal IT funding sources available?
 * What are the potential risks?
 * Are our stakeholders likely to agree with this bold move? 
 
-Here are **key actions** to help you begin planning for a federation project:  
+These **key actions** will help you to plan for a federation project:  
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
@@ -51,7 +51,7 @@ Here are **key actions** to help you begin planning for a federation project:
 > Estimate the potential costs
 > Identify funding sources
 > Identify the potential risks
-* Identify stakeholders and obtain preliminary approval
+* Identify stakeholders and obtain preliminary approval<!--FICAM Roadmap list of Stakeholders is voluminous. How does PM identify which stakeholders must approve?-->
 * Obtain CIO, CISO, and CFO approval to proceed with your agency's federation project
 
 Once you get a green light:
@@ -76,6 +76,7 @@ With the proposed solution in hand:
 * Step 2
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Obtain preliminary, key stakeholder buy-in**
+<!--FICAM Roadmap list of stakeholders is voluminous.  How does PM know which stakeholders must approve?-->
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Present federation solution, projected costs, ROI, and potential sources of funding to management (CIO/CISO/CFO) for approval to proceed**<!--CIO/CISO/CFO approve?-->
 
