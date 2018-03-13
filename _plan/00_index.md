@@ -14,11 +14,11 @@ pubDate:
 
 ===============================
 
-It’s true that federation is a real change in the way things have been done in the past, but federation is good change.  It will make your life and the lives of your customers and partners much easier.  Federation will give you rapid, seamless access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
+It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation will give you rapid, seamless access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
 
-We want to help you transition to federation! Please send any and all questions to: fpki@gsa.gov
+You may be thinking, "well that all sounds good in theory, but is federation right for my agency's business needs?"  
 
-## Federation Advantages 
+## Consider the Federation Advantages 
 [Use "sustainable"....?]
 * Happy users, customers, and partners
 * Seamless access to critical websites and applications
@@ -27,36 +27,35 @@ We want to help you transition to federation! Please send any and all questions 
 * Significantly reduces costs for new IT infrastructure
 * Significantly reduces costs for internal identity and access services
 
+## What Are Your Business Needs?<!--Is Federation possible only for larger agencies with large customer bases and more funding? Would smaller agencies benefit from federation and can they afford it?  Most visited websites:  https://analytics.usa.gov/-->
 
-## Things To Consider
-Is Federation right for my agency? Your answers to these questions may help you to decide: 
+Federation is an optimal solution for agencies with larger customer bases and many externally facing websites.
 
-* How many externally facing websites and mission-critical applications we own?
+* How many externally facing websites and mission-critical applications do we own?
 * How big is our customer population?
-* What funding is available for single sign-on/federated sign-on IT improvements?<!--New IT modernization funding available, per OMB at ICAM Day-->
-* Are internal IT funding sources available?
+* What funding is available for IT improvements?<!--e.g., $250M Technology Modernization Fund established by the Modernizing Government Technology Act, [M-18-12 Implementation of the Modernizing Government Technology Act](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}-->
 * What are the potential risks?
 * Are our stakeholders likely to agree with this bold move? 
 
-These **key actions** will help you to plan for a federation project:  
+If your agency is encouraged by the possibilities of federation, here are some **key actions** to help you plan for a federation project:
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Create an agency Tiger Team/Working Group to determine whether federation will benefit your agency**
+<i class="fa fa-check-square-o"></i> &nbsp;**Create an Agency Tiger Team/Working Group to determine whether federation will benefit your agency**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Direct the agency Tiger Team/Working Group to create a business case for federation**
 * Include in the business case:
 > Document the "as-is" and "to-be" (optimized) states of targeted processes
 > Identify targeted websites/applications
 > Estimate the potential costs
-> Identify funding sources
+> Identify funding sources<!--e.g., Technology Modernization Fund established by the Modernizing Government Technology Act-->
 > Identify the potential risks
 * Identify stakeholders and obtain preliminary approval<!--FICAM Roadmap list of Stakeholders is voluminous. How does PM identify which stakeholders must approve?-->
 * Obtain CIO, CISO, and CFO approval to proceed with your agency's federation project
 
-Once you get a green light:
+You've gotten the green light:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify an agency architecture team to propose a federation solution**
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify an Agency architecture team to propose a federation solution**
 * Identify architecture team members
 * Develop a proposed federation solution:
 > Count the agency's targeted websites and mission-critical applications
@@ -66,7 +65,7 @@ Once you get a green light:
 
 With the proposed solution in hand:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Work with agency budget team to estimate total cost and calculate the ROI benefit**
+<i class="fa fa-check-square-o"></i> &nbsp;**Work with Agency budget team to estimate total cost and calculate the ROI benefit**
 * Estimate application integration costs (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
 * Estimate the costs to modify each application's authentication method
 * Estimate ongoing, life-cycle costs (service provider/federation broker charges, operations, maintenance)<!--Explain federation broker for PM audience-->
@@ -103,3 +102,5 @@ With the proposed solution in hand:
 * Budget tracking for CFO
 * FISMA reporting
 * Senior Agency Officials for Privacy (SAOP) reporting
+
+We want to help you transition to federation! Please email us with any and all questions: fpki@gsa.gov
