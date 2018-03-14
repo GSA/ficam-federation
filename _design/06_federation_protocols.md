@@ -10,6 +10,7 @@ pubDate:
 - Introduce the federation protocols - SAML, OIDC (igov), Kerberos and FPKI.
 - Refer to Section 11 Examples of NIST SP 800-63C for SAML OIDC and Kerberos.
 - Introduce FPKI and provide links to the FPKI Guides for more information.
+
 =================================
 
 The federation protocols are used to transfer data from the IdP to SP during a federation process. Though you will find different types of protocols used in federated identity systems, we will discuss the following protocols that relate to Federation in the Federal Government.
