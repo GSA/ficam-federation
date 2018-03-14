@@ -50,10 +50,7 @@ If your agency is encouraged by the possibilities of federation, here are some *
 > Estimate the potential costs
 > Identify funding sources<!--e.g., Technology Modernization Fund established by the Modernizing Government Technology Act-->
 > Identify the potential risks
-* Identify stakeholders and obtain preliminary approval<!--FICAM Roadmap list of Stakeholders is voluminous. How does PM identify which stakeholders must approve?-->
-* Obtain CIO, CISO, and CFO approval to proceed with your agency's federation project
-
-You've gotten the green light:
+* Identify stakeholders<!--FICAM Roadmap list of Stakeholders is voluminous. How does PM identify which stakeholders must approve?-->
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify an Agency architecture team to propose a federation solution**
 * Identify architecture team members
@@ -72,15 +69,15 @@ With the proposed solution in hand:
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify potential funding sources**
 * Potential IT modernization funding sources:
-> Optional working capital funds within your agency that enable long-term savings for big projects. 
+> Optional working capital funds within your agency that enable long-term savings for big projects.<br> 
 > [Modernizing Government Technology Act and Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Obtain preliminary, key stakeholder buy-in**
+<i class="fa fa-check-square-o"></i> &nbsp;**Obtain stakeholder buy-in**
 <!--FICAM Roadmap list of stakeholders is voluminous.  How does PM know which stakeholders must approve?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Present federation solution, projected costs, ROI, and potential sources of funding to management (CIO/CISO/CFO) for approval to proceed**<!--CIO/CISO/CFO approve?-->
+<i class="fa fa-check-square-o"></i> &nbsp;**Present federation proposal (solution, projected costs, ROI, and potential funding sources) for approval (CIO/CISO/CFO?) to proceed**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**With agency approval, obtain final stakeholder buy-in**<!--CIO/CISO approve?-->
+<i class="fa fa-check-square-o"></i> &nbsp;**CIO approval to proceed**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Establish federation project technical implementation team**
 * Identify technical implementation team members
