@@ -70,9 +70,10 @@ With the proposed solution in hand:
 * Estimate the costs to modify each application's authentication method
 * Estimate ongoing, life-cycle costs (service provider/federation broker charges, operations, maintenance)<!--Explain federation broker for PM audience-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**If ROI looks promising, identify potential sources of funding**
-* Step 1
-* Step 2
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify potential funding sources**
+* Potential IT modernization funding sources:
+> Optional working capital funds within your agency that enable long-term savings for big projects. 
+> [Modernizing Government Technology Act and Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Obtain preliminary, key stakeholder buy-in**
 <!--FICAM Roadmap list of stakeholders is voluminous.  How does PM know which stakeholders must approve?-->
