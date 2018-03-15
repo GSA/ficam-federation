@@ -10,13 +10,14 @@ pubDate:
 - Define the project management steps for planning a Federation project 
 - Intro to the Plan section - review, modify and apply plain language principles including less words / more actionable items; focus on steps for a program manager to plan for a single sign on or federated sign on model for a federal enterprise or a federal mission application
 - Relying Party Doc Section 5.1 (Page 21) has some materials for this planning.
+- Numbers of users that visit agency-specific websites and use their application(s):  [Analytics.usa.gov](https://analytics.usa.gov/){:target="_blank}
 - (2/5/2018) Possible Single Sign-on Referenced Document: _Federal Identity, Credential, and Access Management Trust Framework Solutions Functional Requirements for FICAM SAML 2.0 Web Browser SSO Profile v1.0.2_ (Version 1.0.0) (date: 3/11/2014?) (doc undated)
 
 ===============================
 
 It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation will give you rapid, seamless access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
 
-You may be thinking, "well that all sounds good in theory, but is federation right for my agency's business needs?"  
+You may be thinking, "well, that all sounds good in theory, but is federation right for my agency's business needs?"  
 
 ## Consider the Federation Advantages 
 [Use "sustainable"....?]
@@ -33,7 +34,7 @@ Federation is an optimal solution for agencies with larger customer bases and ma
 
 * How many externally facing websites and mission-critical applications do we own?
 * How big is our customer population?
-* What funding is available for IT improvements?<!--e.g., $250M Technology Modernization Fund established by the Modernizing Government Technology Act, [M-18-12 Implementation of the Modernizing Government Technology Act](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}-->
+* What funding is available for IT improvements?
 * What are the potential risks?
 * Are our stakeholders likely to agree with this bold move? 
 
@@ -68,9 +69,9 @@ With the proposed solution in hand:
 * Estimate ongoing, life-cycle costs (service provider/federation broker charges, operations, maintenance)<!--Explain federation broker for PM audience-->
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify potential funding sources**
-* Potential IT modernization funding sources:
+* Identify potential IT modernization funding sources. Some sources may be: 
 > Optional working capital funds within your agency that enable long-term savings for big projects.<br> 
-> [Modernizing Government Technology Act and Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}
+> Modernizing Government Technology Act Fund [OMB Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Obtain stakeholder buy-in**
 <!--FICAM Roadmap list of stakeholders is voluminous.  How does PM know which stakeholders must approve?-->
@@ -79,7 +80,7 @@ With the proposed solution in hand:
 
 <i class="fa fa-check-square-o"></i> &nbsp;**CIO approval to proceed**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish federation project technical implementation team**
+<i class="fa fa-check-square-o"></i> &nbsp;**Establish/designate federation project technical implementation team**
 * Identify technical implementation team members
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop a federation project life-cycle schedule with major milestones** 
@@ -95,10 +96,10 @@ With the proposed solution in hand:
 * Risk Management Plan
 * Communications Plan
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Determine required reporting and create schedule**
-* Project Status Reviews and Reports for agency CIO and CISO [part of project life-cycle schedule]
-* Budget tracking for CFO
-* FISMA reporting
-* Senior Agency Officials for Privacy (SAOP) reporting
+<i class="fa fa-check-square-o"></i> &nbsp;**Determine required reporting and create reporting schedule**
+* Project Status Reviews and Reporting for agency CIO and CISO [project life-cycle schedule]
+* Project Budget and Expenditures Reporting for CFO<!--roll-up to OMB reporting-->
+* FISMA
+* FITARA 
 
 We want to help you transition to federation! Please email us with any and all questions: fpki@gsa.gov
