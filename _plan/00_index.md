@@ -28,21 +28,19 @@ You may be thinking, "well, that all sounds good in theory, but is federation ri
 * Significantly reduces costs for new IT infrastructure
 * Significantly reduces costs for internal identity and access services
 
-## What Are Your Business Needs?<!--Is Federation possible only for larger agencies with large customer bases and more funding? Would smaller agencies benefit from federation and can they afford it?  Most visited websites:  https://analytics.usa.gov/-->
+## What Are Your Business Needs? 
 
 Federation is an optimal solution for agencies with larger customer bases and many externally facing websites.
 
 * How many externally facing websites and mission-critical applications do we own?
-* How big is our customer population?
-* What funding is available for IT improvements?
-* What are the potential risks?
-* Are our stakeholders likely to agree with this bold move? 
+* How big is our customer population?<!--Most visited Federal Government websites:  https://analytics.usa.gov/-->
+* If funding is available, are our partners and stakeholders likely to agree with this bold move? 
 
-If your agency is encouraged by the possibilities of federation, here are some **key actions** to help you plan for a federation project:
+If federation sounds like a win-win for your agency, here are some **key actions** you can take to begin a federation project:
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Create an Agency Tiger Team/Working Group to determine whether federation will benefit your agency**
+<i class="fa fa-check-square-o"></i> &nbsp;**Designate an agency Tiger Team/Working Group**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Direct the agency Tiger Team/Working Group to create a business case for federation**
 * Include in the business case:
@@ -53,50 +51,55 @@ If your agency is encouraged by the possibilities of federation, here are some *
 > Identify the potential risks
 * Identify stakeholders<!--FICAM Roadmap list of Stakeholders is voluminous. How does PM identify which stakeholders must approve?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify an Agency architecture team to propose a federation solution**
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify agency architecture team to propose a federation solution**
 * Identify architecture team members
-* Develop a proposed federation solution:
-> Count the agency's targeted websites and mission-critical applications
-> Determine what existing IT infrastructure can be reused
-> Determine what new IT needs to be added
-> Develop a potentially viable solution
+* Develop a proposed federation solution:<br>
+> Count the agency's targeted websites and mission-critical applications<br>
+> Determine what existing IT infrastructure can be reused<br>
+> Determine what new IT needs to be added<br>
+> Develop a potentially viable solution<br>
 
 With the proposed solution in hand:
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Work with Agency budget team to estimate total cost and calculate the ROI benefit**
+<i class="fa fa-check-square-o"></i> &nbsp;**Work with agency budget team to estimate the cost and calculate ROI**
 * Estimate application integration costs (**Note:**&nbsp;&nbsp;lower to higher application complexity will affect cost)
 * Estimate the costs to modify each application's authentication method
-* Estimate ongoing, life-cycle costs (service provider/federation broker charges, operations, maintenance)<!--Explain federation broker for PM audience-->
+* Estimate ongoing, life-cycle costs (service provider/federation broker charges, operations, maintenance)<!--Explain federation broker for PM audience.  Are we suggesting that a solution might be MAX.gov or Login.gov?-->
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Identify potential funding sources**
 * Identify potential IT modernization funding sources. Some sources may be: 
 > Optional working capital funds within your agency that enable long-term savings for big projects.<br> 
-> Modernizing Government Technology Act Fund [OMB Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}
+> Modernizing Government Technology Act Fund [OMB Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}<br>
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Obtain stakeholder buy-in**
 <!--FICAM Roadmap list of stakeholders is voluminous.  How does PM know which stakeholders must approve?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Present federation proposal (solution, projected costs, ROI, and potential funding sources) for approval (CIO/CISO/CFO?) to proceed**
+<i class="fa fa-check-square-o"></i> &nbsp;**Present your federation proposal to CISO, CIO, and CFO**
+* Proposed solution
+* Projected costs
+* ROI
+* Potential funding sources
+* Projected timeline
 
-<i class="fa fa-check-square-o"></i> &nbsp;**CIO approval to proceed**
+<i class="fa fa-check-square-o"></i> &nbsp;**Receive CISO, CIO, and CFO approval to proceed**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Establish/designate federation project technical implementation team**
+<i class="fa fa-check-square-o"></i> &nbsp;**Designate a technical implementation team**
 * Identify technical implementation team members
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop a federation project life-cycle schedule with major milestones** 
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop a project life-cycle schedule with major milestones** 
 * Develop a phased project schedule with incremental milestones, including applications integration/acquisition
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and select federation broker or service providers (IdPs)**
-<**Add link to xx document [link] for guidance on evaluating**> 
+<i class="fa fa-check-square-o"></i> &nbsp;**Evaluate and select federation broker(s) or service provider(s) (IdPs)**
+<**Add link to xx document [link] for guidance on how to evaluate and select**> 
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Enter into Service-Level Agreements (SLAs)**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Develop federation project management core documents:**
+<i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
 * Project Management Plan (with Work Breakdown Structure and Milestones)
 * Risk Management Plan
 * Communications Plan
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Determine required reporting and create reporting schedule**
+<i class="fa fa-check-square-o"></i> &nbsp;**Determine required reporting and create schedule**
 * Project Status Reviews and Reporting for agency CIO and CISO [project life-cycle schedule]
 * Project Budget and Expenditures Reporting for CFO<!--roll-up to OMB reporting-->
 * FISMA
