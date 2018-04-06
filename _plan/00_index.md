@@ -15,34 +15,33 @@ pubDate:
 
 ===============================
 
-It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation will give you rapid, seamless access to critical applications and websites--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
+It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation will give you rapid, seamless access to critical websites and applications--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
 
 You may be thinking, "well, that all sounds good in theory, but is federation right for my agency's business needs?"  
 
 ## Consider the Federation Advantages 
 [Use "sustainable"....?]
-* Happy users, customers, and partners
-* Seamless access to critical websites and applications
-* Increases information security and privacy protections 
-* Maximizes shared services and reuse of existing IT infrastructure
-* Significantly reduces costs for new IT infrastructure
-* Significantly reduces costs for internal identity and access services
+* Seamless access to critical websites and applications (happy users, customers, and partners)
+* Significantly reduced costs for IT infrastructure through increased shared services and reuse
+* Significantly reduced costs for internal identity and access services
+* Increased privacy protections
+* Increased information security
 
 ## What Are Your Business Needs? 
 
-Federation is an optimal solution for agencies with larger customer bases and many externally facing websites.
+Federation is an optimal solution for agencies with large customer bases and many externally facing websites. Consider:
 
-* How many externally facing websites and mission-critical applications do we own?
-* How big is our customer population?<!--Most visited Federal Government websites:  https://analytics.usa.gov/-->
-* If funding is available, are our partners and stakeholders likely to agree with this bold move? 
+* Number of agency externally facing websites and mission-critical applications
+* Size of customer population<!--Most visited Federal Government websites:  https://analytics.usa.gov/-->
+* Likelihood that your stakeholders will agree with this bold move 
 
-If federation sounds like a win-win for your agency, here are some **key actions** you can take to begin a federation project:
+Does federation sound like a win-win for your agency? Here are **key steps** you can take to start a federation project:
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Designate an agency Tiger Team/Working Group**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Direct the agency Tiger Team/Working Group to create a business case for federation**
+<i class="fa fa-check-square-o"></i> &nbsp;**Direct the agency Tiger Team/Working Group to create a business case**
 * Include in the business case:
 > Document the "as-is" and "to-be" (optimized) states of targeted processes
 > Identify targeted websites/applications
@@ -66,7 +65,8 @@ With the proposed solution in hand:
 * Estimate the costs to modify each application's authentication method
 * Estimate ongoing, life-cycle costs (service provider/federation broker charges, operations, maintenance)<!--Explain federation broker for PM audience.  Are we suggesting that a solution might be MAX.gov or Login.gov?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify potential funding sources**
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify project costs and potential funding sources**
+* Calculate projected costs
 * Identify potential IT modernization funding sources. Some sources may be: 
 > Optional working capital funds within your agency that enable long-term savings for big projects.<br> 
 > Modernizing Government Technology Act Fund [OMB Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}<br>
@@ -95,8 +95,10 @@ With the proposed solution in hand:
 <i class="fa fa-check-square-o"></i> &nbsp;**Enter into Service-Level Agreements (SLAs)**
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Develop project management core documents:**
-* Project Management Plan (with Work Breakdown Structure and Milestones)
+* Project Management Plan with Work Breakdown Structure and Milestones
 * Risk Management Plan
+* Configuration and Change Management Plan(?)
+* Quality Assurance Plan
 * Communications Plan
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Determine required reporting and create schedule**
