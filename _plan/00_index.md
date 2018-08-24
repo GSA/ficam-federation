@@ -33,7 +33,7 @@ Federation is an optimal solution for agencies with large customer bases and man
 
 * Number of agency externally facing websites and mission-critical applications
 * Size of customer population<!--Most visited Federal Government websites:  https://analytics.usa.gov/-->
-* Likelihood that your stakeholders will agree with this bold move 
+* Quantifying the advantages of this bold move for your stakeholders-->
 
 Does federation sound like a win-win for your agency? Here are **key steps** you can take to start a federation project:
 
@@ -69,7 +69,7 @@ With the proposed solution in hand:
 * Calculate projected costs
 * Identify potential IT modernization funding sources. Some sources may be: 
 > Optional working capital funds within your agency that enable long-term savings for big projects.<br> 
-> Modernizing Government Technology Act Fund [OMB Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}<br>
+> Modernizing Government Technology Act Fund* [OMB Proposal Submission Process](https://www.whitehouse.gov/wp-content/uploads/2017/11/M-18-12.pdf){:target="_blank"}<br>
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Obtain stakeholder buy-in**
 <!--FICAM Roadmap list of stakeholders is voluminous.  How does PM know which stakeholders must approve?-->
@@ -108,3 +108,7 @@ With the proposed solution in hand:
 * FITARA 
 
 We want to help you transition to federation! Please email us with any and all questions: fpki@gsa.gov
+
+---
+* [How Agencies Can Best Compete for MGT Act Funds](https://fedtechmagazine.com/article/2018/08/how-agencies-can-best-compete-mgt-act-funds){:target="_blank"}.
+* [Solutions and Services That Can Best Support Federal IT Modernization](https://fedtechmagazine.com/article/2018/08/what-solutions-and-services-can-best-support-federal-it-modernization){:target="_blank"}.
