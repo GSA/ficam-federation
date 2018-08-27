@@ -17,15 +17,7 @@ pubDate:
 
 It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation means rapid, seamless access to critical websites and applications--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
 
-You may be thinking, "well, that all sounds good in theory, but is federation right for my agency's business needs?"  
-
-## Consider the Federation Advantages 
-[Use "sustainable"....?]
-* Seamless access to critical websites and applications (happy users, customers, and partners)
-* Significantly reduced costs for IT infrastructure through shared services<!--and reuse?-->
-* Significantly reduced costs for internal identity and access services
-* Increased privacy protections
-* Increased information security
+You may be thinking, "well, that all sounds good in theory, but is federation right for my agency's business needs?" 
 
 ## What Are Your Business Needs? 
 
@@ -35,6 +27,15 @@ If your agency has a large customer base and many externally facing websites, fe
 * Size of customer population<!--Most visited Federal Government websites:  https://analytics.usa.gov/-->
 * Size of government and contractor population<!--Includes "partners"?-->
 * Using the answers to quantify the advantages of this bold move for your stakeholders-->
+
+## Consider the Federation Advantages 
+
+* Seamless access to critical websites and applications (happy users, customers, and partners)
+* Significantly reduced costs for IT infrastructure through shared services<!--and reuse?-->
+* Significantly reduced costs for internal identity and access services
+* Increased information security
+* Increased privacy protections
+* Sustainability
 
 If federation is beginning to sound like a win-win for your agency, here are some **key steps** you can take now:
 
