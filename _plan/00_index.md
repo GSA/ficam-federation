@@ -15,33 +15,34 @@ pubDate:
 
 ===============================
 
-It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation will give you rapid, seamless access to critical websites and applications--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
+It’s true that federation is a real change in the way things have been done in the past, but federation is good change. It will make your life and those of your customers and partners much easier.  Federation means rapid, seamless access to critical websites and applications--without having to step over that pack of tired old dogs:  many logins, passwords, and multi-factor authentications--just to access websites and applications that everyone needs to start their work.  
 
 You may be thinking, "well, that all sounds good in theory, but is federation right for my agency's business needs?"  
 
 ## Consider the Federation Advantages 
 [Use "sustainable"....?]
 * Seamless access to critical websites and applications (happy users, customers, and partners)
-* Significantly reduced costs for IT infrastructure through increased shared services and reuse
+* Significantly reduced costs for IT infrastructure through shared services<!--and reuse?-->
 * Significantly reduced costs for internal identity and access services
 * Increased privacy protections
 * Increased information security
 
 ## What Are Your Business Needs? 
 
-Federation is an optimal solution for agencies with large customer bases and many externally facing websites. Consider:
+If your agency has a large customer base and many externally facing websites, federation may be the answer to your access woes. Consider:
 
-* Number of agency externally facing websites and mission-critical applications
+* How many externally facing websites and mission-critical applications?
 * Size of customer population<!--Most visited Federal Government websites:  https://analytics.usa.gov/-->
-* Quantifying the advantages of this bold move for your stakeholders-->
+* Size of government and contractor population<!--Includes "partners"?-->
+* Using the answers to quantify the advantages of this bold move for your stakeholders-->
 
-Does federation sound like a win-win for your agency? Here are **key steps** you can take to start a federation project:
+If federation is beginning to sound like a win-win for your agency, here are some **key steps** you can take now:
 
 ## <span style="color: #0C5C89">**Federation Project Checklist**</span>
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Designate an agency Tiger Team/Working Group**
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Direct the agency Tiger Team/Working Group to create a business case**
+<i class="fa fa-check-square-o"></i> &nbsp;**Ask the agency Tiger Team/Working Group to create a business case**
 * Include in the business case:
 > Document the "as-is" and "to-be" (optimized) states of targeted processes
 > Identify targeted websites/applications
@@ -50,7 +51,7 @@ Does federation sound like a win-win for your agency? Here are **key steps** you
 > Identify the potential risks
 * Identify stakeholders<!--FICAM Roadmap list of Stakeholders is voluminous. How does PM identify which stakeholders must approve?-->
 
-<i class="fa fa-check-square-o"></i> &nbsp;**Identify agency architecture team to propose a federation solution**
+<i class="fa fa-check-square-o"></i> &nbsp;**Identify an agency architecture team to propose a federation solution**
 * Identify architecture team members
 * Develop a proposed federation solution:<br>
 > Count the agency's targeted websites and mission-critical applications<br>
