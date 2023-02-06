@@ -1,3 +1,16 @@
+Update - February 6, 2023
+
+This material was incorproated into the FICAM Playbooks areas outlined below.
+1. <a href="https://playbooks.idmanagement.gov/arch/services/#federation" target="_blank" rel="noopener noreferrer">Federation Services of the FICAM Architecture</a>
+2. <a href="https://playbooks.idmanagement.gov/playbooks/sso/#step-5-federate-application-access" target="_blank" rel="noopener noreferrer">Federate Application Access</a>
+3. <a href="https://playbooks.idmanagement.gov/playbooks/ilm/#step-4-integrate-with-agency-enterprise-services" target="_blank" rel="noopener noreferrer">Attribute Supported Federation</a>
+4. <a href="https://playbooks.idmanagement.gov/playbooks/cloud/#federation" target="_blank" rel="noopener noreferrer">Trust Frameworks</a>
+
+This site is now a public archive.
+
+---
+
+
 This work is in early Alpha stage and is led by the GSA FICAM Program in coordination with the ICAM Subcommittee of the Federal CIO Council.
 
 # FICAM Guides
